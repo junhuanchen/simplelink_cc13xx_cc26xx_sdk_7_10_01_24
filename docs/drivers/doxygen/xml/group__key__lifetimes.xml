@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="group__key__lifetimes" kind="group">
+    <compoundname>key_lifetimes</compoundname>
+    <title>Key lifetimes</title>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__key__lifetimes_1ga67c68b7d1a3dd9775e6436682378c455" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_LIFETIME_VOLATILE</name>
+        <initializer>((<ref refid="_crypto_key_key_store___p_s_a_8h_1a6606ab969b68d63d56d28a8d718fcbb9" kindref="member">KeyStore_PSA_KeyLifetime</ref>)PSA_KEY_LIFETIME_VOLATILE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A volatile key only exists as long as the handle to it is not closed. The key material is guaranteed to be erased on a power reset. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="616" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="616" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1ga0f9d5620a69b0815445736338f370355" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_LIFETIME_PERSISTENT</name>
+        <initializer>((<ref refid="_crypto_key_key_store___p_s_a_8h_1a6606ab969b68d63d56d28a8d718fcbb9" kindref="member">KeyStore_PSA_KeyLifetime</ref>)PSA_KEY_LIFETIME_PERSISTENT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default storage area for persistent keys.</para><para>A persistent key remains in storage until it is explicitly destroyed or until the corresponding storage area is wiped. This specification does not define any mechanism to wipe a storage area, but implementations may provide their own mechanism (for example to perform a factory reset, to prepare for device refurbishment, or to uninstall an application).</para><para>This lifetime value is the default storage area for the calling application. Implementations may offer other storage areas designated by other lifetime values as implementation-specific extensions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="630" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1ga2139eb197f8e363d1ff623139dbd84a7" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_NULL</name>
+        <initializer>((<ref refid="_crypto_key_key_store___p_s_a_8h_1a51619331e61baadfb5d4abed83da7d55" kindref="member">KeyStore_PSA_KeyFileId</ref>)0x0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The null key identifier. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="634" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1gadb82894cdb81fad99975fabc1f5bac81" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_USER_MIN</name>
+        <initializer>((<ref refid="_crypto_key_key_store___p_s_a_8h_1a51619331e61baadfb5d4abed83da7d55" kindref="member">KeyStore_PSA_KeyFileId</ref>)PSA_KEY_ID_USER_MIN)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The minimum value for a key identifier chosen by the application. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="638" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1ga7f7147e268efa63e10cd3418b76d0e02" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_PERSISTENT_USER_MIN</name>
+        <initializer>0x41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The minimum value for a persistent key identifier chosen by the application. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="642" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1ga9593d39dd9a49a79dbeca893ff04e2a4" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_WITH_CERTIFICATE_USER_MAX</name>
+        <initializer>0x1fffffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum value for a persistent key identifier with associated certificate chosen by the application. KeyStore uses Bit 29 in KeyID to indicate certificate storage. Application may choose any key ID less than 2^29 for persistent keys Persistent Key ID limit [KEYSTORE_PSA_MAX_VOLATILE_KEY_ID + 1, KEYSTORE_PSA_KEY_ID_USER_MIN] (Setting bit 30 makes KeyID greater than PSA_KEY_ID_USER_MIN which will fall into VENDOR limit) (Setting bit 31 makes KeyID greater than PSA_KEY_ID_VENDOR_MAX which is not a valid KeyID) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="651" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1gaf74e56b3c4cc9779d4ce28bb962ce946" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_CERTIFICATE_BIT</name>
+        <initializer>(1 &lt;&lt; 29)</initializer>
+        <briefdescription>
+<para>Bit mask to set 29th bit to indicate certificate storage. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="657" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1gac487d6aa798bfd9970defd5f8a3c8048" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_VENDOR_MIN</name>
+        <initializer>((<ref refid="_crypto_key_key_store___p_s_a_8h_1a51619331e61baadfb5d4abed83da7d55" kindref="member">KeyStore_PSA_KeyFileId</ref>)PSA_KEY_ID_VENDOR_MIN)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The minimum value for a key identifier chosen by the implementation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="661" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1ga61b58d606ee33b8ffc9d21b6ecd68927" prot="public" static="no">
+        <name>KEYSTORE_PSA_KEY_ID_VENDOR_MAX</name>
+        <initializer>((<ref refid="_crypto_key_key_store___p_s_a_8h_1a51619331e61baadfb5d4abed83da7d55" kindref="member">KeyStore_PSA_KeyFileId</ref>)PSA_KEY_ID_VENDOR_MAX)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum value for a key identifier chosen by the implementation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="665" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__key__lifetimes_1ga4e1a19f2b2d0b365d65a23809c8e16db" prot="public" static="no">
+        <name>KEYSTORE_PSA_DEFAULT_OWNER</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default Key Owner </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="669" column="9" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="669" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

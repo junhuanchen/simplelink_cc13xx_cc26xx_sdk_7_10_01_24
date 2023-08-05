@@ -1,0 +1,50 @@
+<map id="NonCopyable" name="NonCopyable">
+<area shape="rect" id="node2" href="$classot_1_1_address_resolver.html" title="AddressResolver" alt="" coords="234,5,353,32"/>
+<area shape="rect" id="node3" href="$classot_1_1_announce_sender_base.html" title="AnnounceSenderBase" alt="" coords="218,56,369,83"/>
+<area shape="rect" id="node5" href="$classot_1_1_backbone_router_1_1_leader.html" title="Leader" alt="" coords="263,107,324,133"/>
+<area shape="rect" id="node6" href="$classot_1_1_coap_1_1_coap_base.html" title="CoapBase" alt="" coords="252,157,335,184"/>
+<area shape="rect" id="node8" href="$classot_1_1_crypto_1_1_literal_key.html" title="LiteralKey" alt="" coords="253,208,333,235"/>
+<area shape="rect" id="node9" href="$classot_1_1_crypto_1_1_mbed_tls.html" title="MbedTls" alt="" coords="258,259,329,285"/>
+<area shape="rect" id="node10" href="$classot_1_1_data_poll_sender.html" title="DataPollSender" alt="" coords="237,309,349,336"/>
+<area shape="rect" id="node11" href="$classot_1_1_energy_scan_server.html" title="EnergyScanServer" alt="" coords="229,360,358,387"/>
+<area shape="rect" id="node12" href="$classot_1_1_instance.html" title="Instance" alt="" coords="258,411,329,437"/>
+<area shape="rect" id="node13" href="$classot_1_1_ip6_1_1_filter.html" title="Filter" alt="" coords="268,461,319,488"/>
+<area shape="rect" id="node14" href="$classot_1_1_ip6_1_1_icmp.html" title="Icmp" alt="" coords="268,512,319,539"/>
+<area shape="rect" id="node15" href="$classot_1_1_ip6_1_1_ip6.html" title="Ip6" alt="" coords="274,563,313,589"/>
+<area shape="rect" id="node16" href="$classot_1_1_ip6_1_1_mpl.html" title="Mpl" alt="" coords="272,613,315,640"/>
+<area shape="rect" id="node17" href="$classot_1_1_ip6_1_1_netif.html" title="Netif" alt="" coords="269,664,317,691"/>
+<area shape="rect" id="node19" href="$classot_1_1_ip6_1_1_tcp.html" title="Tcp" alt="" coords="272,715,315,741"/>
+<area shape="rect" id="node20" href="$classot_1_1_ip6_1_1_udp.html" title="Udp" alt="" coords="271,765,316,792"/>
+<area shape="rect" id="node21" href="$classot_1_1_key_manager.html" title="KeyManager" alt="" coords="246,816,341,843"/>
+<area shape="rect" id="node22" href="$classot_1_1_lowpan_1_1_lowpan.html" title="Lowpan" alt="" coords="260,867,327,893"/>
+<area shape="rect" id="node23" href="$classot_1_1_mac_1_1_mac.html" title="Mac" alt="" coords="270,917,317,944"/>
+<area shape="rect" id="node24" href="$classot_1_1_mac_1_1_sub_mac.html" title="SubMac" alt="" coords="258,968,329,995"/>
+<area shape="rect" id="node25" href="$classot_1_1_mesh_co_p_1_1_active_dataset_manager.html" title="ActiveDatasetManager" alt="" coords="217,1019,369,1045"/>
+<area shape="rect" id="node26" href="$classot_1_1_mesh_co_p_1_1_extended_pan_id_manager.html" title="ExtendedPanIdManager" alt="" coords="213,1069,373,1096"/>
+<area shape="rect" id="node27" href="$classot_1_1_mesh_co_p_1_1_network_name_manager.html" title="NetworkNameManager" alt="" coords="217,1120,370,1147"/>
+<area shape="rect" id="node28" href="$classot_1_1_mesh_co_p_1_1_pending_dataset_manager.html" title="PendingDatasetManager" alt="" coords="211,1171,375,1197"/>
+<area shape="rect" id="node29" href="$classot_1_1_mesh_forwarder.html" title="MeshForwarder" alt="" coords="238,1221,349,1248"/>
+<area shape="rect" id="node30" href="$classot_1_1_message_pool.html" title="MessagePool" alt="" coords="243,1272,344,1299"/>
+<area shape="rect" id="node31" href="$classot_1_1_mle_1_1_discover_scanner.html" title="DiscoverScanner" alt="" coords="234,1323,353,1349"/>
+<area shape="rect" id="node32" href="$classot_1_1_mle_1_1_mle.html" title="Mle" alt="" coords="272,1373,315,1400"/>
+<area shape="rect" id="node33" href="$classot_1_1_neighbor_table.html" title="NeighborTable" alt="" coords="241,1424,345,1451"/>
+<area shape="rect" id="node34" href="$classot_1_1_network_data_1_1_service_1_1_manager.html" title="Manager" alt="" coords="257,1475,329,1501"/>
+<area shape="rect" id="node35" href="$classot_1_1_notifier.html" title="Notifier" alt="" coords="262,1525,325,1552"/>
+<area shape="rect" id="node36" href="$classot_1_1_pan_id_query_server.html" title="PanIdQueryServer" alt="" coords="230,1576,357,1603"/>
+<area shape="rect" id="node37" href="$classot_1_1_pool.html" title="Pool\&lt; Type, kPoolSize \&gt;" alt="" coords="210,1627,377,1653"/>
+<area shape="rect" id="node38" href="$classot_1_1_posix_1_1_daemon.html" title="Daemon" alt="" coords="258,1677,329,1704"/>
+<area shape="rect" id="node39" href="$classot_1_1_radio.html" title="Radio" alt="" coords="266,1728,321,1755"/>
+<area shape="rect" id="node40" href="$classot_1_1_settings.html" title="Settings" alt="" coords="258,1779,329,1805"/>
+<area shape="rect" id="node41" href="$classot_1_1_settings_driver.html" title="SettingsDriver" alt="" coords="242,1829,345,1856"/>
+<area shape="rect" id="node42" href="$classot_1_1_tasklet_1_1_scheduler.html" title="Scheduler" alt="" coords="253,1880,333,1907"/>
+<area shape="rect" id="node43" href="$classot_1_1_timer_1_1_scheduler.html" title="Scheduler" alt="" coords="253,1931,333,1957"/>
+<area shape="rect" id="node45" href="$classot_1_1_time_ticker.html" title="TimeTicker" alt="" coords="251,1981,336,2008"/>
+<area shape="rect" id="node46" href="$classot_1_1_utils_1_1_heap.html" title="Heap" alt="" coords="267,2032,319,2059"/>
+<area shape="rect" id="node47" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Buffer, kNumBuffers \&gt;" alt="" coords="190,2083,397,2109"/>
+<area shape="rect" id="node48" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Ip6::Netif\l::ExternalMulticastAddress,\l OPENTHREAD_CONFIG_IP6_MAX\l_EXT_MCAST_ADDRS \&gt;" alt="" coords="178,2134,409,2205"/>
+<area shape="rect" id="node49" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Ip6::Netif\l::UnicastAddress, OPENTHREAD\l_CONFIG_IP6_MAX_EXT_UCAST_ADDRS \&gt;" alt="" coords="152,2229,435,2285"/>
+<area shape="rect" id="node4" href="$classot_1_1_announce_begin_server.html" title="AnnounceBeginServer" alt="" coords="483,56,632,83"/>
+<area shape="rect" id="node7" href="$classot_1_1_coap_1_1_coap.html" title="Coap" alt="" coords="531,157,583,184"/>
+<area shape="rect" id="node18" href="$classot_1_1_thread_netif.html" title="ThreadNetif" alt="" coords="514,664,601,691"/>
+<area shape="rect" id="node44" href="$classot_1_1_timer_milli_1_1_scheduler.html" title="Scheduler" alt="" coords="517,1931,597,1957"/>
+</map>

@@ -1,0 +1,15 @@
+
+.. _chap-references:
+
+References
+==========
+
+* `OpenThread Homepage`_
+
+* `OpenThread GitHub`_
+
+* `Thread Group Homepage`_
+
+* `Sensor Controller Studio`_
+
+* |Arm_USERS_GUIDE|

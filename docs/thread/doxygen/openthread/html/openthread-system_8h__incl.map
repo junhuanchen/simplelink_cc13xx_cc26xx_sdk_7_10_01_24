@@ -1,0 +1,8 @@
+<map id="openthread&#45;system.h" name="openthread&#45;system.h">
+<area shape="rect" id="node7" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="153,251,279,278"/>
+<area shape="rect" id="node9" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="337,169,487,196"/>
+<area shape="rect" id="node13" href="$include_2openthread_2platform_2misc_8h.html" title="This file includes platform abstractions for miscellaneous behaviors. " alt="" coords="475,80,611,121"/>
+<area shape="rect" id="node14" href="$radio__spinel__metrics_8h.html" title="This file includes the definitions of the radio spinel metrics. " alt="" coords="704,80,851,121"/>
+<area shape="rect" id="node8" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="152,333,288,375"/>
+<area shape="rect" id="node11" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="443,244,579,285"/>
+</map>

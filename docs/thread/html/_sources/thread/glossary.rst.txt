@@ -1,0 +1,13 @@
+
+.. _chap-glossary:
+
+Terms and Definitions
+=====================
+
+* :ref:`Indexes and tables <genindex>`
+
+.. include:: /cc13xx_cc26xx/inc_glossary.rst
+.. include:: /thread/inc_glossary.rst
+.. include:: /tirtos/inc_glossary_bios7.rst
+.. include:: /oad/inc_glossary.rst
+.. include:: /sensor-controller/inc_glossary.rst

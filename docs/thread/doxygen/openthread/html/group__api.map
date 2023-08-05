@@ -1,0 +1,11 @@
+<map id="API" name="API">
+<area shape="rect" id="node1" href="$group__api-addons.html" title="Add&#45;Ons" alt="" coords="131,5,204,32"/>
+<area shape="rect" id="node2" href="$group__api-error.html" title="This module includes error definitions used in OpenThread. " alt="" coords="142,56,193,83"/>
+<area shape="rect" id="node3" href="$group__api-execution.html" title="Execution" alt="" coords="127,107,207,133"/>
+<area shape="rect" id="node4" href="$group__api-trel.html" title="This module defines Thread Radio Encapsulation Link (TREL) APIs for Thread Over Infrastructure. " alt="" coords="96,157,239,184"/>
+<area shape="rect" id="node6" href="$group__api-thread.html" title="Thread" alt="" coords="137,208,198,235"/>
+<area shape="rect" id="node7" href="$group__api-message.html" title="This module includes functions that manipulate OpenThread message buffers. " alt="" coords="130,259,205,285"/>
+<area shape="rect" id="node8" href="$group__api-net.html" title="IPv6 Networking" alt="" coords="110,309,225,336"/>
+<area shape="rect" id="node9" href="$group__api-link.html" title="Link" alt="" coords="144,360,191,387"/>
+<area shape="rect" id="node10" href="$group__api-multi-radio.html" title="This module includes definitions and functions for multi radio link. " alt="" coords="110,411,225,437"/>
+</map>

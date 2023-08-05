@@ -1,0 +1,14 @@
+<map id="srp_client.h" name="srp_client.h">
+<area shape="rect" id="node2" href="$cli__srp__client_8hpp.html" title="cli_srp_client.hpp" alt="" coords="442,162,565,189"/>
+<area shape="rect" id="node12" href="$srp__client__buffers_8h.html" title="This file defines the OpenThread SRP (Service Registration Protocol) client buffers and service pool..." alt="" coords="541,80,676,107"/>
+<area shape="rect" id="node3" href="$cli_8hpp.html" title="cli.hpp" alt="" coords="416,244,476,271"/>
+<area shape="rect" id="node11" href="$cli__srp__client_8cpp.html" title="cli_srp_client.cpp" alt="" coords="501,244,623,271"/>
+<area shape="rect" id="node4" href="$cli_8cpp.html" title="cli.cpp" alt="" coords="5,319,65,345"/>
+<area shape="rect" id="node5" href="$cli__commissioner_8cpp.html" title="cli_commissioner.cpp" alt="" coords="89,319,237,345"/>
+<area shape="rect" id="node6" href="$cli__dataset_8cpp.html" title="cli_dataset.cpp" alt="" coords="261,319,372,345"/>
+<area shape="rect" id="node7" href="$cli__joiner_8cpp.html" title="cli_joiner.cpp" alt="" coords="397,319,495,345"/>
+<area shape="rect" id="node8" href="$cli__network__data_8cpp.html" title="cli_network_data.cpp" alt="" coords="519,319,663,345"/>
+<area shape="rect" id="node9" href="$cli__srp__server_8cpp.html" title="cli_srp_server.cpp" alt="" coords="688,319,815,345"/>
+<area shape="rect" id="node10" href="$cli__udp_8cpp.html" title="cli_udp.cpp" alt="" coords="839,319,927,345"/>
+<area shape="rect" id="node13" href="$srp__client__buffers__api_8cpp.html" title="srp_client_buffers\l_api.cpp" alt="" coords="589,155,711,196"/>
+</map>

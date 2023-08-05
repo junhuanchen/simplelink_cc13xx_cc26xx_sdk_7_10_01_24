@@ -1,0 +1,8 @@
+<map id="InstanceLocatorInit" name="InstanceLocatorInit">
+<area shape="rect" id="node4" href="$classot_1_1_link_quality_info.html" title="LinkQualityInfo" alt="" coords="5,229,112,256"/>
+<area shape="rect" id="node5" href="$classot_1_1_neighbor.html" title="Neighbor" alt="" coords="137,229,210,256"/>
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="59,80,173,107"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="13,5,219,32"/>
+<area shape="rect" id="node6" href="$classot_1_1_router.html" title="Router" alt="" coords="143,304,203,331"/>
+<area shape="rect" id="node7" href="$classot_1_1_parent.html" title="Parent" alt="" coords="143,379,203,405"/>
+</map>

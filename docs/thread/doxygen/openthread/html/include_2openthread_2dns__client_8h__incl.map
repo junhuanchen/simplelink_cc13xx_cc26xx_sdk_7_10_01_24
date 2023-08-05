@@ -1,0 +1,11 @@
+<map id="dns_client.h" name="dns_client.h">
+<area shape="rect" id="node2" href="$dns_8h.html" title="This file defines the top&#45;level DNS functions for the OpenThread library. " alt="" coords="5,162,128,189"/>
+<area shape="rect" id="node7" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="353,251,503,278"/>
+<area shape="rect" id="node11" href="$include_2openthread_2ip6_8h.html" title="This file defines the OpenThread IPv6 API. " alt="" coords="270,80,389,107"/>
+<area shape="rect" id="node4" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="193,341,319,367"/>
+<area shape="rect" id="node5" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="548,423,684,464"/>
+<area shape="rect" id="node9" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="432,333,568,375"/>
+<area shape="rect" id="node12" href="$message_8h.html" title="This file defines the top&#45;level OpenThread APIs related to message buffer and queues. " alt="" coords="337,162,492,189"/>
+<area shape="rect" id="node13" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="177,155,313,196"/>
+<area shape="rect" id="node14" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="192,244,328,285"/>
+</map>

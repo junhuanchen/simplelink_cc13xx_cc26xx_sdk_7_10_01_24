@@ -1,0 +1,13 @@
+<map id="ExternalRouteConfig" name="ExternalRouteConfig">
+<area shape="rect" id="node2" href="$structot_external_route_config.html" title="otExternalRouteConfig" alt="" coords="1663,28,1813,55"/>
+<area shape="rect" id="node3" href="$structot_ip6_prefix.html" title="otIp6Prefix" alt="" coords="1418,28,1501,55"/>
+<area shape="rect" id="node4" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1169,28,1268,55"/>
+<area shape="rect" id="node5" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="887,28,1071,55"/>
+<area shape="rect" id="node6" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,28,749,55"/>
+<area shape="rect" id="node7" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,5,427,32"/>
+<area shape="rect" id="node8" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,56,435,83"/>
+<area shape="rect" id="node9" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,56,189,83"/>
+<area shape="rect" id="node10" href="$classot_1_1_clearable.html" title="Clearable\&lt; ExternalRoute\lConfig \&gt;" alt="" coords="1653,79,1823,121"/>
+<area shape="rect" id="node11" href="$classot_1_1_equatable.html" title="Equatable\&lt; ExternalRoute\lConfig \&gt;" alt="" coords="1651,145,1825,186"/>
+<area shape="rect" id="node12" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; ExternalRoute\lConfig \&gt;" alt="" coords="1365,145,1553,186"/>
+</map>

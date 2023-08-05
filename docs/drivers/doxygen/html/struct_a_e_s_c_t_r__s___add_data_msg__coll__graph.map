@@ -1,0 +1,4 @@
+<map id="AESCTR_s_AddDataMsg" name="AESCTR_s_AddDataMsg">
+<area shape="rect" id="node2" href="$struct_a_e_s_common___config.html" title="AES Global configuration. " alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node3" href="$struct_a_e_s_c_t_r___segmented_operation.html" title="Struct containing the parameters required for encrypting/decrypting a message using a segmented opera..." alt="" coords="184,5,403,32"/>
+</map>

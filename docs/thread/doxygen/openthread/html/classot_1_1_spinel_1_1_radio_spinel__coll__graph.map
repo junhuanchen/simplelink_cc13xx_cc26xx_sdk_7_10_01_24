@@ -1,0 +1,12 @@
+<map id="RadioSpinel&lt; InterfaceType, ProcessContextType &gt;" name="RadioSpinel&lt; InterfaceType, ProcessContextType &gt;">
+<area shape="rect" id="node2" href="$structot_radio_spinel_metrics.html" title="otRadioSpinelMetrics" alt="" coords="441,8,587,35"/>
+<area shape="rect" id="node3" href="$structot_radio_frame.html" title="otRadioFrame" alt="" coords="463,97,565,124"/>
+<area shape="rect" id="node4" href="$structot_mac_key_material.html" title="otMacKeyMaterial" alt="" coords="175,71,302,97"/>
+<area shape="rect" id="node5" href="$structot_mac_key.html" title="otMacKey" alt="" coords="5,71,87,97"/>
+<area shape="rect" id="node6" href="$structot_radio_ie_info.html" title="otRadioIeInfo" alt="" coords="191,121,287,148"/>
+<area shape="rect" id="node7" href="$structot_ext_address.html" title="otExtAddress" alt="" coords="463,152,565,179"/>
+<area shape="rect" id="node8" href="$classot_1_1_max_power_table.html" title="MaxPowerTable" alt="" coords="457,203,571,229"/>
+<area shape="rect" id="node9" href="$classot_1_1_hdlc_1_1_multi_frame_buffer.html" title="MultiFrameBuffer\&lt; kMaxFrame\lSize \&gt;" alt="" coords="413,254,615,295"/>
+<area shape="rect" id="node10" href="$classot_1_1_hdlc_1_1_frame_write_pointer.html" title="FrameWritePointer" alt="" coords="173,261,304,288"/>
+<area shape="rect" id="node11" href="$structot_instance.html" title="otInstance" alt="" coords="473,320,555,347"/>
+</map>

@@ -1,0 +1,37 @@
+    Internal Flash
++-------------------+ <- 0x00000000
+| MCUBoot     cRED  |
+| Bootloader        |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
++-------------------+ <- 0x00006000
+| MCUBoot           |
+| Header            |
+| c777              |
++-------------------+ <- 0x00006100
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|       User        |
+|    Application    |
+|       c7AF        |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
++-------------------+ <- Device Flash Size - 0x4000
+| NV Space          |
+| Reserved for      |
+| Bonding           |
+| Information       |
+| c333              |
++-------------------+ <- Device Flash Size

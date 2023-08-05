@@ -1,0 +1,13 @@
+<map id="Udp::SocketHandle" name="Udp::SocketHandle">
+<area shape="rect" id="node2" href="$structot_udp_socket.html" title="otUdpSocket" alt="" coords="45,556,143,583"/>
+<area shape="rect" id="node3" href="$structot_message.html" title="otMessage" alt="" coords="5,452,92,479"/>
+<area shape="rect" id="node4" href="$structot_sock_addr.html" title="otSockAddr" alt="" coords="117,452,207,479"/>
+<area shape="rect" id="node5" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="113,363,211,389"/>
+<area shape="rect" id="node6" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="70,273,254,300"/>
+<area shape="rect" id="node7" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="77,184,247,211"/>
+<area shape="rect" id="node8" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="34,95,165,121"/>
+<area shape="rect" id="node9" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="189,95,335,121"/>
+<area shape="rect" id="node10" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="170,5,354,32"/>
+<area shape="rect" id="node11" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; SocketHandle \&gt;" alt="" coords="233,556,451,583"/>
+<area shape="rect" id="node12" href="$classot_1_1_clearable.html" title="Clearable\&lt; SocketHandle \&gt;" alt="" coords="475,556,657,583"/>
+</map>

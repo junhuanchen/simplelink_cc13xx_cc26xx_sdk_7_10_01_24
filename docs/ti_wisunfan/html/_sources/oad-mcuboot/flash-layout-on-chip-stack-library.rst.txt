@@ -1,0 +1,119 @@
+.. _sec-mcuboot-oad-flash-layout-on-chip-stack-library:
+
+Flash Layout for On-Chip OAD
+=============================
+
+This section will describe the method for placing images in internal
+flash when using on-chip OAD.
+
+
+Constraints and Requirements for On-chip OAD (stack library)
+------------------------------------------------------------
+
+The following points must be considered for On-chip OAD applications:
+
+  - The user application must be sufficiently small in order to fit into the
+    flash layout system described below
+  - User app functionality is lost while performing OAD (Persistent app is
+    running)
+
+.. _sect-mcuboot-on-chip-memory-layout-stack-library:
+
+Internal Flash Memory Layout
+----------------------------
+
+The internal flash of the device contains the active user application, the user
+application's stack, the persistent application, the persistent application's
+stack, and the secure bootloader. Each application's role is defined below.
+
+.. note::     
+    As we have assumed the stack-library approach, the stack images
+    referenced below are a part of each application image (i.e. the user and
+    persistent apps have their own dedicated stack)
+
++------------------------+---------------------------------------------------------------------+
+| Application Name       | Description                                                         |
++------------------------+---------------------------------------------------------------------+
+| MCUBoot bootloader     | - Search for the proper image in FLASH                              |
+|                        | - Ensure validity and security of image before running              |
+|                        | - Jump to the valid and newest image                                |
++------------------------+---------------------------------------------------------------------+
+| Persistent application | - Providing lightweight application that implements the OAD profile |
++------------------------+---------------------------------------------------------------------+
+| Stack (2)              | - BLE protocol stack implementation                                 |
++------------------------+---------------------------------------------------------------------+
+| User application       | - User application                                                  |
+|                        | - Must implement OAD reset service                                  |
++------------------------+---------------------------------------------------------------------+
+
+.. _fig-mcuboot-on-chip-oad-target-memory-partition:
+.. ditaa::
+    :--no-separation:
+
+                                                       Internal Flash
+                                                   +-------------------+ <- 0x00000000
+                                                   |   MCUBoot         |
+                                                   |   Bootloader      |
+                                                   |      cRED         |
+                                                   +-------------------+ <- 0x00006000
+                                                   | MCUBoot           |
+                                                   | Header            |
+                                                   | c777              |
+                                                   +-------------------+ <- 0x00006100
+                                                   | Persistent App    |
+                                                   | Header            |
+                                                   | c7AF              |
+                                                   +-------------------+
+                                                   |   Persistent      |
+                                                   |   Application     |  Secondary Slot
+                                                   |        +          |
+                                                   |   Stack Library   |
+                                                   |       c7AF        |
+                                                   +-------------------+ <- 0x00030000
+                                                   | User App + Stack  |
+                                                   | Header            |
+                                                   | c7AF              |
+                                                   +-------------------+
+                                                   |  User Application |
+                                                   |        +          |  Primary Slot
+                                                   |  Stack Library    |
+                                                   |      c7AF         |
+                                                   |                   |
+                                                   |                   |
+                                                   |                   |
+                                         /-------> +-------------------+ <- Device Flash Size - 0x4000
+     +------------------------------+    |         |   NV Space        |
+     |  NV Information is           |    |         |   Reserved for    |
+     |  shared between              |    |         |   Bonding         |
+     |  Persistent and User         |    |         |   Information     |
+     |  Application                 |    |         |        c777       |
+     |                              |    |         |                   |
+     +------------------------------+----\-------> +-------------------+ <- Device Flash Size
+
+The user application pictured above is responsible for the following:
+
+    - Implementing the protocol stack definition of the OAD reset service
+    - Implementing customer defined behavior
+
+The persistent application pictured above is responsible for the following:
+
+    - Implementing the protocol stack definition of the OAD service
+    - It is permanently resident on the device
+
+.. note:: 
+
+    Based on different devices, the address of each component listed above might
+    vary. The address used in the persistent application linker file
+    should match the settings in the ``flash_map_backend.h`` file.
+
+    .. code-block:: c
+        :caption: Flash addresses for various components
+
+        #define MCUBOOT_BASE    0x0000000
+        #define PERSISTENT_BASE 0x0006000
+        #define APP_BASE        0x0030000
+        #define NVS_BASE        (FLASH_SIZE - NVS_SIZE)
+        #define NVS_SIZE        0x4000
+        #define MCU_HDR_SIZE    0x100
+        #define MCUBOOT_SIZE    0x6000
+        #define MCU_OVERHEADS   (MCU_HDR_SIZE + MCU_TLV_SIZE)

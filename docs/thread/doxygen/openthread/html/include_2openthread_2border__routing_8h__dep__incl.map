@@ -1,0 +1,20 @@
+<map id="border_routing.h" name="border_routing.h">
+<area shape="rect" id="node2" href="$include_2openthread_2border__router_8h.html" title="This file defines the OpenThread Border Router API. " alt="" coords="449,80,558,107"/>
+<area shape="rect" id="node3" href="$cli__network__data_8cpp.html" title="cli_network_data.cpp" alt="" coords="146,155,290,181"/>
+<area shape="rect" id="node4" href="$nat64__api_8cpp.html" title="nat64_api.cpp" alt="" coords="315,155,417,181"/>
+<area shape="rect" id="node5" href="$network__data_8hpp.html" title="network_data.hpp" alt="" coords="441,155,565,181"/>
+<area shape="rect" id="node18" href="$posix_2platform_2netif_8cpp.html" title="netif.cpp" alt="" coords="589,155,660,181"/>
+<area shape="rect" id="node19" href="$system_8cpp.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="685,155,775,181"/>
+<area shape="rect" id="node6" href="$network__data_8cpp.html" title="network_data.cpp" alt="" coords="356,229,480,256"/>
+<area shape="rect" id="node7" href="$network__data__leader_8hpp.html" title="network_data_leader.hpp" alt="" coords="504,229,671,256"/>
+<area shape="rect" id="node8" href="$lowpan_8cpp.html" title="lowpan.cpp" alt="" coords="319,311,405,338"/>
+<area shape="rect" id="node9" href="$mesh__forwarder_8hpp.html" title="mesh_forwarder.hpp" alt="" coords="430,311,569,338"/>
+<area shape="rect" id="node16" href="$network__data__leader_8cpp.html" title="network_data_leader.cpp" alt="" coords="593,311,760,338"/>
+<area shape="rect" id="node17" href="$network__data__leader__ftd_8cpp.html" title="network_data_leader\l_ftd.cpp" alt="" coords="785,304,926,345"/>
+<area shape="rect" id="node10" href="$data__poll__sender_8cpp.html" title="data_poll_sender.cpp" alt="" coords="5,393,151,420"/>
+<area shape="rect" id="node11" href="$address__resolver_8cpp.html" title="address_resolver.cpp" alt="" coords="175,393,319,420"/>
+<area shape="rect" id="node12" href="$discover__scanner_8cpp.html" title="discover_scanner.cpp" alt="" coords="343,393,490,420"/>
+<area shape="rect" id="node13" href="$mesh__forwarder_8cpp.html" title="mesh_forwarder.cpp" alt="" coords="514,393,653,420"/>
+<area shape="rect" id="node14" href="$mesh__forwarder__ftd_8cpp.html" title="mesh_forwarder_ftd.cpp" alt="" coords="677,393,836,420"/>
+<area shape="rect" id="node15" href="$mesh__forwarder__mtd_8cpp.html" title="mesh_forwarder_mtd.cpp" alt="" coords="860,393,1027,420"/>
+</map>

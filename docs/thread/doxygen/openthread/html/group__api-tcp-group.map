@@ -1,0 +1,5 @@
+<map id="TCP" name="TCP">
+<area shape="rect" id="node2" href="$group__api-tcp.html" title="This module includes functions that control TCP communication. " alt="" coords="301,5,348,32"/>
+<area shape="rect" id="node3" href="$group__api-tcp-ext.html" title="This module includes easy&#45;to&#45;use abstractions on top of the base TCP API. " alt="" coords="263,56,387,83"/>
+<area shape="rect" id="node4" href="$group__api-net.html" title="IPv6 Networking" alt="" coords="5,31,120,57"/>
+</map>

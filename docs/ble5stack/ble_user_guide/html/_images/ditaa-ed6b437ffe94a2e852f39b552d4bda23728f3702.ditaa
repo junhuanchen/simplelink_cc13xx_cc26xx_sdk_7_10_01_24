@@ -1,0 +1,39 @@
+                                                   Internal Flash
+                                               +-------------------+ <- 0x00000000
+                                               |   MCUBoot         |
+                                               |   Bootloader      |
+                                               |      cRED         |
+                                               +-------------------+ <- 0x00006000
+                                               | MCUBoot           |
+                                               | Header            |
+                                               | c777              |
+                                               +-------------------+ <- 0x00006100
+                                               | Persistent App    |
+                                               | Header            |
+                                               | c7AF              |
+                                               +-------------------+
+                                               |   Persistent      |
+                                               |   Application     |  Secondary Slot
+                                               |        +          |
+                                               |   Stack Library   |
+                                               |       c7AF        |
+                                               +-------------------+ <- 0x00030000
+                                               | User App + Stack  |
+                                               | Header            |
+                                               | c7AF              |
+                                               +-------------------+
+                                               |  User Application |
+                                               |        +          |  Primary Slot
+                                               |  Stack Library    |
+                                               |      c7AF         |
+                                               |                   |
+                                               |                   |
+                                               |                   |
+                                     /-------> +-------------------+ <- Device Flash Size - 0x4000
+ +------------------------------+    |         |   NV Space        |
+ |  NV Information is           |    |         |   Reserved for    |
+ |  shared between              |    |         |   Bonding         |
+ |  Persistent and User         |    |         |   Information     |
+ |  Application                 |    |         |        c777       |
+ |                              |    |         |                   |
+ +------------------------------+----\-------> +-------------------+ <- Device Flash Size

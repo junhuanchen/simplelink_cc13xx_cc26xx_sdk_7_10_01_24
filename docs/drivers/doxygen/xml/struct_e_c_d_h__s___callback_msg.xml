@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_e_c_d_h__s___callback_msg" kind="struct" language="C++" prot="public">
+    <compoundname>ECDH_s_CallbackMsg</compoundname>
+    <includes refid="_e_c_d_h_c_c26_x4__s_8h" local="no">ECDHCC26X4_s.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_c_d_h__s___callback_msg_1a904d33cca6f215af565d75e01a5db712" prot="public" static="no" mutable="no">
+        <type><ref refid="_e_c_d_h_8h_1aeff2f7957e2a398e24f7e77d3b395d29" kindref="member">ECDH_Handle</ref></type>
+        <definition>ECDH_Handle ECDH_s_CallbackMsg::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/ecdh/ECDHCC26X4_s.h" line="115" column="1" bodyfile="source/ti/drivers/ecdh/ECDHCC26X4_s.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_c_d_h__s___callback_msg_1a5ab2161a0012621235f839ba27cffe20" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_e_c_d_h__s___secure_callback" kindref="compound">ECDH_s_SecureCallback</ref> *</type>
+        <definition>ECDH_s_SecureCallback* ECDH_s_CallbackMsg::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/ecdh/ECDHCC26X4_s.h" line="116" column="1" bodyfile="source/ti/drivers/ecdh/ECDHCC26X4_s.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="731">
+        <label>SecureCallback_Object</label>
+        <link refid="struct_secure_callback___object"/>
+        <childnode refid="732" relation="usage">
+          <edgelabel>elem</edgelabel>
+        </childnode>
+      </node>
+      <node id="727">
+        <label>CryptoKey</label>
+        <link refid="struct_crypto_key"/>
+        <childnode refid="728" relation="usage">
+          <edgelabel>plaintext</edgelabel>
+        </childnode>
+        <childnode refid="729" relation="usage">
+          <edgelabel>keyStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="722">
+        <label>ECDH_Config</label>
+        <link refid="struct_e_c_d_h___config"/>
+      </node>
+      <node id="725">
+        <label>ECDH_OperationGeneratePublicKey</label>
+        <link refid="struct_e_c_d_h___operation_generate_public_key"/>
+        <childnode refid="726" relation="usage">
+          <edgelabel>curve</edgelabel>
+        </childnode>
+        <childnode refid="727" relation="usage">
+          <edgelabel>myPrivateKey</edgelabel>
+          <edgelabel>myPublicKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="724">
+        <label>ECDH_Operation</label>
+        <link refid="union_e_c_d_h___operation"/>
+        <childnode refid="725" relation="usage">
+          <edgelabel>generatePublicKey</edgelabel>
+        </childnode>
+        <childnode refid="730" relation="usage">
+          <edgelabel>computeSharedSecret</edgelabel>
+        </childnode>
+      </node>
+      <node id="726">
+        <label>ECCParams_CurveParams</label>
+        <link refid="struct_e_c_c_params___curve_params"/>
+      </node>
+      <node id="728">
+        <label>CryptoKey_Plaintext</label>
+        <link refid="struct_crypto_key___plaintext"/>
+      </node>
+      <node id="730">
+        <label>ECDH_OperationComputeSharedSecret</label>
+        <link refid="struct_e_c_d_h___operation_compute_shared_secret"/>
+        <childnode refid="726" relation="usage">
+          <edgelabel>curve</edgelabel>
+        </childnode>
+        <childnode refid="727" relation="usage">
+          <edgelabel>theirPublicKey</edgelabel>
+          <edgelabel>myPrivateKey</edgelabel>
+          <edgelabel>sharedSecret</edgelabel>
+        </childnode>
+      </node>
+      <node id="723">
+        <label>ECDH_s_SecureCallback</label>
+        <link refid="struct_e_c_d_h__s___secure_callback"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>operation</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>handle</edgelabel>
+        </childnode>
+        <childnode refid="731" relation="usage">
+          <edgelabel>object</edgelabel>
+        </childnode>
+      </node>
+      <node id="732">
+        <label>List_Elem_</label>
+        <link refid="struct_list___elem__"/>
+        <childnode refid="732" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="721">
+        <label>ECDH_s_CallbackMsg</label>
+        <link refid="struct_e_c_d_h__s___callback_msg"/>
+        <childnode refid="722" relation="usage">
+          <edgelabel>handle</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>callback</edgelabel>
+        </childnode>
+      </node>
+      <node id="729">
+        <label>CryptoKey_KeyStore</label>
+        <link refid="struct_crypto_key___key_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/ti/drivers/ecdh/ECDHCC26X4_s.h" line="114" column="1" bodyfile="source/ti/drivers/ecdh/ECDHCC26X4_s.h" bodystart="113" bodyend="117"/>
+    <listofallmembers>
+      <member refid="struct_e_c_d_h__s___callback_msg_1a5ab2161a0012621235f839ba27cffe20" prot="public" virt="non-virtual"><scope>ECDH_s_CallbackMsg</scope><name>callback</name></member>
+      <member refid="struct_e_c_d_h__s___callback_msg_1a904d33cca6f215af565d75e01a5db712" prot="public" virt="non-virtual"><scope>ECDH_s_CallbackMsg</scope><name>handle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

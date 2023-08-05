@@ -1,0 +1,6 @@
+<map id="EDDSA_OperationGeneratePublicKey" name="EDDSA_OperationGeneratePublicKey">
+<area shape="rect" id="node2" href="$struct_e_c_c_params___curve_params.html" title="A structure containing the parameters of an elliptic curve. " alt="" coords="6,95,195,121"/>
+<area shape="rect" id="node3" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="220,95,309,121"/>
+<area shape="rect" id="node4" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="98,5,253,32"/>
+<area shape="rect" id="node5" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="277,5,431,32"/>
+</map>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IAR Project Connection File -->
+
+<iarProjectConnection version="1.2" name="mcuboot_blinky" oneShot="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="IarProjectConnection_1.2.xsd">
+
+    <device>
+        <name>CC1354P10</name>
+    </device>
+
+    <asmIncludePath>
+        <path>$PROJ_DIR$</path>
+    </asmIncludePath>
+
+    <includePath>
+        <path>$PROJ_DIR$</path>
+        <path>${PROJECT_ROOT}</path>
+        <path>${PROJECT_ROOT}/${ConfigName}</path>
+        <path>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source</path>
+        <path>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/kernel/nortos</path>
+        <path>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/kernel/nortos/posix</path>
+        <path>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/mcuboot_app</path>
+        <path>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/mcuboot_app/mcuboot_config</path>
+        <path>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/bootutil/include</path>
+    </includePath>
+
+    <defines>
+        <define>DeviceFamily_CC13X4</define>
+    </defines>
+
+    <extraOptions>
+        <args>
+            <arg>--debug</arg>
+            <arg>--silent</arg>
+            <arg>-e</arg>
+            <arg>--aeabi</arg>
+            <arg>--thumb</arg>
+            <arg>--diag_suppress=Pa050</arg>
+        </args>
+    </extraOptions>
+
+    <linkerFile>
+        <override>true</override>
+        <path>$PROJ_DIR$/mcuboot_blinky_cc13x4_cc26x4.icf</path>
+    </linkerFile>
+
+    <linkerExtraOptions>
+        <args>
+            <arg>--silent</arg>
+            <arg>-L$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source</arg>
+            <arg>-L$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/kernel/nortos</arg>
+            <arg>-L$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/ti/devices/cc13x4_cc26x4</arg>
+            <arg>-L$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/ti/devices/cc13x4_cc26x4/inc</arg>
+            <arg>-L$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/ti/devices/cc13x4_cc26x4/driverlib</arg>
+            <arg>-f$PROJ_DIR$/ti_utils_build_linker.cmd.genlibs</arg>
+            <arg>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/ti/devices/cc13x4_cc26x4/driverlib/bin/iar/driverlib.lib</arg>
+        </args>
+    </linkerExtraOptions>
+
+    <customBuildTools>
+        <customBuildTool atRoot="true" name="SysConfig"> <!-- Custom build tool for entire project-->
+            <fileExtensions>.syscfg</fileExtensions>
+            <command>$SYSCONFIG_ROOT$/sysconfig_cli.bat -o $PROJ_DIR$ -s "$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/.metadata/product.json" -s "$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/.metadata/product.json" --compiler iar $FILE_PATH$</command>
+            <output>
+                <path>SysConfig_Generated_Files.ipcf</path>
+            </output>
+            <hasPrio>true</hasPrio> <!-- true: run this tool before all other tools-->
+        </customBuildTool>
+    </customBuildTools>
+
+    <heaps>
+        <heap> <!-- If omitted, id="0" -->
+            <size>0</size>
+        </heap>
+        <heap id="1">
+            <size>0</size>
+        </heap>
+    </heaps>
+    <stacks>
+        <stack> <!-- If omitted, id="0" -->
+            <size>512</size>
+        </stack>
+    </stacks>
+
+
+    <postBuild>
+        <command>$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/scripts/iar_app_postbuild.bat                     $COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$ $TARGET_BPATH$ 0x2b000 0x4e800</command>
+    </postBuild>
+
+    <files>
+        <path reference="$PROJ_DIR$/blinky.c">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/blinky_app/blinky.c</path>
+        <path reference="$PROJ_DIR$/main_nortos.c">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/blinky_app/main_nortos.c</path>
+        <path copyTo="$PROJ_DIR$/mcuboot_blinky.syscfg">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/examples/nortos/LP_EM_CC1354P10_1/mcuboot/mcuboot_blinky/mcuboot_blinky.syscfg</path>
+        <path copyTo="$PROJ_DIR$/mcuboot_blinky_cc13x4_cc26x4.icf">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/examples/nortos/LP_EM_CC1354P10_1/mcuboot/mcuboot_blinky/mcuboot_blinky_cc13x4_cc26x4.icf</path>
+        <path reference="$PROJ_DIR$/README.md">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/blinky_app/README.md</path>
+        <group name="mcuboot_config" build="true">
+            <path reference="$PROJ_DIR$/mcuboot_config/trace.c">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/mcuboot_app/mcuboot_config/trace.c</path>
+            <path reference="$PROJ_DIR$/mcuboot_config/trace.h">$COM_TI_SIMPLELINK_CC13XX_CC26XX_SDK_INSTALL_DIR$/source/third_party/mcuboot/boot/ti/source/mcuboot_app/mcuboot_config/trace.h</path>
+        </group>
+    </files>
+</iarProjectConnection>

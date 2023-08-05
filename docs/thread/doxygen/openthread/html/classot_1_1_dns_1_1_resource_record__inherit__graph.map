@@ -1,0 +1,11 @@
+<map id="ResourceRecord" name="ResourceRecord">
+<area shape="rect" id="node2" href="$classot_1_1_dns_1_1_aaaa_record.html" title="AaaaRecord" alt="" coords="177,5,271,32"/>
+<area shape="rect" id="node3" href="$classot_1_1_dns_1_1_a_record.html" title="ARecord" alt="" coords="188,56,260,83"/>
+<area shape="rect" id="node4" href="$classot_1_1_dns_1_1_cname_record.html" title="CnameRecord" alt="" coords="172,107,276,133"/>
+<area shape="rect" id="node5" href="$classot_1_1_dns_1_1_key_record.html" title="KeyRecord" alt="" coords="181,157,267,184"/>
+<area shape="rect" id="node6" href="$classot_1_1_dns_1_1_opt_record.html" title="OptRecord" alt="" coords="182,208,266,235"/>
+<area shape="rect" id="node7" href="$classot_1_1_dns_1_1_ptr_record.html" title="PtrRecord" alt="" coords="184,259,264,285"/>
+<area shape="rect" id="node8" href="$classot_1_1_dns_1_1_sig_record.html" title="SigRecord" alt="" coords="183,309,265,336"/>
+<area shape="rect" id="node9" href="$classot_1_1_dns_1_1_srv_record.html" title="SrvRecord" alt="" coords="183,360,265,387"/>
+<area shape="rect" id="node10" href="$classot_1_1_dns_1_1_txt_record.html" title="TxtRecord" alt="" coords="183,411,265,437"/>
+</map>

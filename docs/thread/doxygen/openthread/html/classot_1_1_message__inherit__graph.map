@@ -1,0 +1,9 @@
+<map id="Message" name="Message">
+<area shape="rect" id="node7" href="$classot_1_1_mle_1_1_mle_1_1_rx_message.html" title="RxMessage" alt="" coords="46,229,137,256"/>
+<area shape="rect" id="node8" href="$classot_1_1_mle_1_1_mle_1_1_tx_message.html" title="TxMessage" alt="" coords="161,229,251,256"/>
+<area shape="rect" id="node2" href="$structot_message.html" title="otMessage" alt="" coords="11,80,97,107"/>
+<area shape="rect" id="node3" href="$classot_1_1_buffer.html" title="Buffer" alt="" coords="121,80,176,107"/>
+<area shape="rect" id="node4" href="$structot_message_buffer.html" title="otMessageBuffer" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Buffer \&gt;" alt="" coords="148,5,317,32"/>
+<area shape="rect" id="node6" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; Message \&gt;" alt="" coords="200,80,367,107"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="otTcpEndpoint" name="otTcpEndpoint">
+<area shape="rect" id="node2" href="$structot_linked_buffer.html" title="otLinkedBuffer" alt="" coords="5,452,109,479"/>
+<area shape="rect" id="node3" href="$structot_sock_addr.html" title="otSockAddr" alt="" coords="200,452,291,479"/>
+<area shape="rect" id="node4" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="196,363,295,389"/>
+<area shape="rect" id="node5" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="153,273,337,300"/>
+<area shape="rect" id="node6" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="160,184,331,211"/>
+<area shape="rect" id="node7" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="108,95,239,121"/>
+<area shape="rect" id="node8" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="263,95,409,121"/>
+<area shape="rect" id="node9" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="244,5,428,32"/>
+</map>

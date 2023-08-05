@@ -1,0 +1,78 @@
+.. _tiop-1-08-03-to-1-08-04:
+
+TI-OpenThread 1.08.03 to 1.08.04
+--------------------------------
+
+For the 5.20 SDK, the openthread libraries (e.g. libopenthread*) have been
+unified across the CC13xx/CC26xx platform. Recall that in previous SDKs, the
+libraries had different configurations for a specific board
+(e.g. libopenthread_mtd_CC1352P_2, libopenthread_mtd_CC26X2R1).
+
+.. figure:: resources/1-08-01-to-1-08-02/fig-430-separate-libs.PNG
+    :align: center
+
+    Separate Libs Per Board
+
+The examples would use the lib* projects corresponding to the matching board.
+Now, Thread examples will use the same libraries. One benefit of this is that,
+if you have two instances of the same Thread example (e.g. doorlock) in a
+workspace, and each instance was using a different board (e.g. CC26x2R1 and
+CC1352R1), then there will now be one, shared MTD library,
+libopenthread_mtd_cc13x2_cc26x2 vs two, libopenthread_mtd_CC26X2R1 and
+libopenthread_mtd_CC1352R1. More generally, Thread examples in a workspace will
+now share libraries across different Thread-enabled SimpleLink devices when
+possible.
+
+.. figure:: resources/1-08-01-to-1-08-02/fig-440-unified-libs.PNG
+    :align: center
+
+    Unified Libs For All Boards
+
+For migrating your Thread project to use the unified libraries:
+
+#. Import the respective libraries necessary for your project.
+   These can be found in :code:`C:\ti\<5.20 SDK>\source\ti\thread\cc13x2_26x2`.
+   As an example, the following libraries were imported for :code:`cli_ftd`:
+
+    .. figure:: resources/1-08-03-to-1-08-04/fig-unified-libs.PNG
+        :align: center
+
+        Unified Libs
+
+#.  Update the library paths that your project points to.
+    Right-click the project |rarr| Properties |rarr| Build |rarr| Dependencies.
+
+    Remove the previous libraries:
+
+    .. figure:: resources/1-08-03-to-1-08-04/fig-remove-prev.PNG
+        :align: center
+
+        Old Libraries
+
+    Add the unified libraries:
+
+    .. figure:: resources/1-08-03-to-1-08-04/fig-add-new.PNG
+        :align: center
+
+        New Libraries
+
+    Make sure that the order is the same as before. This is to account for
+    include paths to the referenced projects.
+
+    .. figure:: resources/1-08-03-to-1-08-04/fig-order-libs.PNG
+        :align: center
+
+        Order the Reference Projects
+
+#.  Change the name of config files, since these now match the unified naming
+    convention.
+    If you made any configuration changes to these files, you should now apply
+    those changes to the new config files.
+
+    .. figure:: resources/1-08-03-to-1-08-04/fig-new-config-file-names.PNG
+        :align: center
+
+        New Config File Names
+
+#.  Re-build your Thread project. This will prompt CCS to build the new
+    libraries.

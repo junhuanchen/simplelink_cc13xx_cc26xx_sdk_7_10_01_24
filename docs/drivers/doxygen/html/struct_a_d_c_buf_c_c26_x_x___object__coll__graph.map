@@ -1,0 +1,9 @@
+<map id="ADCBufCC26XX_Object" name="ADCBufCC26XX_Object">
+<area shape="rect" id="node2" href="$struct_a_d_c_buf___conversion.html" title="Defines a conversion to be used with ADCBuf_convert(). " alt="" coords="292,95,444,121"/>
+<area shape="rect" id="node3" href="$struct_g_p_timer_c_c26_x_x___config.html" title="GPTimer Global configuration. " alt="" coords="88,95,267,121"/>
+<area shape="rect" id="node5" href="$struct_g_p_timer_c_c26_x_x___object.html" title="GPTimer26XX Object. " alt="" coords="51,316,229,343"/>
+<area shape="rect" id="node4" href="$struct_g_p_timer_c_c26_x_x___h_w_attrs.html" title="GPTimer26XX Hardware attributes. " alt="" coords="82,5,273,32"/>
+<area shape="rect" id="node6" href="$struct_u_d_m_a_c_c26_x_x___config.html" title="UDMACC26XX Global configuration. " alt="" coords="468,95,631,121"/>
+<area shape="rect" id="node7" href="$struct_a_d_c_buf___config__.html" title="ADC driver&#39;s custom configuration structure. " alt="" coords="706,95,833,121"/>
+<area shape="rect" id="node8" href="$struct_a_d_c_buf___fxn_table.html" title="The definition of an ADCBuf function table that contains the required set of functions to control a s..." alt="" coords="754,316,891,343"/>
+</map>

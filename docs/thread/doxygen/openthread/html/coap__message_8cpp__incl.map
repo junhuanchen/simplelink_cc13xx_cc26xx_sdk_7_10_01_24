@@ -1,0 +1,45 @@
+<map id="coap_message.cpp" name="coap_message.cpp">
+<area shape="rect" id="node2" href="$coap__message_8hpp.html" title="coap_message.hpp" alt="" coords="1614,155,1749,181"/>
+<area shape="rect" id="node10" href="$debug_8hpp.html" title="common/debug.hpp" alt="" coords="1032,528,1168,555"/>
+<area shape="rect" id="node14" href="$code__utils_8hpp.html" title="common/code_utils.hpp" alt="" coords="4260,610,4420,637"/>
+<area shape="rect" id="node19" href="$encoding_8hpp.html" title="common/encoding.hpp" alt="" coords="2150,453,2303,480"/>
+<area shape="rect" id="node33" href="$string_8hpp.html" title="common/string.hpp" alt="" coords="3223,528,3356,555"/>
+<area shape="rect" id="node38" href="$coap_8hpp.html" title="coap/coap.hpp" alt="" coords="773,80,880,107"/>
+<area shape="rect" id="node39" href="$array_8hpp.html" title="common/array.hpp" alt="" coords="3633,528,3764,555"/>
+<area shape="rect" id="node41" href="$instance_8hpp.html" title="common/instance.hpp" alt="" coords="2734,304,2885,331"/>
+<area shape="rect" id="node44" href="$random_8hpp.html" title="common/random.hpp" alt="" coords="3345,453,3489,480"/>
+<area shape="rect" id="node3" href="$openthread-core-config_8h.html" title="openthread&#45;core&#45;config.h" alt="" coords="2062,692,2226,719"/>
+<area shape="rect" id="node7" href="$include_2openthread_2coap_8h.html" title="This file defines the top&#45;level functions for the OpenThread CoAP implementation. ..." alt="" coords="3277,229,3406,256"/>
+<area shape="rect" id="node9" href="$as__core__type_8hpp.html" title="common/as_core_type.hpp" alt="" coords="829,453,1008,480"/>
+<area shape="rect" id="node13" href="$clearable_8hpp.html" title="common/clearable.hpp" alt="" coords="550,453,703,480"/>
+<area shape="rect" id="node18" href="$const__cast_8hpp.html" title="common/const_cast.hpp" alt="" coords="1639,610,1804,637"/>
+<area shape="rect" id="node21" href="$message_8hpp.html" title="common/message.hpp" alt="" coords="1597,379,1752,405"/>
+<area shape="rect" id="node29" href="$ip6_8hpp.html" title="net/ip6.hpp" alt="" coords="1350,229,1437,256"/>
+<area shape="rect" id="node32" href="$ip6__address_8hpp.html" title="net/ip6_address.hpp" alt="" coords="1333,379,1472,405"/>
+<area shape="rect" id="node37" href="$udp6_8hpp.html" title="net/udp6.hpp" alt="" coords="505,379,602,405"/>
+<area shape="rect" id="node4" href="$config_8h.html" title="This file includes required defines config header. " alt="" coords="1898,767,2033,793"/>
+<area shape="rect" id="node5" href="$announce__sender_8h.html" title="config/announce_sender.h" alt="" coords="2057,767,2231,793"/>
+<area shape="rect" id="node6" href="$src_2core_2config_2backbone__router_8h.html" title="config/backbone_router.h" alt="" coords="2255,767,2422,793"/>
+<area shape="rect" id="node16" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="3606,692,3733,719"/>
+<area shape="rect" id="node17" href="$arg__macros_8hpp.html" title="common/arg_macros.hpp" alt="" coords="4255,692,4425,719"/>
+<area shape="rect" id="node22" href="$linked__list_8hpp.html" title="common/linked_list.hpp" alt="" coords="1407,528,1566,555"/>
+<area shape="rect" id="node24" href="$locator_8hpp.html" title="common/locator.hpp" alt="" coords="2021,610,2161,637"/>
+<area shape="rect" id="node25" href="$non__copyable_8hpp.html" title="common/non_copyable.hpp" alt="" coords="776,610,957,637"/>
+<area shape="rect" id="node26" href="$timer_8hpp.html" title="common/timer.hpp" alt="" coords="1387,453,1517,480"/>
+<area shape="rect" id="node28" href="$type__traits_8hpp.html" title="common/type_traits.hpp" alt="" coords="4023,610,4185,637"/>
+<area shape="rect" id="node23" href="$error_8hpp.html" title="common/error.hpp" alt="" coords="3399,610,3526,637"/>
+<area shape="rect" id="node27" href="$tasklet_8hpp.html" title="common/tasklet.hpp" alt="" coords="1243,528,1383,555"/>
+<area shape="rect" id="node30" href="$log_8hpp.html" title="common/log.hpp" alt="" coords="2430,379,2549,405"/>
+<area shape="rect" id="node31" href="$time__ticker_8hpp.html" title="common/time_ticker.hpp" alt="" coords="1928,379,2093,405"/>
+<area shape="rect" id="node36" href="$netif_8hpp.html" title="net/netif.hpp" alt="" coords="1097,304,1191,331"/>
+<area shape="rect" id="node35" href="$binary__search_8hpp.html" title="common/binary_search.hpp" alt="" coords="2946,610,3129,637"/>
+<area shape="rect" id="node40" href="$numeric__limits_8hpp.html" title="common/numeric_limits.hpp" alt="" coords="3813,610,3998,637"/>
+<area shape="rect" id="node42" href="$heap_8h.html" title="This file defines the API for setting external heap in OpenThread. " alt="" coords="3125,379,3254,405"/>
+<area shape="rect" id="node43" href="$extension_8hpp.html" title="common/extension.hpp" alt="" coords="2480,453,2637,480"/>
+<area shape="rect" id="node46" href="$uptime_8hpp.html" title="common/uptime.hpp" alt="" coords="2713,453,2853,480"/>
+<area shape="rect" id="node47" href="$factory__diags_8hpp.html" title="diags/factory_diags.hpp" alt="" coords="2877,453,3035,480"/>
+<area shape="rect" id="node48" href="$link__raw_8hpp.html" title="mac/link_raw.hpp" alt="" coords="2692,528,2815,555"/>
+<area shape="rect" id="node49" href="$core_2radio_2radio_8hpp.html" title="radio/radio.hpp" alt="" coords="2889,528,2996,555"/>
+<area shape="rect" id="node50" href="$otns_8hpp.html" title="utils/otns.hpp" alt="" coords="2898,379,2998,405"/>
+<area shape="rect" id="node45" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="3601,603,3737,644"/>
+</map>

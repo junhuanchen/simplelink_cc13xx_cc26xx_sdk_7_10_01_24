@@ -1,0 +1,5 @@
+<map id="otMessage" name="otMessage">
+<area shape="rect" id="node2" href="$classot_1_1_message.html" title="Message" alt="" coords="71,80,145,107"/>
+<area shape="rect" id="node3" href="$classot_1_1_mle_1_1_mle_1_1_rx_message.html" title="RxMessage" alt="" coords="5,155,96,181"/>
+<area shape="rect" id="node4" href="$classot_1_1_mle_1_1_mle_1_1_tx_message.html" title="TxMessage" alt="" coords="121,155,210,181"/>
+</map>

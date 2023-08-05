@@ -1,0 +1,11 @@
+<map id="radio.hpp" name="radio.hpp">
+<area shape="rect" id="node2" href="$radio__url_8hpp.html" title="posix/platform/radio\l_url.hpp" alt="" coords="605,80,739,121"/>
+<area shape="rect" id="node5" href="$openthread-system_8h.html" title="This file defines the platform&#45;specific functions needed by OpenThread&#39;s example applications. " alt="" coords="348,169,503,211"/>
+<area shape="rect" id="node17" href="$url_8hpp.html" title="lib/url/url.hpp" alt="" coords="888,348,984,375"/>
+<area shape="rect" id="node10" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="737,430,863,457"/>
+<area shape="rect" id="node12" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="570,348,721,375"/>
+<area shape="rect" id="node15" href="$include_2openthread_2platform_2misc_8h.html" title="This file includes platform abstractions for miscellaneous behaviors. " alt="" coords="288,259,424,300"/>
+<area shape="rect" id="node16" href="$radio__spinel__metrics_8h.html" title="This file includes the definitions of the radio spinel metrics. " alt="" coords="565,259,712,300"/>
+<area shape="rect" id="node11" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="543,512,679,553"/>
+<area shape="rect" id="node13" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="405,423,541,464"/>
+</map>

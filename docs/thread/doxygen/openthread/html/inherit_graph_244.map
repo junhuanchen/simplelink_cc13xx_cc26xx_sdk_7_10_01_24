@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classot_1_1_clearable.html" title="Clearable\&lt; SigRecord \&gt;" alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node2" href="$classot_1_1_dns_1_1_sig_record.html" title="SigRecord" alt="" coords="224,5,307,32"/>
+<area shape="rect" id="node3" href="$classot_1_1_dns_1_1_resource_record.html" title="ResourceRecord" alt="" coords="26,208,145,235"/>
+<area shape="rect" id="node4" href="$classot_1_1_dns_1_1_aaaa_record.html" title="AaaaRecord" alt="" coords="219,56,312,83"/>
+<area shape="rect" id="node5" href="$classot_1_1_dns_1_1_a_record.html" title="ARecord" alt="" coords="229,107,301,133"/>
+<area shape="rect" id="node6" href="$classot_1_1_dns_1_1_cname_record.html" title="CnameRecord" alt="" coords="213,157,317,184"/>
+<area shape="rect" id="node7" href="$classot_1_1_dns_1_1_key_record.html" title="KeyRecord" alt="" coords="222,208,309,235"/>
+<area shape="rect" id="node8" href="$classot_1_1_dns_1_1_opt_record.html" title="OptRecord" alt="" coords="223,259,307,285"/>
+<area shape="rect" id="node9" href="$classot_1_1_dns_1_1_ptr_record.html" title="PtrRecord" alt="" coords="225,309,305,336"/>
+<area shape="rect" id="node10" href="$classot_1_1_dns_1_1_srv_record.html" title="SrvRecord" alt="" coords="225,360,306,387"/>
+<area shape="rect" id="node11" href="$classot_1_1_dns_1_1_txt_record.html" title="TxtRecord" alt="" coords="225,411,306,437"/>
+</map>

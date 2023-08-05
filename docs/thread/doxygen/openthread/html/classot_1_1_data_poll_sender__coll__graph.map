@@ -1,0 +1,10 @@
+<map id="DataPollSender" name="DataPollSender">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="320,81,435,108"/>
+<area shape="rect" id="node6" href="$classot_1_1_timer.html" title="Timer" alt="" coords="185,171,239,197"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="275,5,480,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="381,260,480,287"/>
+<area shape="rect" id="node5" href="$classot_1_1_timer_milli.html" title="TimerMilli" alt="" coords="215,260,292,287"/>
+<area shape="rect" id="node7" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Timer \&gt;" alt="" coords="128,81,296,108"/>
+<area shape="rect" id="node8" href="$classot_1_1_time.html" title="Time" alt="" coords="53,81,104,108"/>
+<area shape="rect" id="node9" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="5,5,152,32"/>
+</map>

@@ -1,0 +1,39 @@
+.. _tiop-1-08-01-to-1-08-02:
+
+TI-OpenThread 1.08.01 to 1.08.02
+--------------------------------
+
+For the 4.40 SDK, the openthread libraries (e.g. libopenthread*) have been
+unified across the CC13x2/CC26x2 platform. Recall that in previous SDKs, the libraries had
+different configurations for a specific board
+(e.g. libopenthread_mtd_CC1352P_2, libopenthread_mtd_CC26X2R1).
+
+.. _fig-separate-libs:
+.. figure:: resources/1-08-01-to-1-08-02/fig-430-separate-libs.PNG
+    :align: center
+
+    Separate Libs Per Board
+
+The examples would use the lib* projects corresponding to the matching board.
+Now, Thread examples will use the same libraries. One benefit of this is that, if you have
+two instances of the same Thread example (e.g. doorlock) in a workspace, and
+each instance was using a different board (e.g. CC26x2R1 and CC1352R1),
+then there will now be one, shared MTD library, libopenthread_mtd_cc13x2_cc26x2 vs
+two, libopenthread_mtd_CC26X2R1 and libopenthread_mtd_CC1352R1. More generally, Thread examples in a workspace will now share libraries across different Thread-enabled SimpleLink devices when possible.
+
+.. _fig-unified-libs:
+.. figure:: resources/1-08-01-to-1-08-02/fig-440-unified-libs.PNG
+    :align: center
+
+    Unified Libs For All Boards
+
+By default, the 4.40 examples will import the unified libraries, but the 4.40
+SDK will still keep the previous library projects available for migration
+purposes. Future SDKs will tend toward the unified approach.
+The projects for the unified libraries are located here:
+
+	- :code:`C:\ti\<4.40 SDK>\source\ti\thread\cc13x2_26x2`
+
+The board-specific libraries are found here:
+	
+	- :code:`C:\ti\<4.40 SDK>\source\ti\thread\rtos`

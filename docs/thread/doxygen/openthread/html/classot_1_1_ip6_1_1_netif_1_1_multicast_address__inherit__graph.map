@@ -1,0 +1,6 @@
+<map id="Netif::MulticastAddress" name="Netif::MulticastAddress">
+<area shape="rect" id="node5" href="$classot_1_1_ip6_1_1_netif_1_1_external_multicast_address.html" title="ExternalMulticastAddress" alt="" coords="460,64,631,91"/>
+<area shape="rect" id="node2" href="$structot_netif_multicast_address.html" title="otNetifMulticastAddress" alt="" coords="26,5,186,32"/>
+<area shape="rect" id="node3" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Multicast\lAddress \&gt;" alt="" coords="17,57,195,98"/>
+<area shape="rect" id="node4" href="$classot_1_1_clearable.html" title="Clearable\&lt; MulticastAddress \&gt;" alt="" coords="5,123,207,149"/>
+</map>

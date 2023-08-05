@@ -1,0 +1,6 @@
+<map id="TimerCC26XX.h" name="TimerCC26XX.h">
+<area shape="rect" id="node4" href="$_timer_8h.html" title="Timer driver. " alt="" coords="1361,80,1495,107"/>
+<area shape="rect" id="node10" href="$_g_p_timer_c_c26_x_x_8h.html" title="GPTimer driver implementation for CC26XX/CC13XX. " alt="" coords="987,229,1165,271"/>
+<area shape="rect" id="node7" href="$_power_8h.html" title="Power Manager. " alt="" coords="1326,155,1461,181"/>
+<area shape="rect" id="node8" href="$_list_8h.html" title="Linked List interface for use in drivers. " alt="" coords="1318,237,1469,263"/>
+</map>

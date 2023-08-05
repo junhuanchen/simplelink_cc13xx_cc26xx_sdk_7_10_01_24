@@ -1,0 +1,9 @@
+<map id="LinkQualityInfo" name="LinkQualityInfo">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator_init.html" title="InstanceLocatorInit" alt="" coords="59,157,189,184"/>
+<area shape="rect" id="node3" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="51,81,165,108"/>
+<area shape="rect" id="node4" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_rss_averager.html" title="RssAverager" alt="" coords="229,157,323,184"/>
+<area shape="rect" id="node6" href="$classot_1_1_clearable.html" title="Clearable\&lt; RssAverager \&gt;" alt="" coords="189,81,363,108"/>
+<area shape="rect" id="node7" href="$classot_1_1_success_rate_tracker.html" title="SuccessRateTracker" alt="" coords="401,157,543,184"/>
+<area shape="rect" id="node8" href="$classot_1_1_clearable.html" title="Clearable\&lt; SuccessRateTracker \&gt;" alt="" coords="387,81,608,108"/>
+</map>

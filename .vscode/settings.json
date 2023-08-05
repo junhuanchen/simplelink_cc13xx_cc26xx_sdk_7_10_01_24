@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "find_stack_entry.h": "c",
+        "oad_persistent_app.h": "c",
+        "oad_image_header.h": "c"
+    }
+}

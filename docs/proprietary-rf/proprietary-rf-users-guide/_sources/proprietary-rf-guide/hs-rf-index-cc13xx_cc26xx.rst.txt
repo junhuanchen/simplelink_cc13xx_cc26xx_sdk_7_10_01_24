@@ -1,0 +1,32 @@
+High Speed (HS) Mode
+====================
+
+This section describes how to configure the High Speed physical layer. 
+The High Speed PHY supports the following coding and modulation format:
+
+* 2(G)FSK
+
+* 4(G)FSK
+
+* Manchester encoding/decoding
+
+and it is designed so it is flexible when it comes to make test cases with different combination of:
+
+* Symbol rate
+
+* Frequency deviation
+
+* Channel bandwidth
+
+The High Speed PHY is flexible, but as for all PHY, this PHY has limitations too. One important limitation 
+is that the maximum symbol rate is 2 Mbaud. The maximum symbol rate for enabling bit true checking is 1 Mbaud.
+
+There is almost no minimum symbol rate, but frequency tolerance requirement set by the system will set the 
+minimum symbol rate. The High Speed PHY and GenFSK PHY has the same minimum symbol rate.
+
+.. toctree::
+   :maxdepth: 2
+
+   /hs-rf/packet-format
+   /hs-rf/basic-configuration
+..    /hs-rf/cc2544-migration

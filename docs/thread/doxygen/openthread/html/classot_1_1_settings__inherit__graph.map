@@ -1,0 +1,6 @@
+<map id="Settings" name="Settings">
+<area shape="rect" id="node2" href="$classot_1_1_settings_base.html" title="SettingsBase" alt="" coords="58,155,158,181"/>
+<area shape="rect" id="node3" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="51,80,165,107"/>
+<area shape="rect" id="node4" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="183,155,281,181"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="ECJPAKECC26X2_Object" name="ECJPAKECC26X2_Object">
+<area shape="rect" id="node2" href="$union_e_c_j_p_a_k_e___operation.html" title="Union containing pointers to all supported operation structs. " alt="" coords="1111,376,1257,403"/>
+<area shape="rect" id="node3" href="$struct_e_c_j_p_a_k_e___operation_verify_z_k_p.html" title="Struct containing the parameters required to verify a ZKP. " alt="" coords="679,116,890,143"/>
+<area shape="rect" id="node4" href="$struct_e_c_c_params___curve_params.html" title="A structure containing the parameters of an elliptic curve. " alt="" coords="271,161,460,188"/>
+<area shape="rect" id="node8" href="$struct_e_c_j_p_a_k_e___operation_round_one_generate_keys.html" title="Struct containing the parameters required to generate the first round of keys. " alt="" coords="677,369,892,410"/>
+<area shape="rect" id="node9" href="$struct_e_c_j_p_a_k_e___operation_round_two_generate_keys.html" title="Struct containing the parameters required to generate the second round keys. " alt="" coords="678,303,891,345"/>
+<area shape="rect" id="node10" href="$struct_e_c_j_p_a_k_e___operation_generate_z_k_p.html" title="Struct containing the parameters required to generate a ZKP. " alt="" coords="668,592,901,619"/>
+<area shape="rect" id="node11" href="$struct_e_c_j_p_a_k_e___operation_compute_shared_secret.html" title="Struct containing the parameters required to compute the shared secret. " alt="" coords="681,434,888,475"/>
+<area shape="rect" id="node5" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="321,547,410,573"/>
+<area shape="rect" id="node6" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="5,521,160,548"/>
+<area shape="rect" id="node7" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="5,572,160,599"/>
+<area shape="rect" id="node12" href="$struct_e_c_j_p_a_k_e___config.html" title="ECJPAKE Global configuration. " alt="" coords="1122,427,1246,453"/>
+</map>

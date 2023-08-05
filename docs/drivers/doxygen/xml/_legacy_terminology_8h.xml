@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_legacy_terminology_8h" kind="file" language="C++">
+    <compoundname>LegacyTerminology.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_legacy_terminology_8h_1ae09a2779c2d141aa6a8f8be6d78fe210" prot="public" static="no">
+        <name>SPI_MASTER</name>
+        <initializer><ref refid="_s_p_i_8h_1a60a7e3d74577b38aa79ea6983362f942a061361eeeb9e87265edcc0c70868111a" kindref="member">SPI_CONTROLLER</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="58" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1a943af7f8a98cf5a3f2107ed593215a4b" prot="public" static="no">
+        <name>SPI_SLAVE</name>
+        <initializer><ref refid="_s_p_i_8h_1a60a7e3d74577b38aa79ea6983362f942adf4cb39226caf2dcd726e13d39546393" kindref="member">SPI_PERIPHERAL</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="59" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1af2c98c35ea221263c5618dddea22a8d6" prot="public" static="no">
+        <name>I2S_MASTER</name>
+        <initializer><ref refid="_i2_s_8h_1a54ce68790d113be856f3a6840bc3ebe0ac58b8323c995ced2ebcfdc7698f17165" kindref="member">I2S_CONTROLLER</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="62" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1a4b5d17b809200d1d0a03428ab7f4cc4f" prot="public" static="no">
+        <name>I2S_SLAVE</name>
+        <initializer><ref refid="_i2_s_8h_1a54ce68790d113be856f3a6840bc3ebe0a26f2dba803c7c36a127ffe13110c49aa" kindref="member">I2S_TARGET</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="63" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1ab7e122e59723716bbaf5d325c42dd693" prot="public" static="no">
+        <name>MCLKDivider</name>
+        <initializer>CCLKDivider</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="64" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1a8a98101a77421c709b0c093e5a7ef58e" prot="public" static="no">
+        <name>slaveAddress</name>
+        <initializer>targetAddress</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="67" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1a8268e2ab42397096a589b61e8fcec956" prot="public" static="no">
+        <name>mclkPin</name>
+        <initializer>cclkPin</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="72" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_legacy_terminology_8h_1a8a765ed0bc2b411fc0e4fcbbf04b34cb" prot="public" static="no">
+        <name>mclkDiv</name>
+        <initializer>cclkDiv</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/LegacyTerminology.h" line="73" column="9" bodyfile="source/ti/drivers/LegacyTerminology.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provide a translation layer for legacy terminology. </para>    </briefdescription>
+    <detaileddescription>
+<para><hruler/>
+</para><para><heading level="1">How to Enable Backwards Compatibility</heading>
+</para><para>Backwards-compatibility for legacy terminology is disabled by default. To enable the use of legacy terminology, add ENABLE_LEGACY_TERMINOLOGY to your application&apos;s compiler arguments.</para><para><heading level="1">Overview</heading>
+</para><para>TI is transitioning to use more inclusive terminology. As a result some language and legacy APIs may be different than what you would expect to see for certain technology areas. The purpose of this file is to ease porting for customers who have software on existing platforms still using prior terminology while moving TI defined software to follow the latest industry driven standards.</para><para><simplesect kind="warning"><para>Using this header may inadvertedly redefine parts of your application code if that code uses any of the legacy terms as substrings. </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2023,<sp/>Texas<sp/>Instruments<sp/>Incorporated</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Neither<sp/>the<sp/>name<sp/>of<sp/>Texas<sp/>Instruments<sp/>Incorporated<sp/>nor<sp/>the<sp/>names<sp/>of</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>its<sp/>contributors<sp/>may<sp/>be<sp/>used<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>from<sp/>this<sp/>software<sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS<sp/>&quot;AS<sp/>IS&quot;</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>PURPOSE<sp/>ARE<sp/>DISCLAIMED.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>OWNER<sp/>OR</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>CONTRIBUTORS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,<sp/>SPECIAL,</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*!*****************************************************************************</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/>@file<sp/><sp/><sp/><sp/><sp/><sp/><sp/>LegacyTerminology.h</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*<sp/><sp/>@brief<sp/><sp/><sp/><sp/><sp/><sp/>Provide<sp/>a<sp/>translation<sp/>layer<sp/>for<sp/>legacy<sp/>terminology</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/>#<sp/>How<sp/>to<sp/>Enable<sp/>Backwards<sp/>Compatibility</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>Backwards-compatibility<sp/>for<sp/>legacy<sp/>terminology<sp/>is<sp/>disabled<sp/>by<sp/>default.<sp/>To</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>enable<sp/>the<sp/>use<sp/>of<sp/>legacy<sp/>terminology,<sp/>add<sp/>ENABLE_LEGACY_TERMINOLOGY<sp/>to<sp/>your</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/>application&apos;s<sp/>compiler<sp/>arguments.</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*<sp/>#<sp/>Overview<sp/>#</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>TI<sp/>is<sp/>transitioning<sp/>to<sp/>use<sp/>more<sp/>inclusive<sp/>terminology.<sp/>As<sp/>a<sp/>result<sp/>some</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/>language<sp/>and<sp/>legacy<sp/>APIs<sp/>may<sp/>be<sp/>different<sp/>than<sp/>what<sp/>you<sp/>would<sp/>expect<sp/>to<sp/>see</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/>for<sp/>certain<sp/>technology<sp/>areas.<sp/>The<sp/>purpose<sp/>of<sp/>this<sp/>file<sp/>is<sp/>to<sp/>ease<sp/>porting<sp/>for</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/>customers<sp/>who<sp/>have<sp/>software<sp/>on<sp/>existing<sp/>platforms<sp/>still<sp/>using<sp/>prior</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/>terminology<sp/>while<sp/>moving<sp/>TI<sp/>defined<sp/>software<sp/>to<sp/>follow<sp/>the<sp/>latest<sp/>industry</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>driven<sp/>standards.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>@warning<sp/>Using<sp/>this<sp/>header<sp/>may<sp/>inadvertedly<sp/>redefine<sp/>parts<sp/>of<sp/>your</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/>application<sp/>code<sp/>if<sp/>that<sp/>code<sp/>uses<sp/>any<sp/>of<sp/>the<sp/>legacy<sp/>terms<sp/>as<sp/>substrings.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#warning<sp/>&quot;Backwards-compatibility<sp/>for<sp/>legacy<sp/>terminology<sp/>will<sp/>be<sp/>removed<sp/>in<sp/>a<sp/>\</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor">future<sp/>release.<sp/>Please<sp/>see<sp/>the<sp/>release<sp/>notes<sp/>for<sp/>more<sp/>information.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Settings<sp/>to<sp/>support<sp/>SPI.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="_legacy_terminology_8h_1ae09a2779c2d141aa6a8f8be6d78fe210" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPI_MASTER<sp/>SPI_CONTROLLER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="_legacy_terminology_8h_1a943af7f8a98cf5a3f2107ed593215a4b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPI_SLAVE<sp/><sp/>SPI_PERIPHERAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Settings<sp/>to<sp/>support<sp/>I2S.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="_legacy_terminology_8h_1af2c98c35ea221263c5618dddea22a8d6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>I2S_MASTER<sp/><sp/>I2S_CONTROLLER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="_legacy_terminology_8h_1a4b5d17b809200d1d0a03428ab7f4cc4f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>I2S_SLAVE<sp/><sp/><sp/>I2S_TARGET</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="_legacy_terminology_8h_1ab7e122e59723716bbaf5d325c42dd693" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MCLKDivider<sp/>CCLKDivider</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Settings<sp/>to<sp/>support<sp/>I2C.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="_legacy_terminology_8h_1a8a98101a77421c709b0c093e5a7ef58e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>slaveAddress<sp/>targetAddress</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Settings<sp/>to<sp/>support<sp/>PDMCC26XX_util.h.<sp/>Since<sp/>this<sp/>driver<sp/>is<sp/>not</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>SysConfig-enabled,<sp/>we<sp/>are<sp/>providing<sp/>legacy<sp/>names<sp/>for<sp/>the<sp/>changes<sp/>therein.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="_legacy_terminology_8h_1a8268e2ab42397096a589b61e8fcec956" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>mclkPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/>cclkPin</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="_legacy_terminology_8h_1a8a765ed0bc2b411fc0e4fcbbf04b34cb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>mclkDiv<sp/><sp/><sp/><sp/><sp/><sp/><sp/>cclkDiv</highlight></codeline>
+<codeline lineno="74"><highlight class="preprocessor">#define<sp/>enableMclkPin<sp/>enableCclkPin</highlight></codeline>
+    </programlisting>
+    <location file="source/ti/drivers/LegacyTerminology.h"/>
+  </compounddef>
+</doxygen>

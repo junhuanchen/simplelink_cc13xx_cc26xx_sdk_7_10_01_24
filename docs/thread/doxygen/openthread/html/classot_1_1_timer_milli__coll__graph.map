@@ -1,0 +1,8 @@
+<map id="TimerMilli" name="TimerMilli">
+<area shape="rect" id="node2" href="$classot_1_1_timer.html" title="Timer" alt="" coords="246,171,301,197"/>
+<area shape="rect" id="node3" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="51,81,165,108"/>
+<area shape="rect" id="node4" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Timer \&gt;" alt="" coords="189,81,357,108"/>
+<area shape="rect" id="node6" href="$classot_1_1_time.html" title="Time" alt="" coords="381,81,432,108"/>
+<area shape="rect" id="node7" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="333,5,480,32"/>
+</map>

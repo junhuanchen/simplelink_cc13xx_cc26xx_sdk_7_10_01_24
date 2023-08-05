@@ -1,0 +1,20 @@
+<map id="PendingDatasetManager" name="PendingDatasetManager">
+<area shape="rect" id="node2" href="$classot_1_1_mesh_co_p_1_1_dataset_manager.html" title="DatasetManager" alt="" coords="1184,172,1301,199"/>
+<area shape="rect" id="node3" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="287,5,401,32"/>
+<area shape="rect" id="node6" href="$classot_1_1_timer.html" title="Timer" alt="" coords="583,79,638,105"/>
+<area shape="rect" id="node10" href="$classot_1_1_mesh_co_p_1_1_dataset_local.html" title="DatasetLocal" alt="" coords="561,159,660,185"/>
+<area shape="rect" id="node4" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_timer_milli.html" title="TimerMilli" alt="" coords="845,93,922,120"/>
+<area shape="rect" id="node7" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Timer \&gt;" alt="" coords="260,72,428,99"/>
+<area shape="rect" id="node8" href="$classot_1_1_time.html" title="Time" alt="" coords="319,135,369,161"/>
+<area shape="rect" id="node9" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="35,135,181,161"/>
+<area shape="rect" id="node11" href="$classot_1_1_mesh_co_p_1_1_timestamp.html" title="Timestamp" alt="" coords="301,219,387,245"/>
+<area shape="rect" id="node12" href="$classot_1_1_clearable.html" title="Clearable\&lt; Timestamp \&gt;" alt="" coords="26,219,190,245"/>
+<area shape="rect" id="node13" href="$classot_1_1_mesh_co_p_1_1_dataset_manager_1_1_dataset_tlv.html" title="DatasetTlv" alt="" coords="842,292,925,319"/>
+<area shape="rect" id="node14" href="$classot_1_1_mesh_co_p_1_1_tlv.html" title="Tlv" alt="" coords="591,316,630,343"/>
+<area shape="rect" id="node15" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="1193,223,1292,249"/>
+<area shape="rect" id="node16" href="$classot_1_1_coap_1_1_resource.html" title="Resource" alt="" coords="1204,381,1281,408"/>
+<area shape="rect" id="node17" href="$structot_coap_resource.html" title="otCoapResource" alt="" coords="824,381,943,408"/>
+<area shape="rect" id="node18" href="$structot_message.html" title="otMessage" alt="" coords="567,381,654,408"/>
+<area shape="rect" id="node19" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Resource \&gt;" alt="" coords="788,432,979,459"/>
+</map>

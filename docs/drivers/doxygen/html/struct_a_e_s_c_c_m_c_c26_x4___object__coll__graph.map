@@ -1,0 +1,11 @@
+<map id="AESCCMCC26X4_Object" name="AESCCMCC26X4_Object">
+<area shape="rect" id="node2" href="$struct_a_e_s_common___config.html" title="AES Global configuration. " alt="" coords="945,75,1100,101"/>
+<area shape="rect" id="node3" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="271,205,360,232"/>
+<area shape="rect" id="node7" href="$struct_a_e_s_c_c_m___one_step_operation.html" title="Struct containing the parameters required for encrypting/decrypting and authenticating/verifying a me..." alt="" coords="461,8,664,35"/>
+<area shape="rect" id="node4" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="5,180,160,207"/>
+<area shape="rect" id="node5" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="5,231,160,257"/>
+<area shape="rect" id="node6" href="$union_a_e_s_c_c_m___operation_union.html" title="Union containing a reference to a one step, segmented AAD, segmented data, or segmented finalize oper..." alt="" coords="929,125,1116,152"/>
+<area shape="rect" id="node8" href="$struct_a_e_s_c_c_m___segmented_finalize_operation.html" title="Struct containing the parameters required for finalizing an encryption/decryption and authentication/..." alt="" coords="459,59,667,101"/>
+<area shape="rect" id="node9" href="$struct_a_e_s_c_c_m___segmented_data_operation.html" title="Struct containing the parameters required for encrypting/decrypting a message in a segmented operatio..." alt="" coords="436,125,689,152"/>
+<area shape="rect" id="node10" href="$struct_a_e_s_c_c_m___segmented_a_a_d_operation.html" title="Struct containing the parameters required for authenticating/verifying additional data in a segmented..." alt="" coords="437,176,688,203"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="AESCMAC_s_AddDataMsg" name="AESCMAC_s_AddDataMsg">
+<area shape="rect" id="node2" href="$struct_a_e_s_common___config.html" title="AES Global configuration. " alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node3" href="$struct_a_e_s_c_m_a_c___operation.html" title="Struct containing the parameters required for signing or verifying a message. " alt="" coords="184,5,341,32"/>
+</map>

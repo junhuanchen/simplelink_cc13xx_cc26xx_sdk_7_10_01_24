@@ -1,0 +1,7 @@
+<map id="InterfaceIdentifier" name="InterfaceIdentifier">
+<area shape="rect" id="node2" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="346,7,493,33"/>
+<area shape="rect" id="node3" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="21,7,205,33"/>
+<area shape="rect" id="node4" href="$classot_1_1_equatable.html" title="Equatable\&lt; InterfaceIdentifier \&gt;" alt="" coords="319,57,520,84"/>
+<area shape="rect" id="node5" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; InterfaceIdentifier \&gt;" alt="" coords="5,57,220,84"/>
+<area shape="rect" id="node6" href="$classot_1_1_clearable.html" title="Clearable\&lt; InterfaceIdentifier \&gt;" alt="" coords="321,108,518,135"/>
+</map>

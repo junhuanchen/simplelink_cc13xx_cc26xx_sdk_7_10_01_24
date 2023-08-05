@@ -1,0 +1,12 @@
+<map id="IPv6 Networking" name="IPv6 Networking">
+<area shape="rect" id="node1" href="$group__api-tcp-group.html" title="TCP" alt="" coords="291,5,337,32"/>
+<area shape="rect" id="node2" href="$group__api-dnssd-server.html" title="This module includes APIs for DNS&#45;SD server. " alt="" coords="259,56,369,83"/>
+<area shape="rect" id="node3" href="$group__api-srp.html" title="This module includes functions that control SRP client behavior. " alt="" coords="289,107,339,133"/>
+<area shape="rect" id="node4" href="$group__api-dns.html" title="This module includes functions that control DNS communication. " alt="" coords="283,157,345,184"/>
+<area shape="rect" id="node5" href="$group__api-udp-group.html" title="UDP" alt="" coords="289,208,339,235"/>
+<area shape="rect" id="node6" href="$group__api-nat64.html" title="This module includes functions and structs for the NAT64 function on the border router. These functions are only available when OPENTHREAD_CONFIG_BORDER_ROUTING_NAT64_ENABLE is enabled. " alt="" coords="283,259,345,285"/>
+<area shape="rect" id="node7" href="$group__api.html" title="This module includes the application programming interface to the OpenThread stack. " alt="" coords="5,208,48,235"/>
+<area shape="rect" id="node8" href="$group__api-ping-sender.html" title="This file includes the OpenThread API for the ping sender module. " alt="" coords="267,309,361,336"/>
+<area shape="rect" id="node9" href="$group__api-ip6.html" title="This module includes functions that control IPv6 communication. " alt="" coords="291,360,337,387"/>
+<area shape="rect" id="node11" href="$group__api-icmp6.html" title="This module includes functions that control ICMPv6 communication. " alt="" coords="281,411,347,437"/>
+</map>

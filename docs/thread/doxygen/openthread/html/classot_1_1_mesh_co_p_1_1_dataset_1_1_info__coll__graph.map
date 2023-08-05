@@ -1,0 +1,12 @@
+<map id="Dataset::Info" name="Dataset::Info">
+<area shape="rect" id="node2" href="$structot_operational_dataset.html" title="otOperationalDataset" alt="" coords="393,184,537,211"/>
+<area shape="rect" id="node3" href="$structot_security_policy.html" title="otSecurityPolicy" alt="" coords="55,5,173,32"/>
+<area shape="rect" id="node4" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="49,56,179,83"/>
+<area shape="rect" id="node5" href="$structot_operational_dataset_components.html" title="otOperationalDatasetComponents" alt="" coords="5,107,223,133"/>
+<area shape="rect" id="node6" href="$structot_extended_pan_id.html" title="otExtendedPanId" alt="" coords="53,157,175,184"/>
+<area shape="rect" id="node7" href="$structot_timestamp.html" title="otTimestamp" alt="" coords="65,208,163,235"/>
+<area shape="rect" id="node8" href="$structot_network_name.html" title="otNetworkName" alt="" coords="57,259,171,285"/>
+<area shape="rect" id="node9" href="$structot_pskc.html" title="otPskc" alt="" coords="83,309,145,336"/>
+<area shape="rect" id="node10" href="$structot_network_key.html" title="otNetworkKey" alt="" coords="63,360,165,387"/>
+<area shape="rect" id="node11" href="$classot_1_1_clearable.html" title="Clearable\&lt; Info \&gt;" alt="" coords="405,235,525,261"/>
+</map>

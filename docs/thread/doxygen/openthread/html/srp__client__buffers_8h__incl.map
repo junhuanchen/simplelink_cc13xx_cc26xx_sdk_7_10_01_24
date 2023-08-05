@@ -1,0 +1,12 @@
+<map id="srp_client_buffers.h" name="srp_client_buffers.h">
+<area shape="rect" id="node2" href="$dns_8h.html" title="This file defines the top&#45;level DNS functions for the OpenThread library. " alt="" coords="5,237,128,263"/>
+<area shape="rect" id="node11" href="$include_2openthread_2srp__client_8h.html" title="This file defines the OpenThread SRP (Service Registration Protocol) client APIs. ..." alt="" coords="104,80,261,107"/>
+<area shape="rect" id="node4" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="181,415,307,442"/>
+<area shape="rect" id="node7" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="341,326,491,353"/>
+<area shape="rect" id="node5" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="536,497,672,539"/>
+<area shape="rect" id="node9" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="420,408,556,449"/>
+<area shape="rect" id="node12" href="$include_2openthread_2ip6_8h.html" title="This file defines the OpenThread IPv6 API. " alt="" coords="162,155,281,181"/>
+<area shape="rect" id="node13" href="$message_8h.html" title="This file defines the top&#45;level OpenThread APIs related to message buffer and queues. " alt="" coords="339,237,493,263"/>
+<area shape="rect" id="node14" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="153,229,289,271"/>
+<area shape="rect" id="node15" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="129,319,265,360"/>
+</map>

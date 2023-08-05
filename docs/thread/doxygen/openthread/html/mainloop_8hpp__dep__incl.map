@@ -1,0 +1,8 @@
+<map id="mainloop.hpp" name="mainloop.hpp">
+<area shape="rect" id="node2" href="$daemon_8hpp.html" title="daemon.hpp" alt="" coords="5,80,99,107"/>
+<area shape="rect" id="node4" href="$system_8cpp.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="147,155,237,181"/>
+<area shape="rect" id="node5" href="$posix_2platform_2infra__if_8hpp.html" title="infra_if.hpp" alt="" coords="174,80,258,107"/>
+<area shape="rect" id="node6" href="$mainloop_8cpp.html" title="mainloop.cpp" alt="" coords="283,80,381,107"/>
+<area shape="rect" id="node7" href="$udp_8hpp.html" title="udp.hpp" alt="" coords="406,80,474,107"/>
+<area shape="rect" id="node3" href="$daemon_8cpp.html" title="daemon.cpp" alt="" coords="5,155,99,181"/>
+</map>

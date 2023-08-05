@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="union_e_d_d_s_a___operation" kind="union" language="C++" prot="public">
+    <compoundname>EDDSA_Operation</compoundname>
+    <includes refid="_e_d_d_s_a_8h" local="no">EDDSA.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="union_e_d_d_s_a___operation_1aaacd0660b4f5b4017168cfe814f11dd1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_e_d_d_s_a___operation_generate_public_key" kindref="compound">EDDSA_OperationGeneratePublicKey</ref> *</type>
+        <definition>EDDSA_OperationGeneratePublicKey* EDDSA_Operation::generatePublicKey</definition>
+        <argsstring></argsstring>
+        <name>generatePublicKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; A pointer to an <ref refid="struct_e_d_d_s_a___operation_generate_public_key" kindref="compound">EDDSA_OperationGeneratePublicKey</ref> struct A pointer to an <ref refid="struct_e_d_d_s_a___operation_sign" kindref="compound">EDDSA_OperationSign</ref> struct </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/EDDSA.h" line="654" column="1" bodyfile="source/ti/drivers/EDDSA.h" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_e_d_d_s_a___operation_1af1e6b26b4e080062c4a1af2338a574f5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_e_d_d_s_a___operation_sign" kindref="compound">EDDSA_OperationSign</ref> *</type>
+        <definition>EDDSA_OperationSign* EDDSA_Operation::sign</definition>
+        <argsstring></argsstring>
+        <name>sign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A pointer to an <ref refid="struct_e_d_d_s_a___operation_verify" kindref="compound">EDDSA_OperationVerify</ref> struct </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/EDDSA.h" line="656" column="1" bodyfile="source/ti/drivers/EDDSA.h" bodystart="656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_e_d_d_s_a___operation_1aa4288eb64adcdb4ec63a79e8f0f839d7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_e_d_d_s_a___operation_verify" kindref="compound">EDDSA_OperationVerify</ref> *</type>
+        <definition>EDDSA_OperationVerify* EDDSA_Operation::verify</definition>
+        <argsstring></argsstring>
+        <name>verify</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/EDDSA.h" line="658" column="1" bodyfile="source/ti/drivers/EDDSA.h" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Union containing pointers to all supported operation structs. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="954">
+        <label>EDDSA_Operation</label>
+        <link refid="union_e_d_d_s_a___operation"/>
+        <childnode refid="955" relation="usage">
+          <edgelabel>verify</edgelabel>
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>sign</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>generatePublicKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="955">
+        <label>EDDSA_OperationVerify</label>
+        <link refid="struct_e_d_d_s_a___operation_verify"/>
+        <childnode refid="956" relation="usage">
+          <edgelabel>curve</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>theirPublicKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="957">
+        <label>CryptoKey</label>
+        <link refid="struct_crypto_key"/>
+        <childnode refid="958" relation="usage">
+          <edgelabel>plaintext</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>keyStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="960">
+        <label>EDDSA_OperationSign</label>
+        <link refid="struct_e_d_d_s_a___operation_sign"/>
+        <childnode refid="956" relation="usage">
+          <edgelabel>curve</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>myPrivateKey</edgelabel>
+          <edgelabel>myPublicKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="956">
+        <label>ECCParams_CurveParams</label>
+        <link refid="struct_e_c_c_params___curve_params"/>
+      </node>
+      <node id="961">
+        <label>EDDSA_OperationGeneratePublicKey</label>
+        <link refid="struct_e_d_d_s_a___operation_generate_public_key"/>
+        <childnode refid="956" relation="usage">
+          <edgelabel>curve</edgelabel>
+        </childnode>
+        <childnode refid="957" relation="usage">
+          <edgelabel>myPrivateKey</edgelabel>
+          <edgelabel>myPublicKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="958">
+        <label>CryptoKey_Plaintext</label>
+        <link refid="struct_crypto_key___plaintext"/>
+      </node>
+      <node id="959">
+        <label>CryptoKey_KeyStore</label>
+        <link refid="struct_crypto_key___key_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/ti/drivers/EDDSA.h" line="652" column="1" bodyfile="source/ti/drivers/EDDSA.h" bodystart="651" bodyend="659"/>
+    <listofallmembers>
+      <member refid="union_e_d_d_s_a___operation_1aaacd0660b4f5b4017168cfe814f11dd1" prot="public" virt="non-virtual"><scope>EDDSA_Operation</scope><name>generatePublicKey</name></member>
+      <member refid="union_e_d_d_s_a___operation_1af1e6b26b4e080062c4a1af2338a574f5" prot="public" virt="non-virtual"><scope>EDDSA_Operation</scope><name>sign</name></member>
+      <member refid="union_e_d_d_s_a___operation_1aa4288eb64adcdb4ec63a79e8f0f839d7" prot="public" virt="non-virtual"><scope>EDDSA_Operation</scope><name>verify</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

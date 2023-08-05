@@ -1,0 +1,8 @@
+<map id="ncp.h" name="ncp.h">
+<area shape="rect" id="node3" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="24,259,160,300"/>
+<area shape="rect" id="node5" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="243,80,379,121"/>
+<area shape="rect" id="node6" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="457,266,583,293"/>
+<area shape="rect" id="node9" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="235,177,386,203"/>
+<area shape="rect" id="node11" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="411,169,547,211"/>
+<area shape="rect" id="node7" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="353,348,489,389"/>
+</map>

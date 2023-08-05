@@ -1,0 +1,8 @@
+<map id="UART2CC26X2.h" name="UART2CC26X2.h">
+<area shape="rect" id="node10" href="$_u_a_r_t2_8h.html" title="PRELIMINARY UART driver interface " alt="" coords="144,162,283,189"/>
+<area shape="rect" id="node13" href="$_u_d_m_a_c_c26_x_x_8h.html" title="UDMACC26XX driver implementation. " alt="" coords="693,80,915,107"/>
+<area shape="rect" id="node12" href="$_ring_buf_8h.html" title="ti/drivers/utils/RingBuf.h" alt="" coords="419,319,597,345"/>
+<area shape="rect" id="node14" href="$_power_8h.html" title="Power Manager. " alt="" coords="789,244,923,271"/>
+<area shape="rect" id="node16" href="$_power_c_c26_x_x_8h.html" title="Power manager interface for CC26XX/CC13XX. " alt="" coords="867,162,1099,189"/>
+<area shape="rect" id="node15" href="$_list_8h.html" title="Linked List interface for use in drivers. " alt="" coords="673,319,823,345"/>
+</map>

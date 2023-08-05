@@ -1,0 +1,33 @@
+<map id="Coap" name="Coap">
+<area shape="rect" id="node2" href="$classot_1_1_coap_1_1_coap_base.html" title="CoapBase" alt="" coords="2592,232,2675,259"/>
+<area shape="rect" id="node3" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="1217,317,1332,344"/>
+<area shape="rect" id="node10" href="$classot_1_1_timer.html" title="Timer" alt="" coords="1490,240,1545,267"/>
+<area shape="rect" id="node21" href="$classot_1_1_ip6_1_1_udp_1_1_socket.html" title="Socket" alt="" coords="2323,435,2385,461"/>
+<area shape="rect" id="node4" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="887,317,1092,344"/>
+<area shape="rect" id="node5" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="2305,5,2403,32"/>
+<area shape="rect" id="node6" href="$classot_1_1_coap_1_1_responses_queue.html" title="ResponsesQueue" alt="" coords="2291,204,2417,231"/>
+<area shape="rect" id="node7" href="$classot_1_1_coap_1_1_message_queue.html" title="MessageQueue" alt="" coords="1959,160,2073,187"/>
+<area shape="rect" id="node8" href="$classot_1_1_timer_milli_context.html" title="TimerMilliContext" alt="" coords="1955,240,2077,267"/>
+<area shape="rect" id="node9" href="$classot_1_1_timer_milli.html" title="TimerMilli" alt="" coords="1758,240,1835,267"/>
+<area shape="rect" id="node11" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Timer \&gt;" alt="" coords="1191,197,1359,224"/>
+<area shape="rect" id="node12" href="$classot_1_1_time.html" title="Time" alt="" coords="1249,248,1300,275"/>
+<area shape="rect" id="node13" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="916,248,1063,275"/>
+<area shape="rect" id="node14" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Coap\l::Resource \&gt;" alt="" coords="2283,369,2425,410"/>
+<area shape="rect" id="node15" href="$classot_1_1_coap_1_1_resource.html" title="Resource" alt="" coords="1977,369,2055,396"/>
+<area shape="rect" id="node16" href="$structot_coap_resource.html" title="otCoapResource" alt="" coords="1737,509,1856,536"/>
+<area shape="rect" id="node17" href="$structot_message.html" title="otMessage" alt="" coords="1474,545,1561,572"/>
+<area shape="rect" id="node23" href="$structot_udp_socket.html" title="otUdpSocket" alt="" coords="1748,649,1845,676"/>
+<area shape="rect" id="node18" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Resource \&gt;" alt="" coords="1701,369,1892,396"/>
+<area shape="rect" id="node19" href="$classot_1_1_coap_1_1_message.html" title="Message" alt="" coords="2317,80,2391,107"/>
+<area shape="rect" id="node20" href="$structot_1_1_coap_1_1_message_1_1_header.html" title="Header" alt="" coords="1985,80,2047,107"/>
+<area shape="rect" id="node22" href="$classot_1_1_ip6_1_1_udp_1_1_socket_handle.html" title="SocketHandle" alt="" coords="1965,583,2067,609"/>
+<area shape="rect" id="node24" href="$structot_sock_addr.html" title="otSockAddr" alt="" coords="1472,649,1563,676"/>
+<area shape="rect" id="node25" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1225,649,1324,676"/>
+<area shape="rect" id="node26" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="897,649,1081,676"/>
+<area shape="rect" id="node27" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,649,749,676"/>
+<area shape="rect" id="node28" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,627,427,653"/>
+<area shape="rect" id="node29" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,677,435,704"/>
+<area shape="rect" id="node30" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,677,189,704"/>
+<area shape="rect" id="node31" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; SocketHandle \&gt;" alt="" coords="1688,560,1905,587"/>
+<area shape="rect" id="node32" href="$classot_1_1_clearable.html" title="Clearable\&lt; SocketHandle \&gt;" alt="" coords="1706,700,1887,727"/>
+</map>

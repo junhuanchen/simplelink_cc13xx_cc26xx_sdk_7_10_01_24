@@ -1,0 +1,8 @@
+<map id="ADCBufCC26XX.h" name="ADCBufCC26XX.h">
+<area shape="rect" id="node4" href="$_a_d_c_buf_8h.html" title="Analog to Digital Conversion Buffer (ADCBuf) Input Driver. " alt="" coords="5,348,151,375"/>
+<area shape="rect" id="node7" href="$_u_d_m_a_c_c26_x_x_8h.html" title="UDMACC26XX driver implementation. " alt="" coords="741,87,964,114"/>
+<area shape="rect" id="node8" href="$_power_8h.html" title="Power Manager. " alt="" coords="613,266,748,293"/>
+<area shape="rect" id="node11" href="$_power_c_c26_x_x_8h.html" title="Power manager interface for CC26XX/CC13XX. " alt="" coords="938,177,1170,203"/>
+<area shape="rect" id="node17" href="$_g_p_timer_c_c26_x_x_8h.html" title="GPTimer driver implementation for CC26XX/CC13XX. " alt="" coords="1575,169,1754,211"/>
+<area shape="rect" id="node9" href="$_list_8h.html" title="Linked List interface for use in drivers. " alt="" coords="1171,348,1321,375"/>
+</map>

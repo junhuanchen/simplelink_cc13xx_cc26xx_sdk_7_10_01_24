@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boot Image Manager (BIM) &mdash; 
+SimpleLink™ CC13XX/CC26XX SDK
+Proprietary RF User&#39;s Guide
+ 6.10.01 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <script language="JavaScript">
+        var tiPageName;
+        tiPageName = "sug oad bim";
+
+        if (location.protocol == "file:"){
+            var ci_analytics_poc_load = true;
+        }
+    </script>
+
+    <script src="http://www.ti.com/assets/js/headerfooter/analytics.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../proprietary-rf-guide/index-cc13xx_cc26xx.html" class="icon icon-home"> 
+SimpleLink™ CC13XX/CC26XX SDK
+Proprietary RF User's Guide
+
+          </a>
+              <div class="version">
+                6.10.01
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide/proprietary-rf-quick-start.html">Proprietary RF Quick Start Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/index-platform.html">SimpleLink Wireless MCU CC13xx and CC26xx Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/examples-cc13xx_cc26xx.html">Examples User’s Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/custom-hardware.html">Custom Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/tirtos-index-cc13xx_cc26xx.html">TI-RTOS7 (RTOS Kernel) Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/nortos-index.html">noRTOS Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/rf-core-index.html">RF Core</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/physical-rf-layer-cc13xx_cc26xx.html">Physical Layer (PHY)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/debugging-index.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/memory-index.html">Memory overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/sysconfig-index.html">System Configuration Tool (SysConfig)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../energy-trace/energy-trace.html">EnergyTrace User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/migration-cc13xx_cc26xx.html">Migration Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/reference-cc13xx_cc26xx.html">API References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proprietary-rf-guide/glossary-cc13xx_cc26xx.html">Terms and acronyms</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../proprietary-rf-guide/index-cc13xx_cc26xx.html">
+SimpleLink™ CC13XX/CC26XX SDK
+Proprietary RF User's Guide
+</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../proprietary-rf-guide/index-cc13xx_cc26xx.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Boot Image Manager (BIM)</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="boot-image-manager-bim">
+<span id="sec-oad-bim"></span><h1>Boot Image Manager (BIM)<a class="headerlink" href="#boot-image-manager-bim" title="Permalink to this headline">¶</a></h1>
+<p>The Boot Image Manager resides on the OAD target, and is responsible for loading
+new images after a download has completed. The BIM executes on a device reset
+and determines if a firmware update needs to be applied. If no update is being
+applied, then the BIM will transfer program execution to the main application
+image.</p>
+<div class="section" id="overview-software-architecture">
+<h2>Overview &amp; Software Architecture<a class="headerlink" href="#overview-software-architecture" title="Permalink to this headline">¶</a></h2>
+<p>BIM is a fully executable application that is independent of any high
+level protocol stack or user application. It is guaranteed to run on boot.
+BIM enables power loss fault tolerance during OAD. If the device power is lost
+during OAD, the BIM will still be able to run from reset and revert to a
+working image if one is available. The BIM is intended to reside permanently on
+the chip and cannot be updated via the OAD process.</p>
+<p>BIM executes before kernel initialization takes place so the design is
+single threaded and bare metal. Hardware access is accomplished through
+driverlib.</p>
+<p>As a separate application, BIM requires its own interrupt vector table
+and linker file. It will produce a fully executable image that must be merged
+with the user application image in order to create a functional OAD enabled
+firmware system.</p>
+<p>In general, BIM is responsible for finding and analyzing OAD image header.
+From a high level BIM does the following:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Check for newly downloaded images from a recent OAD.</p></li>
+<li><p>If available, copy the newly downloaded images to their target location
+in internal flash</p></li>
+<li><p>Dynamically locate the entry point of the valid image and jump to it</p></li>
+</ol>
+</div></blockquote>
+<p>The following section will cover the BIM boot procedure and image
+checking routine in detail.</p>
+</div>
+<div class="section" id="boot-procedure">
+<span id="sec-oad-bim-boot"></span><h2>Boot procedure<a class="headerlink" href="#boot-procedure" title="Permalink to this headline">¶</a></h2>
+<p>On reset, the software in the ROM of the CC13xx or CC26xx will execute basic startup
+routines, and then jump to the location pointed to by the <a class="reference internal" href="../proprietary-rf-guide/glossary-cc13xx_cc26xx.html#term-CCFG"><span class="xref std std-term">CCFG</span></a>’s
+<code class="docutils literal notranslate"><span class="pre">IMAGE_VALID_CONF</span></code> field. More information about the fields of the CCFG and
+the generic device boot procedure is detailed in the <a class="reference external" href="http://www.ti.com/lit/pdf/swcu185">CC13x2 CC26x2 SimpleLink Wireless MCU Technical Reference Manual</a>. The BIM is setup to
+link the CCFG as part of its image. This is another failsafe mechanism to ensure
+that a CCFG is always present on the device. To enable this feature, BIM uses a
+custom CCFG where the value of the <code class="docutils literal notranslate"><span class="pre">IMAGE_VALID_CONF</span></code> field points to BIM’s
+reset vector table. More information about the CCFG and the <code class="docutils literal notranslate"><span class="pre">IMAGE_VALID_CONF</span></code>
+is available in the <a class="reference external" href="http://www.ti.com/lit/pdf/swcu185">CC13x2 CC26x2 SimpleLink Wireless MCU Technical Reference Manual</a>.</p>
+<p>In summary, the boot ROM code will jump to the <code class="docutils literal notranslate"><span class="pre">ResetISR()</span></code> in BIM’s
+vector table. Being a bare metal application, BIM uses the toolchain
+specific boot code provided in driverlib.</p>
+<p>The reset ISR code can be found in driverlib under the <code class="docutils literal notranslate"><span class="pre">startup</span></code> folder. In
+summary, it performs the following:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Device specific trim functionality</p></li>
+<li><p>C/C++ runtime initialization</p></li>
+<li><p>Jump to BIM’s <code class="docutils literal notranslate"><span class="pre">main()</span></code></p></li>
+</ol>
+</div></blockquote>
+<p>See the figure below for a graphical representation of the boot procedure. Red
+boxes indicate driverlib/ROM code, blue boxes represent BIM code.</p>
+<blockquote>
+<div><img alt="../_images/ditaa-eb14a6fb6418d248d133989d8e29a7bc6ebd5a14.png" id="bim-boot" src="../_images/ditaa-eb14a6fb6418d248d133989d8e29a7bc6ebd5a14.png" />
+</div></blockquote>
+<div class="section" id="device-trim">
+<span id="sec-oad-bim-trim"></span><h3>Device trim<a class="headerlink" href="#device-trim" title="Permalink to this headline">¶</a></h3>
+<p>The device trim function is responsible for tuning hardware settings of the
+device to ensure stable and optimal operation. It must run at least once every
+time the device boots, but may be ran more than once. Parts of the trim function
+are dependent on the CCFG which is another reason why it is linked
+with BIM.</p>
+<p>By default, both BIM and the user application will trim the device.</p>
+<p>This offers the benefit that the user application may link to a newer version of
+the trim function. This comes at the cost of a small amount of additional flash
+in the user application.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is recommend to leave device trim enabled in both the BIM and the
+user application to enable development via a debugger without a BIM
+present.</p>
+</div>
+<p>Removing the device trim for the user application is only suggested for final
+production code. Additional validation should be performed on images with
+additional trimming disabled. App level trimming can be disabled by modifying
+the Boot module within the kernel’s <code class="docutils literal notranslate"><span class="pre">*.cfg</span></code> file.</p>
+</div>
+<div class="section" id="halt-in-boot-hib">
+<span id="sec-oad-bim-hib"></span><h3>Halt In Boot (HIB)<a class="headerlink" href="#halt-in-boot-hib" title="Permalink to this headline">¶</a></h3>
+<p>There is a bug with the emulation software package that would cause the
+processor to enter Halt In Boot (<a class="reference internal" href="../proprietary-rf-guide/glossary-cc13xx_cc26xx.html#term-HIB"><span class="xref std std-term">HIB</span></a>) on the next bootup when
+previously connected to JTAG. In the case of OAD, that is when a system reset
+is invoked at the end of an OAD procedure.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This only affects devices connected to JTAG, such as the XDS110 on
+LaunchPads. This issue should not appear in field devices or devices that
+are not connected to JTAG in general.</p>
+</div>
+<p>The reason why the bug occurs is that the TCK pin (which powers up the JTAG
+power domain) is left in tri-state. When a system reset occurs after an
+active debug connection, the TCK pin could potentially experience unwanted
+toggling from noise. HIB erroneously detects this as debug activity, and
+subsequently halts the processor.</p>
+<div class="figure align-center" id="id3">
+<img alt="../_images/oad_hib.png" src="../_images/oad_hib.png" />
+<p class="caption"><span class="caption-text">Reset problems after programming with JTAG</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>A symptom of this bug occurring is that OAD does not reboot into BIM after a
+successful OAD. A temporary workaround is to simply unplug/replug or hard
+reset the device, and the device will boot as normal.</p>
+<p>However, a permanent fix is available. As of version 8.0.27.9 of the emulation
+software package, the XDS110 emulator now drives the TCK pin high instead of
+leaving it in tri-state. This removes any unwanted toggling on the TCK pin
+after a system reset, which no longer triggers HIB.</p>
+<p>To update the emulation software packages, start by downloading the latest
+<a class="reference external" href="https://software-dl.ti.com/ccs/esd/documents/xdsdebugprobes/emu_xds_software_package_download.html">XDS Emulation Software Package</a>. Then, depending on which tool you are
+using, follow the corresponding step-by-step guide below.</p>
+<ul class="simple">
+<li><p><strong>For Flash Programmer 2</strong>:</p>
+<ol class="arabic simple">
+<li><p>Run the above installer</p></li>
+<li><p>Copy the contents of the emulation software package to <code class="docutils literal notranslate"><span class="pre">&lt;Flash</span> <span class="pre">Programmer</span> <span class="pre">2&gt;/config/xds/*</span></code></p></li>
+</ol>
+</li>
+<li><p><strong>For Code Composer Studio</strong>:</p>
+<ol class="arabic simple">
+<li><p>Run the above installer</p></li>
+<li><p>Follow the steps described in Section <em>Manual CCS Installation</em> from the <a class="reference external" href="https://software-dl.ti.com/ccs/esd/documents/xdsdebugprobes/emu_xds_software_package_download.html">XDS Emulation Software Package</a> page</p></li>
+</ol>
+</li>
+<li><p><strong>For IAR</strong>:</p>
+<ol class="arabic simple">
+<li><p>Run the above installer</p></li>
+<li><p>Change the debugger options of the project to point to the newly installed package</p></li>
+</ol>
+</li>
+</ul>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/oad_hib_update_xds.png"><img alt="../_images/oad_hib_update_xds.png" src="../_images/oad_hib_update_xds.png" style="width: 520.1999999999999px; height: 431.8px;" /></a>
+<p class="caption"><span class="caption-text">Update XDS emulation software package in IAR</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="locating-and-preparing-a-user-application">
+<span id="sec-oad-bim-flow"></span><h2>Locating and Preparing a user application<a class="headerlink" href="#locating-and-preparing-a-user-application" title="Permalink to this headline">¶</a></h2>
+<p>Besides booting and trimming the device, BIM’s primary functionality is to
+find and prepare a user application to run on the CC13xx or CC26xx.</p>
+<div class="section" id="bim-for-off-chip-oad">
+<span id="sec-oad-bim-off-chip"></span><h3>BIM for Off-Chip OAD<a class="headerlink" href="#bim-for-off-chip-oad" title="Permalink to this headline">¶</a></h3>
+<p>At steady state, the normal case is that a valid image exists in internal flash
+and no image in the external flash has been marked as needing to be copied. In
+this case, BIM will validate that the image on internal flash and execute it
+by loading the stack pointer and jumping to the image’s reset vector location.
+BIM determines the location of the reset vector and stack pointer of the image
+through the OAD image header attached to it.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As a convention, the vector table comes immediately after the image header
+in OAD enabled images. The BIM and the image header are tightly coupled,
+refer to the <span class="xref std std-ref">sec-oad-image-header</span> chapter for more detail on the
+image header vector and its fields.</p>
+</div>
+<div class="figure align-center" id="id5">
+<span id="fig-bim-flowchart"></span><img alt="../_images/oad-bim-image-select.png" src="../_images/oad-bim-image-select.png" />
+<p class="caption"><span class="caption-text">Sequence diagram for BIM image selection process</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>The image above is illustrated in words below. In order to determine which
+image is best to run, BIM takes the following measures:</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>At startup, BIM looks for a valid image header in external flash by
+reading the first 8 bytes to find the valid External Flash Image
+Identification value.</p></li>
+<li><p>After a valid header is found, it reads the entire header from ext flash
+and verifies the compatibility of BIM and image header versions. Then it
+checks if the ‘Image copy status’ is set to be copied to the on-chip
+flash(0xFE) and has a valid CRC (CRC status=0xFE).</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>If it finds status ‘CRC not calculated’(CRC Status = 0xFF), it
+calculates the CRC of the external flash contents and updates the CRC
+status byte in the external flash.</p></li>
+<li><p>On finding the invalid CRC it moves on to read the next image’s
+header.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>If a valid image is found, BIM copies the image to on-chip flash, as per
+the image copy procedure.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>After the copy, the CRC is re-checked on internal flash to ensure the
+copy succeeded.</p></li>
+<li><p>If the copy failed the status byte is updated and the bim will
+continue searching external flash.</p></li>
+<li><p>If the copy succeeded, then the BIM will jump directly to the
+application image, and the search process ends.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<ol class="arabic simple" start="5">
+<li><p>If BIM reaches the end of the image header region in external flash
+without finding a valid image, then it will try to find an on-chip image
+and execute it.</p></li>
+<li><p>If BIM fails to find a valid image internal flash, it will attempt to
+revert the factory image if there is one present.</p></li>
+<li><p>BIM will put the device to low power mode if it fails to find a valid
+application image.</p></li>
+</ol>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>An image is considered bad/invalid if it’s calculated CRC32 does not match
+the image’s CRC bytes embedded in the image header.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2016-2023, Texas Instruments.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

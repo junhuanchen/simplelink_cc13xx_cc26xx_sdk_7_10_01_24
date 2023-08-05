@@ -1,0 +1,6 @@
+<map id="Udp::SocketHandle" name="Udp::SocketHandle">
+<area shape="rect" id="node5" href="$classot_1_1_ip6_1_1_udp_1_1_socket.html" title="Socket" alt="" coords="204,155,267,181"/>
+<area shape="rect" id="node2" href="$structot_udp_socket.html" title="otUdpSocket" alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node3" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; SocketHandle \&gt;" alt="" coords="127,5,344,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_clearable.html" title="Clearable\&lt; SocketHandle \&gt;" alt="" coords="369,5,550,32"/>
+</map>

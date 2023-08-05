@@ -1,0 +1,51 @@
+<map id="error.h" name="error.h">
+<area shape="rect" id="node2" href="$crypto__api_8cpp.html" title="crypto_api.cpp" alt="" coords="106,229,213,256"/>
+<area shape="rect" id="node3" href="$code__utils_8hpp.html" title="code_utils.hpp" alt="" coords="2443,80,2550,107"/>
+<area shape="rect" id="node13" href="$hdlc_8hpp.html" title="hdlc.hpp" alt="" coords="3612,229,3683,256"/>
+<area shape="rect" id="node25" href="$entropy_8cpp.html" title="entropy.cpp" alt="" coords="730,304,821,331"/>
+<area shape="rect" id="node26" href="$error_8hpp.html" title="error.hpp" alt="" coords="2961,80,3035,107"/>
+<area shape="rect" id="node27" href="$parse__cmdline_8hpp.html" title="parse_cmdline.hpp" alt="" coords="3110,80,3241,107"/>
+<area shape="rect" id="node28" href="$url_8hpp.html" title="url.hpp" alt="" coords="1459,80,1521,107"/>
+<area shape="rect" id="node29" href="$platform-posix_8h.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="1318,229,1433,256"/>
+<area shape="rect" id="node30" href="$changed__props__set_8hpp.html" title="changed_props_set.hpp" alt="" coords="3265,80,3425,107"/>
+<area shape="rect" id="node31" href="$openthread-system_8h.html" title="This file defines the platform&#45;specific functions needed by OpenThread&#39;s example applications. " alt="" coords="1370,155,1514,181"/>
+<area shape="rect" id="node32" href="$utils_8hpp.html" title="utils.hpp" alt="" coords="3449,80,3520,107"/>
+<area shape="rect" id="node33" href="$include_2openthread_2border__routing_8h.html" title="This file defines the OpenThread Border Routing Manager API. " alt="" coords="3545,80,3659,107"/>
+<area shape="rect" id="node34" href="$include_2openthread_2crypto_8h.html" title="This file defines the OpenThread crypto C APIs. " alt="" coords="139,155,209,181"/>
+<area shape="rect" id="node35" href="$dns_8h.html" title="This file defines the top&#45;level DNS functions for the OpenThread library. " alt="" coords="335,155,389,181"/>
+<area shape="rect" id="node36" href="$include_2openthread_2dnssd__server_8h.html" title="This file defines the DNS&#45;SD server APIs. " alt="" coords="293,229,402,256"/>
+<area shape="rect" id="node37" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="835,80,918,107"/>
+<area shape="rect" id="node38" href="$network__time_8h.html" title="This file defines the OpenThread Network Time Synchronization Service API. " alt="" coords="677,155,788,181"/>
+<area shape="rect" id="node39" href="$include_2openthread_2ping__sender_8h.html" title="This file includes the OpenThread API for ping sender module. " alt="" coords="551,155,653,181"/>
+<area shape="rect" id="node40" href="$dso__transport_8h.html" title="This file includes the platform abstraction for DNS Stateful Operations (DSO) transport. " alt="" coords="914,155,1026,181"/>
+<area shape="rect" id="node41" href="$infra__if_8h.html" title="This file includes the platform abstraction for the infrastructure network interface. " alt="" coords="1051,155,1121,181"/>
+<area shape="rect" id="node42" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="465,155,526,181"/>
+<area shape="rect" id="node43" href="$include_2openthread_2platform_2diag_8h.html" title="This file defines the platform diag interface. " alt="" coords="445,229,503,256"/>
+<area shape="rect" id="node44" href="$platform_2trel_8h.html" title="This file includes the platform abstraction for Thread Radio Encapsulation Link (TREL) using DNS&#45;SD a..." alt="" coords="1146,155,1197,181"/>
+<area shape="rect" id="node45" href="$include_2openthread_2logging_8h.html" title="This file includes OpenThread logging related definitions. " alt="" coords="1271,155,1346,181"/>
+<area shape="rect" id="node46" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="465,80,534,107"/>
+<area shape="rect" id="node47" href="$debug__uart_8h.html" title="debug_uart.h" alt="" coords="3684,80,3781,107"/>
+<area shape="rect" id="node48" href="$entropy_8h.html" title="This file includes the platform abstraction for entropy generation. " alt="" coords="5,229,81,256"/>
+<area shape="rect" id="node49" href="$spi-slave_8h.html" title="This file includes the platform abstraction for SPI slave communication. " alt="" coords="3806,80,3889,107"/>
+<area shape="rect" id="node50" href="$random__crypto_8h.html" title="This file defines the OpenThread cryptographic random number generator API. " alt="" coords="3913,80,4032,107"/>
+<area shape="rect" id="node4" href="$cli_8hpp.html" title="cli.hpp" alt="" coords="981,229,1041,256"/>
+<area shape="rect" id="node5" href="$logging__api_8cpp.html" title="logging_api.cpp" alt="" coords="1943,155,2055,181"/>
+<area shape="rect" id="node6" href="$tasklet__api_8cpp.html" title="tasklet_api.cpp" alt="" coords="2080,155,2191,181"/>
+<area shape="rect" id="node7" href="$coap_8cpp.html" title="coap.cpp" alt="" coords="3225,229,3299,256"/>
+<area shape="rect" id="node8" href="$coap__message_8hpp.html" title="coap_message.hpp" alt="" coords="2749,304,2884,331"/>
+<area shape="rect" id="node9" href="$coap__message_8cpp.html" title="coap_message.cpp" alt="" coords="2749,379,2884,405"/>
+<area shape="rect" id="node10" href="$array_8hpp.html" title="array.hpp" alt="" coords="3419,155,3495,181"/>
+<area shape="rect" id="node11" href="$error_8cpp.html" title="error.cpp" alt="" coords="3328,229,3401,256"/>
+<area shape="rect" id="node12" href="$heap__array_8hpp.html" title="heap_array.hpp" alt="" coords="3477,229,3588,256"/>
+<area shape="rect" id="node14" href="$binary__search_8cpp.html" title="binary_search.cpp" alt="" coords="2215,155,2343,181"/>
+<area shape="rect" id="node15" href="$bit__vector_8hpp.html" title="bit_vector.hpp" alt="" coords="2368,155,2471,181"/>
+<area shape="rect" id="node16" href="$data_8hpp.html" title="data.hpp" alt="" coords="3271,155,3343,181"/>
+<area shape="rect" id="node17" href="$message_8hpp.html" title="message.hpp" alt="" coords="2557,229,2657,256"/>
+<area shape="rect" id="node18" href="$message_8cpp.html" title="message.cpp" alt="" coords="2348,304,2448,331"/>
+<area shape="rect" id="node19" href="$extension__example_8cpp.html" title="extension_example.cpp" alt="" coords="2495,155,2653,181"/>
+<area shape="rect" id="node20" href="$frame__data_8cpp.html" title="frame_data.cpp" alt="" coords="2677,155,2788,181"/>
+<area shape="rect" id="node21" href="$heap__allocatable_8hpp.html" title="heap_allocatable.hpp" alt="" coords="3621,155,3765,181"/>
+<area shape="rect" id="node22" href="$heap__data_8cpp.html" title="heap_data.cpp" alt="" coords="2813,155,2919,181"/>
+<area shape="rect" id="node23" href="$heap__string_8cpp.html" title="heap_string.cpp" alt="" coords="2943,155,3058,181"/>
+<area shape="rect" id="node24" href="$log_8cpp.html" title="log.cpp" alt="" coords="3082,155,3146,181"/>
+</map>

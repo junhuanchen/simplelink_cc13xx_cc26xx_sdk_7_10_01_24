@@ -1,0 +1,2 @@
+CFLAGS += -DSINGLE_SLOT
+LFLAGS += --config_def DUAL_SLOT=0

@@ -1,0 +1,16 @@
+<map id="Leader" name="Leader">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="1645,5,1760,32"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="1365,5,1571,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="1653,56,1752,83"/>
+<area shape="rect" id="node5" href="$classot_1_1_ip6_1_1_prefix.html" title="Prefix" alt="" coords="1675,107,1730,133"/>
+<area shape="rect" id="node6" href="$structot_ip6_prefix.html" title="otIp6Prefix" alt="" coords="1427,56,1509,83"/>
+<area shape="rect" id="node7" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1169,56,1268,83"/>
+<area shape="rect" id="node8" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="887,56,1071,83"/>
+<area shape="rect" id="node9" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,56,749,83"/>
+<area shape="rect" id="node10" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,33,427,60"/>
+<area shape="rect" id="node11" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,84,435,111"/>
+<area shape="rect" id="node12" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,84,189,111"/>
+<area shape="rect" id="node13" href="$classot_1_1_clearable.html" title="Clearable\&lt; Prefix \&gt;" alt="" coords="1401,107,1535,133"/>
+<area shape="rect" id="node14" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Prefix \&gt;" alt="" coords="1393,157,1543,184"/>
+<area shape="rect" id="node15" href="$structot_backbone_router_config.html" title="otBackboneRouterConfig" alt="" coords="1620,157,1785,184"/>
+</map>

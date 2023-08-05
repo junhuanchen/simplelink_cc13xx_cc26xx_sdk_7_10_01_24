@@ -1,0 +1,7 @@
+<map id="Coap" name="Coap">
+<area shape="rect" id="node6" href="$classot_1_1_tmf_1_1_agent.html" title="Agent" alt="" coords="145,304,201,331"/>
+<area shape="rect" id="node2" href="$classot_1_1_coap_1_1_coap_base.html" title="CoapBase" alt="" coords="132,155,215,181"/>
+<area shape="rect" id="node3" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="51,80,165,107"/>
+<area shape="rect" id="node4" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="5,5,211,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="189,80,288,107"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="Netif::ExternalMulticastAddress::Iterator" name="Netif::ExternalMulticastAddress::Iterator">
+<area shape="rect" id="node2" href="$classot_1_1_item_ptr_iterator.html" title="ItemPtrIterator\&lt; External\lMulticastAddress, Iterator \&gt;" alt="" coords="2719,57,2901,99"/>
+<area shape="rect" id="node3" href="$classot_1_1_ip6_1_1_netif_1_1_external_multicast_address.html" title="ExternalMulticastAddress" alt="" coords="2033,162,2204,189"/>
+<area shape="rect" id="node25" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Ip6::Netif\l::ExternalMulticastAddress,\l OPENTHREAD_CONFIG_IP6_MAX\l_EXT_MCAST_ADDRS \&gt;" alt="" coords="2951,191,3182,261"/>
+<area shape="rect" id="node26" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Ip6\l::Netif::ExternalMulticast\lAddress \&gt;" alt="" coords="2509,223,2675,279"/>
+<area shape="rect" id="node4" href="$classot_1_1_ip6_1_1_netif_1_1_multicast_address.html" title="MulticastAddress" alt="" coords="1783,162,1905,189"/>
+<area shape="rect" id="node19" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Ip6\l::Netif::MulticastAddress \&gt;" alt="" coords="2258,5,2435,47"/>
+<area shape="rect" id="node5" href="$structot_netif_multicast_address.html" title="otNetifMulticastAddress" alt="" coords="1401,471,1561,498"/>
+<area shape="rect" id="node14" href="$classot_1_1_ip6_1_1_netif.html" title="Netif" alt="" coords="3419,289,3467,315"/>
+<area shape="rect" id="node6" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1169,471,1268,498"/>
+<area shape="rect" id="node18" href="$structot_ip6_address_info.html" title="otIp6AddressInfo" alt="" coords="1605,550,1724,577"/>
+<area shape="rect" id="node22" href="$structot_netif_address.html" title="otNetifAddress" alt="" coords="1611,342,1718,369"/>
+<area shape="rect" id="node7" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="887,471,1071,498"/>
+<area shape="rect" id="node8" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,471,749,498"/>
+<area shape="rect" id="node9" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,449,427,475"/>
+<area shape="rect" id="node10" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,499,435,526"/>
+<area shape="rect" id="node11" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,499,189,526"/>
+<area shape="rect" id="node12" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Multicast\lAddress \&gt;" alt="" coords="1392,125,1569,167"/>
+<area shape="rect" id="node13" href="$classot_1_1_clearable.html" title="Clearable\&lt; MulticastAddress \&gt;" alt="" coords="1380,191,1581,218"/>
+<area shape="rect" id="node15" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="3009,127,3124,154"/>
+<area shape="rect" id="node16" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="2489,110,2695,137"/>
+<area shape="rect" id="node17" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="2543,303,2641,330"/>
+<area shape="rect" id="node27" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Ip6::Netif\l::UnicastAddress, OPENTHREAD\l_CONFIG_IP6_MAX_EXT_UCAST_ADDRS \&gt;" alt="" coords="2925,341,3208,397"/>
+<area shape="rect" id="node20" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Ip6\l::Netif::UnicastAddress \&gt;" alt="" coords="2508,417,2676,459"/>
+<area shape="rect" id="node21" href="$classot_1_1_ip6_1_1_netif_1_1_unicast_address.html" title="UnicastAddress" alt="" coords="2061,390,2176,417"/>
+<area shape="rect" id="node23" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Unicast\lAddress \&gt;" alt="" coords="1760,388,1928,429"/>
+<area shape="rect" id="node24" href="$classot_1_1_clearable.html" title="Clearable\&lt; UnicastAddress \&gt;" alt="" coords="1748,454,1940,481"/>
+</map>

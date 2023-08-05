@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_crypto_key___key_store" kind="struct" language="C++" prot="public">
+    <compoundname>CryptoKey_KeyStore</compoundname>
+    <includes refid="_crypto_key_8h" local="no">CryptoKey.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_crypto_key___key_store_1a97cb3c755fa0055dc2b356199cf498cb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CryptoKey_KeyStore::keyLength</definition>
+        <argsstring></argsstring>
+        <name>keyLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" line="180" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_crypto_key___key_store_1a889975900c0ddcd1baae2d6e0e21a565" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CryptoKey_KeyStore::keyID</definition>
+        <argsstring></argsstring>
+        <name>keyID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" line="181" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_crypto_key___key_store_1a60a9838615efcc48da185aecfaae13ec" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* CryptoKey_KeyStore::keyAttributes</definition>
+        <argsstring></argsstring>
+        <name>keyAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" line="182" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Key store <ref refid="struct_crypto_key" kindref="compound">CryptoKey</ref> datastructure. </para>    </briefdescription>
+    <detaileddescription>
+<para>This structure contains all the information necessary to access keying material stored in a dedicated key store or key database with memory access controls. </para>    </detaileddescription>
+    <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" line="179" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKey.h" bodystart="178" bodyend="183"/>
+    <listofallmembers>
+      <member refid="struct_crypto_key___key_store_1a60a9838615efcc48da185aecfaae13ec" prot="public" virt="non-virtual"><scope>CryptoKey_KeyStore</scope><name>keyAttributes</name></member>
+      <member refid="struct_crypto_key___key_store_1a889975900c0ddcd1baae2d6e0e21a565" prot="public" virt="non-virtual"><scope>CryptoKey_KeyStore</scope><name>keyID</name></member>
+      <member refid="struct_crypto_key___key_store_1a97cb3c755fa0055dc2b356199cf498cb" prot="public" virt="non-virtual"><scope>CryptoKey_KeyStore</scope><name>keyLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

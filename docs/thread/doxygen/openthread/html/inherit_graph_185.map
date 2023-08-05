@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; Message \&gt;" alt="" coords="223,5,389,32"/>
+<area shape="rect" id="node2" href="$classot_1_1_message.html" title="Message" alt="" coords="437,56,512,83"/>
+<area shape="rect" id="node3" href="$classot_1_1_coap_1_1_message.html" title="Message" alt="" coords="583,5,657,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_mle_1_1_mle_1_1_rx_message.html" title="Mle::RxMessage" alt="" coords="560,56,680,83"/>
+<area shape="rect" id="node5" href="$classot_1_1_mle_1_1_mle_1_1_tx_message.html" title="Mle::TxMessage" alt="" coords="561,107,679,133"/>
+<area shape="rect" id="node6" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Buffer \&gt;" alt="" coords="5,31,175,57"/>
+<area shape="rect" id="node7" href="$classot_1_1_buffer.html" title="Buffer" alt="" coords="279,56,333,83"/>
+<area shape="rect" id="node8" href="$structot_message.html" title="otMessage" alt="" coords="263,107,349,133"/>
+<area shape="rect" id="node9" href="$structot_message_buffer.html" title="otMessageBuffer" alt="" coords="31,81,149,108"/>
+</map>

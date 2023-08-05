@@ -1,0 +1,19 @@
+<map id="SettingsBase" name="SettingsBase">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="907,15,1021,41"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="569,5,775,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_settings_base_1_1_parent_info.html" title="ParentInfo" alt="" coords="924,83,1004,109"/>
+<area shape="rect" id="node5" href="$classot_1_1_clearable.html" title="Clearable\&lt; ParentInfo \&gt;" alt="" coords="593,56,751,83"/>
+<area shape="rect" id="node6" href="$classot_1_1_mac_1_1_ext_address.html" title="ExtAddress" alt="" coords="627,107,717,133"/>
+<area shape="rect" id="node11" href="$classot_1_1_settings_base_1_1_network_info.html" title="NetworkInfo" alt="" coords="919,153,1009,180"/>
+<area shape="rect" id="node7" href="$structot_ext_address.html" title="otExtAddress" alt="" coords="369,15,470,41"/>
+<area shape="rect" id="node8" href="$classot_1_1_equatable.html" title="Equatable\&lt; ExtAddress \&gt;" alt="" coords="333,65,505,92"/>
+<area shape="rect" id="node9" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; ExtAddress \&gt;" alt="" coords="19,65,206,92"/>
+<area shape="rect" id="node10" href="$classot_1_1_clearable.html" title="Clearable\&lt; ExtAddress \&gt;" alt="" coords="335,116,503,143"/>
+<area shape="rect" id="node12" href="$classot_1_1_clearable.html" title="Clearable\&lt; NetworkInfo \&gt;" alt="" coords="589,232,755,259"/>
+<area shape="rect" id="node13" href="$classot_1_1_ip6_1_1_interface_identifier.html" title="InterfaceIdentifier" alt="" coords="613,181,731,208"/>
+<area shape="rect" id="node14" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="346,167,493,193"/>
+<area shape="rect" id="node15" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="21,167,205,193"/>
+<area shape="rect" id="node16" href="$classot_1_1_equatable.html" title="Equatable\&lt; InterfaceIdentifier \&gt;" alt="" coords="319,217,520,244"/>
+<area shape="rect" id="node17" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; InterfaceIdentifier \&gt;" alt="" coords="5,217,220,244"/>
+<area shape="rect" id="node18" href="$classot_1_1_clearable.html" title="Clearable\&lt; InterfaceIdentifier \&gt;" alt="" coords="321,268,518,295"/>
+</map>

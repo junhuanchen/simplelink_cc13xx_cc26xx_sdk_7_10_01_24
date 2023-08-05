@@ -1,0 +1,8 @@
+<map id="Udp::Socket" name="Udp::Socket">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="271,19,385,45"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="11,5,217,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_ip6_1_1_udp_1_1_socket_handle.html" title="SocketHandle" alt="" coords="277,95,379,121"/>
+<area shape="rect" id="node5" href="$structot_udp_socket.html" title="otUdpSocket" alt="" coords="65,56,163,83"/>
+<area shape="rect" id="node6" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; SocketHandle \&gt;" alt="" coords="5,107,223,133"/>
+<area shape="rect" id="node7" href="$classot_1_1_clearable.html" title="Clearable\&lt; SocketHandle \&gt;" alt="" coords="23,157,205,184"/>
+</map>

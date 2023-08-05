@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TI-OpenThread Overview &mdash; 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User&#39;s Guide
+ 1.10.00.00 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Application Development" href="application-development.html" />
+    <link rel="prev" title="Developing Thread Applications" href="../thread-guide/software-development-index.html" />
+    <script language="JavaScript">
+        var tiPageName;
+        tiPageName = "sug thread ti-openthread-overview";
+
+        if (location.protocol == "file:"){
+            var ci_analytics_poc_load = true;
+        }
+    </script>
+
+    <script src="http://www.ti.com/assets/js/headerfooter/analytics.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"> 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+
+          </a>
+              <div class="version">
+                1.10.00.00
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide/quickstart-intro-cc13xx_cc26xx.html">Introduction to the SimpleLink CC13xx/CC26xx SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ti-openthread-intro.html">TI-OpenThread Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/index-platform.html">SimpleLink Wireless MCU CC13xx and CC26xx Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/tirtos-index.html">TI-RTOS7 (RTOS Kernel) Overview</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../thread-guide/software-development-index.html">Developing Thread Applications</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">TI-OpenThread Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#application-architecture">Application Architecture</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#system-stack">System Stack</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#openthread-stack-architecture">OpenThread Stack Architecture</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#platform-configurations">Platform Configurations</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#single-chip-thread-only-soc">Single-Chip, Thread-Only (SoC)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#network-co-processor-ncp">Network Co-Processor (NCP)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="application-development.html">Application Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="example-apps-cc13xx_cc26xx.html">Example Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ncp-interface.html">NCP Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="product-certification.html">Thread Product Certification</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="thread-protocol.html">Thread Networking Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/custom-hardware-cc13xx_cc26xx.html">Custom Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/packet-sniffer-index.html">Packet Sniffer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/border-router-index.html">Linux Border Router Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/oad-index.html">Over-the-Air Download (OAD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/sysconfig-index.html">System Configuration (SysConfig)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/debugging-index.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/memory-index.html">Memory overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/migration-index.html">Migration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../energy-trace/energy-trace.html">EnergyTrace User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Terms and Definitions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../thread-guide/index-cc13xx_cc26xx.html">
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../thread-guide/software-development-index.html">Developing Thread Applications</a> &raquo;</li>
+      <li>TI-OpenThread Overview</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="ti-openthread-overview">
+<span id="sec-tiop-overview"></span><h1>TI-OpenThread Overview<a class="headerlink" href="#ti-openthread-overview" title="Permalink to this headline">¶</a></h1>
+<p>This section describes the architecture of a TI-OpenThread application at a
+high level and the architecture of the OpenThread stack itself. Also, the
+different system configurations which are supported by TI-OpenThread are
+described.</p>
+<div class="section" id="application-architecture">
+<span id="sec-tiop-app-arch"></span><h2>Application Architecture<a class="headerlink" href="#application-architecture" title="Permalink to this headline">¶</a></h2>
+<p>A TI-OpenThread application is split into two major contexts: the user
+application and the OpenThread stack. Both the user application and the
+OpenThread stack executes in separate <a class="reference internal" href="glossary.html#term-RTOS"><span class="xref std std-term">RTOS</span></a> tasks, and the user
+application consists of one or more tasks. <a class="reference internal" href="#fig-tiop-app-arch"><span class="std std-numref">Figure 20.</span></a>
+provides an architectural overview of a generic TI-OpenThread application.</p>
+<div class="figure align-center" id="id2">
+<span id="fig-tiop-app-arch"></span><a class="reference internal image-reference" href="../_images/img-tiop-application-architecture.svg"><img alt="../_images/img-tiop-application-architecture.svg" src="../_images/img-tiop-application-architecture.svg" width="60%" /></a>
+<p class="caption"><span class="caption-number">Figure 20. </span><span class="caption-text">Architecture overview of a TI-OpenThread application.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>The OpenThread stack task instantiates an OpenThread stack instance and does
+basic setup of the stack primitives. The OpenThread stack manages a queue of
+tasks to be run called tasklets. The primary objective of the stack task is to
+process these queued tasklets. The stack task also processes the TI-OpenThread
+platform-specific drivers, which is the adaptation layer between the
+OpenThread stack and <a class="reference external" href="../../../drivers/tidriversAPIs.html">TI Drivers API Reference</a>.</p>
+<p><a class="reference external" href="../../../drivers/tidriversAPIs.html">TI Drivers API Reference</a></p>
+<p>The OpenThread stack is designed and developed for a single-threaded
+environment; this was done so by the OpenThread developers for the sake of
+simplicity and ease of testing. Therefore, the OpenThread stack assumes there
+is implicit mutually exclusive access to its data structures. However, in a
+multi-threaded environment such as <a class="reference internal" href="../thread-guide/tirtos-index.html#sec-tirtos-overview"><span class="std std-ref">TI-RTOS7</span></a>, this
+assumption doesn’t hold anymore. That is why a recursive mutex has been put in
+place in order to ensure coherent access to the OpenThread APIs by both the
+user application tasks and the OpenThread stack task.</p>
+<div class="section" id="system-stack">
+<span id="sec-memory-management-openthread-system-stack"></span><h3>System Stack<a class="headerlink" href="#system-stack" title="Permalink to this headline">¶</a></h3>
+<p>Besides the user application and the OpenThread stack contexts, there is one
+other context to consider. As described in <a class="reference internal" href="../tirtos/hwis_swis_idle.html#sec-tirtos-threading-modules"><span class="std std-ref">TI-RTOS7</span></a>, each task has its own runtime stack for
+context switching. However, in TI-RTOS7 a separate runtime stack, the system
+stack, is used to run <code class="docutils literal notranslate"><span class="pre">main()</span></code>, <a class="reference internal" href="glossary.html#term-HWI"><span class="xref std std-term">HWIs</span></a>, and <a class="reference internal" href="glossary.html#term-SWI"><span class="xref std std-term">SWIs</span></a>.</p>
+<p>The system stack is allocated at the high end of the RAM memory region, and
+the size of the stack is configured in the application’s linker file.</p>
+</div>
+</div>
+<div class="section" id="openthread-stack-architecture">
+<span id="sec-tiop-stack-arch"></span><h2>OpenThread Stack Architecture<a class="headerlink" href="#openthread-stack-architecture" title="Permalink to this headline">¶</a></h2>
+<p>The OpenThread stack is an open-source implementation of the Thread
+specification, and is implemented in C++ with C-bindings for the OpenThread
+API. The implementation is written in portable C++03 and C99. OpenThread is a
+platform-agnostic stack, and makes no assumptions on the underlying platform.
+That means OpenThread can run in both bare-metal environments and on fully
+fledged OSes.</p>
+<p>OpenThread is a monolithic stack designed and developed for a single-threaded
+environment. The stack dispatches work into lightweight tasks called tasklets,
+which are segments of code written in a non-blocking fashion. The stack
+manages a queue of pending tasklets to be run, which are processed by the
+underlying stack task context.</p>
+<p>Please refer to the <a class="reference external" href="https://openthread.io/platforms">OpenThread Platforms</a> section for more information about
+the OpenThread platform in general, or refer to the <a class="reference external" href="https://github.com/openthread">OpenThread GitHub</a> for
+the full source code.</p>
+<div class="figure align-center" id="id3">
+<span id="fig-openthread-architecture"></span><a class="reference external image-reference" href="https://openthread.io/platforms"><img alt="OpenThread stack architecture" src="../_images/fig-tiop-stack-architecture.png" style="width: 60%;" /></a>
+<p class="caption"><span class="caption-number">Figure 21. </span><span class="caption-text">OpenThread stack architecture.
+Source: <a class="reference external" href="https://openthread.io/platforms">https://openthread.io/platforms</a></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="platform-configurations">
+<span id="sec-tiop-platform-config"></span><h2>Platform Configurations<a class="headerlink" href="#platform-configurations" title="Permalink to this headline">¶</a></h2>
+<p>TI-OpenThread supports both system-on-chip (<a class="reference internal" href="glossary.html#term-SoC"><span class="xref std std-term">SoC</span></a>) and network
+co-processor (<a class="reference internal" href="glossary.html#term-NCP"><span class="xref std std-term">NCP</span></a>) architectural configurations.</p>
+<div class="section" id="single-chip-thread-only-soc">
+<h3>Single-Chip, Thread-Only (SoC)<a class="headerlink" href="#single-chip-thread-only-soc" title="Permalink to this headline">¶</a></h3>
+<p>Both the application and the OpenThread stack run on the CC13xx or CC26xx as a true
+single-chip solution. This configuration is the most cost-effective solution
+and provides the best low-power performance, and is therefore most commonly
+used for end devices.</p>
+<a class="reference internal image-reference" href="../_images/ditaa-37a22cb970d26e1a3aaf3f6d83dd66651ddb38fd.png"><img alt="../_images/ditaa-37a22cb970d26e1a3aaf3f6d83dd66651ddb38fd.png" class="align-center" src="../_images/ditaa-37a22cb970d26e1a3aaf3f6d83dd66651ddb38fd.png" style="width: 30%;" /></a>
+</div>
+<div class="section" id="network-co-processor-ncp">
+<h3>Network Co-Processor (NCP)<a class="headerlink" href="#network-co-processor-ncp" title="Permalink to this headline">¶</a></h3>
+<p>The OpenThread stack runs on the CC13xx or CC26xx while the application is executed on
+a separate external host processor. The host processor communicates with the
+NCP device via a serial interface, such as UART or SPI, over the <a class="reference external" href="https://tools.ietf.org/html/draft-rquattle-spinel-unified-00">Spinel
+Protocol</a>.</p>
+<p>The NCP configuration is useful for applications that must add wireless
+connectivity or peripheral applications, which execute on a host processor
+without the requirement to implement the complexities associated with a
+wireless networking protocol. In these cases, the application can be developed
+externally on a host processor while running Thread on the NCP device, which
+provides ease of development and quickly adds Thread support and wireless
+connectivity to existing products.</p>
+<p>For more information, refer to <a class="reference internal" href="ncp-interface.html#sec-tiop-ncp-interface"><span class="std std-ref">NCP Interface</span></a>.</p>
+<a class="reference internal image-reference" href="../_images/ditaa-48341572ce7017299eb83d0b8fe26857fc997c1f.png"><img alt="../_images/ditaa-48341572ce7017299eb83d0b8fe26857fc997c1f.png" class="align-center" src="../_images/ditaa-48341572ce7017299eb83d0b8fe26857fc997c1f.png" style="width: 30%;" /></a>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../thread-guide/software-development-index.html" class="btn btn-neutral float-left" title="Developing Thread Applications" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="application-development.html" class="btn btn-neutral float-right" title="Application Development" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2016-2022, Texas Instruments.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

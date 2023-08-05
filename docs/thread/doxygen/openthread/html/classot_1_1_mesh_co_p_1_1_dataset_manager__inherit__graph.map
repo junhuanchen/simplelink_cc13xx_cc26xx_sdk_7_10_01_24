@@ -1,0 +1,6 @@
+<map id="DatasetManager" name="DatasetManager">
+<area shape="rect" id="node4" href="$classot_1_1_mesh_co_p_1_1_active_dataset_manager.html" title="ActiveDatasetManager" alt="" coords="5,229,157,256"/>
+<area shape="rect" id="node5" href="$classot_1_1_mesh_co_p_1_1_pending_dataset_manager.html" title="PendingDatasetManager" alt="" coords="182,229,346,256"/>
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="115,80,229,107"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="69,5,275,32"/>
+</map>

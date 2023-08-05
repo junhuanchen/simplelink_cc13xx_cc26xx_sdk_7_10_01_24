@@ -1,0 +1,6 @@
+<map id="rfc_CMD_HID_RX_s" name="rfc_CMD_HID_RX_s">
+<area shape="rect" id="node2" href="$structdata_queue__t.html" title="Type definition for a data queue. " alt="" coords="5,5,111,32"/>
+<area shape="rect" id="node5" href="$structrfc__hid_addr_entry__s.html" title="rfc_hidAddrEntry_s" alt="" coords="133,95,277,121"/>
+<area shape="rect" id="node3" href="$structrfc__radio_op__s.html" title="rfc_radioOp_s" alt="" coords="301,95,412,121"/>
+<area shape="rect" id="node4" href="$structrfc__hid_rx_tx_output__s.html" title="rfc_hidRxTxOutput_s" alt="" coords="522,95,679,121"/>
+</map>

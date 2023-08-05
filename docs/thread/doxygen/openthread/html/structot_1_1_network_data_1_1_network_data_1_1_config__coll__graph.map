@@ -1,0 +1,24 @@
+<map id="NetworkData::Config" name="NetworkData::Config">
+<area shape="rect" id="node2" href="$classot_1_1_network_data_1_1_service_config.html" title="ServiceConfig" alt="" coords="1981,83,2081,109"/>
+<area shape="rect" id="node3" href="$structot_service_config.html" title="otServiceConfig" alt="" coords="1745,7,1856,33"/>
+<area shape="rect" id="node4" href="$structot_server_config.html" title="otServerConfig" alt="" coords="1407,7,1512,33"/>
+<area shape="rect" id="node5" href="$classot_1_1_clearable.html" title="Clearable\&lt; ServiceConfig \&gt;" alt="" coords="1711,57,1890,84"/>
+<area shape="rect" id="node6" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; ServiceConfig \&gt;" alt="" coords="1703,108,1899,135"/>
+<area shape="rect" id="node7" href="$classot_1_1_network_data_1_1_external_route_config.html" title="ExternalRouteConfig" alt="" coords="1961,352,2101,379"/>
+<area shape="rect" id="node8" href="$structot_external_route_config.html" title="otExternalRouteConfig" alt="" coords="1725,311,1876,337"/>
+<area shape="rect" id="node9" href="$structot_ip6_prefix.html" title="otIp6Prefix" alt="" coords="1418,289,1501,316"/>
+<area shape="rect" id="node20" href="$structot_border_router_config.html" title="otBorderRouterConfig" alt="" coords="1728,260,1873,287"/>
+<area shape="rect" id="node10" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1169,289,1268,316"/>
+<area shape="rect" id="node11" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="887,289,1071,316"/>
+<area shape="rect" id="node12" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,289,749,316"/>
+<area shape="rect" id="node13" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,267,427,293"/>
+<area shape="rect" id="node14" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,317,435,344"/>
+<area shape="rect" id="node15" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,317,189,344"/>
+<area shape="rect" id="node16" href="$classot_1_1_clearable.html" title="Clearable\&lt; ExternalRoute\lConfig \&gt;" alt="" coords="1715,362,1886,403"/>
+<area shape="rect" id="node17" href="$classot_1_1_equatable.html" title="Equatable\&lt; ExternalRoute\lConfig \&gt;" alt="" coords="1713,427,1888,469"/>
+<area shape="rect" id="node18" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; ExternalRoute\lConfig \&gt;" alt="" coords="1365,427,1553,469"/>
+<area shape="rect" id="node19" href="$classot_1_1_network_data_1_1_on_mesh_prefix_config.html" title="OnMeshPrefixConfig" alt="" coords="1961,209,2101,236"/>
+<area shape="rect" id="node21" href="$classot_1_1_clearable.html" title="Clearable\&lt; OnMeshPrefixConfig \&gt;" alt="" coords="1691,159,1910,185"/>
+<area shape="rect" id="node22" href="$classot_1_1_equatable.html" title="Equatable\&lt; OnMeshPrefixConfig \&gt;" alt="" coords="1689,209,1912,236"/>
+<area shape="rect" id="node23" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; OnMeshPrefix\lConfig \&gt;" alt="" coords="1365,202,1553,243"/>
+</map>

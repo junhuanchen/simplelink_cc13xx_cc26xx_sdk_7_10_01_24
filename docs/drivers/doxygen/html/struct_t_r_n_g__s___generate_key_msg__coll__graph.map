@@ -1,0 +1,6 @@
+<map id="TRNG_s_GenerateKeyMsg" name="TRNG_s_GenerateKeyMsg">
+<area shape="rect" id="node2" href="$struct_t_r_n_g___config.html" title="TRNG Global configuration. " alt="" coords="7,95,114,121"/>
+<area shape="rect" id="node3" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="139,95,228,121"/>
+<area shape="rect" id="node4" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="17,5,171,32"/>
+<area shape="rect" id="node5" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="195,5,350,32"/>
+</map>

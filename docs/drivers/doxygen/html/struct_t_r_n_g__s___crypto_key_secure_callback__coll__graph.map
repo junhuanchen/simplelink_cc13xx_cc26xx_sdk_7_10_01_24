@@ -1,0 +1,8 @@
+<map id="TRNG_s_CryptoKeySecureCallback" name="TRNG_s_CryptoKeySecureCallback">
+<area shape="rect" id="node2" href="$struct_t_r_n_g___config.html" title="TRNG Global configuration. " alt="" coords="83,97,189,124"/>
+<area shape="rect" id="node3" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="214,97,303,124"/>
+<area shape="rect" id="node4" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="5,7,160,33"/>
+<area shape="rect" id="node5" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="184,7,339,33"/>
+<area shape="rect" id="node6" href="$struct_secure_callback___object.html" title="SecureCallback_Object" alt="" coords="328,97,499,124"/>
+<area shape="rect" id="node7" href="$struct_list___elem__.html" title="List_Elem_" alt="" coords="367,7,459,33"/>
+</map>

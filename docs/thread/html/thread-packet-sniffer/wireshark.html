@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wireshark &mdash; 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User&#39;s Guide
+ 1.10.00.00 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Linux Border Router Quick Start" href="../thread-guide/border-router-index.html" />
+    <link rel="prev" title="Ubiqua Protocol Analyzer" href="ubiqua.html" />
+    <script language="JavaScript">
+        var tiPageName;
+        tiPageName = "sug thread-packet-sniffer wireshark";
+
+        if (location.protocol == "file:"){
+            var ci_analytics_poc_load = true;
+        }
+    </script>
+
+    <script src="http://www.ti.com/assets/js/headerfooter/analytics.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"> 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+
+          </a>
+              <div class="version">
+                1.10.00.00
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide/quickstart-intro-cc13xx_cc26xx.html">Introduction to the SimpleLink CC13xx/CC26xx SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/ti-openthread-intro.html">TI-OpenThread Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/index-platform.html">SimpleLink Wireless MCU CC13xx and CC26xx Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/tirtos-index.html">TI-RTOS7 (RTOS Kernel) Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/software-development-index.html">Developing Thread Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/thread-protocol.html">Thread Networking Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/custom-hardware-cc13xx_cc26xx.html">Custom Hardware</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../thread-guide/packet-sniffer-index.html">Packet Sniffer</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ubiqua.html">Ubiqua Protocol Analyzer</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Wireshark</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#install-the-required-software">Install the Required Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#required-hardware">Required Hardware</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hardware-setup">Hardware Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#running-the-packet-sniffer">Running the Packet Sniffer</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/border-router-index.html">Linux Border Router Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/oad-index.html">Over-the-Air Download (OAD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/sysconfig-index.html">System Configuration (SysConfig)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/debugging-index.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/memory-index.html">Memory overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/migration-index.html">Migration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../energy-trace/energy-trace.html">EnergyTrace User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/glossary.html">Terms and Definitions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../thread-guide/index-cc13xx_cc26xx.html">
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../thread-guide/packet-sniffer-index.html">Packet Sniffer</a> &raquo;</li>
+      <li>Wireshark</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="sec-packet-sniffer-wireshark">
+<span id="id2"></span><h1>Wireshark<a class="headerlink" href="#sec-packet-sniffer-wireshark" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="install-the-required-software">
+<h2>Install the Required Software<a class="headerlink" href="#install-the-required-software" title="Permalink to this headline">¶</a></h2>
+<p>Download and install the following software:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.wireshark.org/download.html">Wireshark</a> software, version 2.6.x stable release</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is important that Wireshark 2.6.x version is used. Older or newer
+versions may not be compatible.</p>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.ti.com/tool/packet-sniffer">SmartRF Packet Sniffer 2</a>, which contains sniffer firmware for the CC13xx
+and CC26xx family</p></li>
+<li><p><a class="reference external" href="http://www.ti.com/tool/uniflash">Uniflash</a>, used to program devices from the CC13xx and CC26xx family</p></li>
+</ul>
+</div>
+<div class="section" id="required-hardware">
+<h2>Required Hardware<a class="headerlink" href="#required-hardware" title="Permalink to this headline">¶</a></h2>
+<p>Any device from the CC13xx and CC26xx family which supports IEEE commands can
+be used as a sniffer. Following is a list of all supported development boards:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ti.com/tool/LAUNCHXL-CC1352R1">CC1352R LaunchPad</a></p></li>
+<li><p><a class="reference external" href="https://www.ti.com/tool/LAUNCHXL-CC1352P">CC1352P LaunchPads</a></p></li>
+<li><p><a class="reference external" href="https://www.ti.com/tool/LAUNCHXL-CC2650">CC2650 LaunchPad</a></p></li>
+<li><p><a class="reference external" href="https://www.ti.com/tool/LAUNCHXL-CC26x2R1">CC26x2R LaunchPad</a></p></li>
+</ul>
+</div>
+<div class="section" id="hardware-setup">
+<h2>Hardware Setup<a class="headerlink" href="#hardware-setup" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Connect the device to the computer with Wireshark installed.</p></li>
+<li><p>If the device is not programmed with the sniffer firmware, use <a class="reference external" href="http://www.ti.com/tool/uniflash">Uniflash</a>
+to program the sniffer firmware.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The firmware image is called <code class="docutils literal notranslate"><span class="pre">sniffer_fw.hex</span></code>.</p></li>
+<li><p>Depending on which device, the firmware image is found in
+<code class="docutils literal notranslate"><span class="pre">sniffer_fw/bin/{Device</span> <span class="pre">Family}/</span></code> under the <a class="reference external" href="http://www.ti.com/tool/packet-sniffer">SmartRF Packet Sniffer
+2</a> installation.</p></li>
+<li><p>For example, the firmware image for the <a class="reference external" href="https://www.ti.com/tool/LAUNCHXL-CC26x2R1">CC26x2R LaunchPad</a> is found
+under <code class="docutils literal notranslate"><span class="pre">sniffer_fw/bin/cc26x2r1lp/</span></code>.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="running-the-packet-sniffer">
+<h2>Running the Packet Sniffer<a class="headerlink" href="#running-the-packet-sniffer" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Connect the sniffer device.</p></li>
+<li><p>Start the Sniffer Agent from <a class="reference external" href="http://www.ti.com/tool/packet-sniffer">SmartRF Packet Sniffer 2</a>.</p>
+<blockquote>
+<div><div class="figure align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/fig-sniffer-agent-start-page.png"><img alt="Open Sniffer Agent" src="../_images/fig-sniffer-agent-start-page.png" style="width: 422.40000000000003px; height: 376.8px;" /></a>
+<p class="caption"><span class="caption-number">Figure 47. </span><span class="caption-text">Open Sniffer Agent</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Configure the sniffer device in the Sniffer Agent.</p>
+<blockquote>
+<div><p>The sniffer device needs to be enabled, and the frequency band and channel
+must be configured. Select the <code class="docutils literal notranslate"><span class="pre">IEEE</span> <span class="pre">802.15.4</span> <span class="pre">-</span> <span class="pre">O-QPSK</span> <span class="pre">-</span> <span class="pre">2405</span> <span class="pre">MHz</span> <span class="pre">-</span> <span class="pre">Freq</span>
+<span class="pre">Band</span></code> PHY, and select a channel number which matches the Thread Network
+channel. Click <em>OK</em>.</p>
+<div class="figure align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/fig-sniffer-agent-configure-device.png"><img alt="Configure device in Sniffer Agent" src="../_images/fig-sniffer-agent-configure-device.png" style="width: 657.6px; height: 436.8px;" /></a>
+<p class="caption"><span class="caption-number">Figure 48. </span><span class="caption-text">Configure device in Sniffer Agent</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Start sniffer capture in the Sniffer Agent by clicking <em>Start</em>.</p>
+<blockquote>
+<div><div class="figure align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/fig-sniffer-agent-start-capture.png"><img alt="Start sniffer capture in Sniffer Agent" src="../_images/fig-sniffer-agent-start-capture.png" style="width: 644.8000000000001px; height: 138.4px;" /></a>
+<p class="caption"><span class="caption-number">Figure 49. </span><span class="caption-text">Start sniffer capture in Sniffer Agent</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>You should now see the <em>Run State</em> be set to <em>Run</em> and the color changes
+to green. If this is not the case, redo the steps and verify the device is
+programmed with the correct firmware.</p>
+<div class="figure align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/fig-sniffer-agent-capture-started.png"><img alt="Sniffer capture started in Sniffer Agent" src="../_images/fig-sniffer-agent-capture-started.png" style="width: 644.8000000000001px; height: 138.4px;" /></a>
+<p class="caption"><span class="caption-number">Figure 50. </span><span class="caption-text">Sniffer capture started in Sniffer Agent</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Open Wireshark with the modified target arguments.</p>
+<blockquote>
+<div><p>This is detailed in the Software Setup Section in the <a class="reference external" href="http://www.ti.com/tool/packet-sniffer">SmartRF Packet
+Sniffer 2</a> User’s Guide. If done correctly, the Sniffer Agent is now
+connected to Wireshark.</p>
+<div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/fig-wireshark-open.png"><img alt="Wireshark opened and connected to the Sniffer Agent." src="../_images/fig-wireshark-open.png" style="width: 444.8px; height: 243.20000000000002px;" /></a>
+<p class="caption"><span class="caption-number">Figure 51. </span><span class="caption-text">Wireshark opened and connected to the Sniffer Agent.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Goto preferences in Wireshark with <code class="docutils literal notranslate"><span class="pre">Edit</span></code> → <code class="docutils literal notranslate"><span class="pre">Preferences</span></code>.</p></li>
+<li><p>Goto the Thread Protocol dissector configuration by expanding <em>Protocols</em>
+on the right and navigating to <em>Thread</em>. Set the <code class="docutils literal notranslate"><span class="pre">Decode</span> <span class="pre">CoAP</span> <span class="pre">for</span> <span class="pre">Thread</span></code>
+option.</p>
+<blockquote>
+<div><div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="../_images/fig-wireshark-edit-preferences-thread.png"><img alt="Edit Wireshark Thread Preferences" src="../_images/fig-wireshark-edit-preferences-thread.png" style="width: 559.2px; height: 378.40000000000003px;" /></a>
+<p class="caption"><span class="caption-number">Figure 52. </span><span class="caption-text">Edit Wireshark Thread Preferences</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Goto the CoAP Protocol dissector configuration by navigating to <em>CoAP</em>.
+Make sure that the port matches as shown below.</p>
+<blockquote>
+<div><div class="figure align-center" id="id9">
+<a class="reference internal image-reference" href="../_images/fig-wireshark-edit-preferences-coap.png"><img alt="Edit Wireshark CoAP Preferences" src="../_images/fig-wireshark-edit-preferences-coap.png" style="width: 559.2px; height: 378.40000000000003px;" /></a>
+<p class="caption"><span class="caption-number">Figure 53. </span><span class="caption-text">Edit Wireshark CoAP Preferences</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Goto the IEEE 802.15.4 Protocol dissector configuration by navigating to
+<em>IEEE 802.15.4</em>. Make sure that the configuration matches as shown below.</p>
+<blockquote>
+<div><div class="figure align-center" id="id10">
+<a class="reference internal image-reference" href="../_images/fig-wireshark-edit-preferences-ieee.png"><img alt="Edit Wireshark IEEE 802.15.4 Preferences" src="../_images/fig-wireshark-edit-preferences-ieee.png" style="width: 559.2px; height: 378.40000000000003px;" /></a>
+<p class="caption"><span class="caption-number">Figure 54. </span><span class="caption-text">Edit Wireshark IEEE 802.15.4 Preferences</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>In the IEEE 802.15.4 Protocol dissector configuration, add a Thread Master
+key by selecting the <code class="docutils literal notranslate"><span class="pre">Edit...</span></code> button next to <code class="docutils literal notranslate"><span class="pre">Decryption</span> <span class="pre">Keys</span></code> and
+clicking the <code class="docutils literal notranslate"><span class="pre">+</span></code> button. Set a key entry with the following values:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 54%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Decryption Key</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">00112233445566778899aabbccddeeff</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p>Decryption Key Index</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">0</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p>Key hash</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Thread</span> <span class="pre">hash</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Decryption Key is the default value for OpenThread. This should be
+set to a random value in production. You may have to determine the
+actual Thread Master Key for a given network. The Thread Test Harness
+does change these keys in the course of its tests.</p>
+</div>
+<div class="figure align-center" id="id11">
+<a class="reference internal image-reference" href="../_images/fig-wireshark-edit-preferences-ieee-key-enter.png"><img alt="Add IEEE 802.15.4 Decryption Key" src="../_images/fig-wireshark-edit-preferences-ieee-key-enter.png" style="width: 740.8000000000001px; height: 442.40000000000003px;" /></a>
+<p class="caption"><span class="caption-number">Figure 55. </span><span class="caption-text">Add IEEE 802.15.4 Decryption Key</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>The packets in Wireshark should now be decrypted and dissected correctly.</p>
+<blockquote>
+<div><div class="figure align-center" id="id12">
+<a class="reference internal image-reference" href="../_images/fig-wireshark-working.png"><img alt="Dissected Thread traffic" src="../_images/fig-wireshark-working.png" style="width: 897.6px; height: 520.8px;" /></a>
+<p class="caption"><span class="caption-number">Figure 56. </span><span class="caption-text">Dissected Thread traffic</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="ubiqua.html" class="btn btn-neutral float-left" title="Ubiqua Protocol Analyzer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../thread-guide/border-router-index.html" class="btn btn-neutral float-right" title="Linux Border Router Quick Start" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2016-2022, Texas Instruments.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

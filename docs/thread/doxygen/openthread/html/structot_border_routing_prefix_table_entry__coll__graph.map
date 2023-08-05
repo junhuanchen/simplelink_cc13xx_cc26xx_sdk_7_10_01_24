@@ -1,0 +1,9 @@
+<map id="otBorderRoutingPrefixTableEntry" name="otBorderRoutingPrefixTableEntry">
+<area shape="rect" id="node2" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="93,363,192,389"/>
+<area shape="rect" id="node8" href="$structot_ip6_prefix.html" title="otIp6Prefix" alt="" coords="247,452,329,479"/>
+<area shape="rect" id="node3" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="51,273,235,300"/>
+<area shape="rect" id="node4" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="57,184,228,211"/>
+<area shape="rect" id="node5" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="5,95,136,121"/>
+<area shape="rect" id="node6" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="160,95,307,121"/>
+<area shape="rect" id="node7" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="141,5,325,32"/>
+</map>

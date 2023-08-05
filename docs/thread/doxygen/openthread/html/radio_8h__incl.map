@@ -1,0 +1,7 @@
+<map id="radio.h" name="radio.h">
+<area shape="rect" id="node3" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="375,177,501,203"/>
+<area shape="rect" id="node6" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="200,87,351,114"/>
+<area shape="rect" id="node10" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="39,80,175,121"/>
+<area shape="rect" id="node4" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="330,259,466,300"/>
+<area shape="rect" id="node8" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="163,169,299,211"/>
+</map>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="union_a_e_s_c_t_r___operation_union" kind="union" language="C++" prot="public">
+    <compoundname>AESCTR_OperationUnion</compoundname>
+    <includes refid="_a_e_s_c_t_r_8h" local="no">AESCTR.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="union_a_e_s_c_t_r___operation_union_1a0decc466f29667ec2bcd72ca8188c7f4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_a_e_s_c_t_r___one_step_operation" kindref="compound">AESCTR_OneStepOperation</ref></type>
+        <definition>AESCTR_OneStepOperation AESCTR_OperationUnion::oneStepOperation</definition>
+        <argsstring></argsstring>
+        <name>oneStepOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/AESCTR.h" line="587" column="1" bodyfile="source/ti/drivers/AESCTR.h" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_a_e_s_c_t_r___operation_union_1a2975ef24e1b46fc54164ee93896d2d94" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_a_e_s_c_t_r___segmented_operation" kindref="compound">AESCTR_SegmentedOperation</ref></type>
+        <definition>AESCTR_SegmentedOperation AESCTR_OperationUnion::segmentedOperation</definition>
+        <argsstring></argsstring>
+        <name>segmentedOperation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/AESCTR.h" line="588" column="1" bodyfile="source/ti/drivers/AESCTR.h" bodystart="588" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Union containing a reference to a one-step and segmented operation structure. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="326">
+        <label>AESCTR_OperationUnion</label>
+        <link refid="union_a_e_s_c_t_r___operation_union"/>
+        <childnode refid="327" relation="usage">
+          <edgelabel>oneStepOperation</edgelabel>
+        </childnode>
+        <childnode refid="331" relation="usage">
+          <edgelabel>segmentedOperation</edgelabel>
+        </childnode>
+      </node>
+      <node id="331">
+        <label>AESCTR_SegmentedOperation</label>
+        <link refid="struct_a_e_s_c_t_r___segmented_operation"/>
+      </node>
+      <node id="328">
+        <label>CryptoKey</label>
+        <link refid="struct_crypto_key"/>
+        <childnode refid="329" relation="usage">
+          <edgelabel>plaintext</edgelabel>
+        </childnode>
+        <childnode refid="330" relation="usage">
+          <edgelabel>keyStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="329">
+        <label>CryptoKey_Plaintext</label>
+        <link refid="struct_crypto_key___plaintext"/>
+      </node>
+      <node id="330">
+        <label>CryptoKey_KeyStore</label>
+        <link refid="struct_crypto_key___key_store"/>
+      </node>
+      <node id="327">
+        <label>AESCTR_OneStepOperation</label>
+        <link refid="struct_a_e_s_c_t_r___one_step_operation"/>
+        <childnode refid="328" relation="usage">
+          <edgelabel>key</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/ti/drivers/AESCTR.h" line="586" column="1" bodyfile="source/ti/drivers/AESCTR.h" bodystart="585" bodyend="589"/>
+    <listofallmembers>
+      <member refid="union_a_e_s_c_t_r___operation_union_1a0decc466f29667ec2bcd72ca8188c7f4" prot="public" virt="non-virtual"><scope>AESCTR_OperationUnion</scope><name>oneStepOperation</name></member>
+      <member refid="union_a_e_s_c_t_r___operation_union_1a2975ef24e1b46fc54164ee93896d2d94" prot="public" virt="non-virtual"><scope>AESCTR_OperationUnion</scope><name>segmentedOperation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

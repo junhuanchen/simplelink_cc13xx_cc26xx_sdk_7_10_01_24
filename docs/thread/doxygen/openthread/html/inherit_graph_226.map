@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; Endpoint \&gt;" alt="" coords="17,5,181,32"/>
+<area shape="rect" id="node2" href="$classot_1_1_ip6_1_1_tcp_1_1_endpoint.html" title="Tcp::Endpoint" alt="" coords="240,56,343,83"/>
+<area shape="rect" id="node3" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Endpoint \&gt;" alt="" coords="5,56,192,83"/>
+<area shape="rect" id="node4" href="$structot_tcp_endpoint.html" title="otTcpEndpoint" alt="" coords="46,107,151,133"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="AESCCM_s_SecureCallback" name="AESCCM_s_SecureCallback">
+<area shape="rect" id="node2" href="$struct_a_e_s_common___config.html" title="AES Global configuration. " alt="" coords="945,97,1100,124"/>
+<area shape="rect" id="node3" href="$union_a_e_s_c_c_m___operation_union.html" title="Union containing a reference to a one step, segmented AAD, segmented data, or segmented finalize oper..." alt="" coords="929,148,1116,175"/>
+<area shape="rect" id="node4" href="$struct_a_e_s_c_c_m___one_step_operation.html" title="Struct containing the parameters required for encrypting/decrypting and authenticating/verifying a me..." alt="" coords="461,31,664,57"/>
+<area shape="rect" id="node5" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="271,31,360,57"/>
+<area shape="rect" id="node6" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node7" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="5,56,160,83"/>
+<area shape="rect" id="node8" href="$struct_a_e_s_c_c_m___segmented_finalize_operation.html" title="Struct containing the parameters required for finalizing an encryption/decryption and authentication/..." alt="" coords="459,82,667,123"/>
+<area shape="rect" id="node9" href="$struct_a_e_s_c_c_m___segmented_data_operation.html" title="Struct containing the parameters required for encrypting/decrypting a message in a segmented operatio..." alt="" coords="436,148,689,175"/>
+<area shape="rect" id="node10" href="$struct_a_e_s_c_c_m___segmented_a_a_d_operation.html" title="Struct containing the parameters required for authenticating/verifying additional data in a segmented..." alt="" coords="437,199,688,225"/>
+<area shape="rect" id="node11" href="$struct_secure_callback___object.html" title="SecureCallback_Object" alt="" coords="937,221,1108,248"/>
+<area shape="rect" id="node12" href="$struct_list___elem__.html" title="List_Elem_" alt="" coords="517,303,609,329"/>
+</map>

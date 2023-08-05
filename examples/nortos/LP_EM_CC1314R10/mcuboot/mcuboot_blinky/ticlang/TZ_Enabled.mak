@@ -1,0 +1,2 @@
+CFLAGS += -DDUAL_SLOT
+LFLAGS += --define DUAL_SLOT

@@ -1,0 +1,36 @@
+<map id="openthread&#45;posix&#45;config.h" name="openthread&#45;posix&#45;config.h">
+<area shape="rect" id="node2" href="$cli__readline_8cpp.html" title="cli_readline.cpp" alt="" coords="5,80,117,107"/>
+<area shape="rect" id="node3" href="$cli__stdio_8cpp.html" title="cli_stdio.cpp" alt="" coords="373,155,467,181"/>
+<area shape="rect" id="node4" href="$client_8cpp.html" title="client.cpp" alt="" coords="491,155,570,181"/>
+<area shape="rect" id="node5" href="$main_8c.html" title="main.c" alt="" coords="1929,80,1991,107"/>
+<area shape="rect" id="node6" href="$alarm_8cpp.html" title="alarm.cpp" alt="" coords="594,155,673,181"/>
+<area shape="rect" id="node7" href="$platform-posix_8h.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="1284,80,1399,107"/>
+<area shape="rect" id="node9" href="$entropy_8cpp.html" title="entropy.cpp" alt="" coords="697,155,788,181"/>
+<area shape="rect" id="node10" href="$hdlc__interface_8hpp.html" title="hdlc_interface.hpp" alt="" coords="931,155,1058,181"/>
+<area shape="rect" id="node14" href="$ip6__utils_8hpp.html" title="ip6_utils.hpp" alt="" coords="813,155,907,181"/>
+<area shape="rect" id="node15" href="$logging_8cpp.html" title="logging.cpp" alt="" coords="1608,155,1696,181"/>
+<area shape="rect" id="node16" href="$memory_8cpp.html" title="memory.cpp" alt="" coords="1721,155,1815,181"/>
+<area shape="rect" id="node17" href="$misc_8cpp.html" title="misc.cpp" alt="" coords="1840,155,1915,181"/>
+<area shape="rect" id="node18" href="$posix_2platform_2netif_8cpp.html" title="netif.cpp" alt="" coords="1939,155,2010,181"/>
+<area shape="rect" id="node20" href="$posix_2platform_2settings_8cpp.html" title="settings.cpp" alt="" coords="2035,155,2128,181"/>
+<area shape="rect" id="node21" href="$spi__interface_8hpp.html" title="spi_interface.hpp" alt="" coords="1464,155,1584,181"/>
+<area shape="rect" id="node23" href="$system_8cpp.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="140,155,231,181"/>
+<area shape="rect" id="node24" href="$trel_8cpp.html" title="trel.cpp" alt="" coords="2153,155,2218,181"/>
+<area shape="rect" id="node25" href="$udp_8cpp.html" title="This file includes the platform UDP driver. " alt="" coords="2242,155,2310,181"/>
+<area shape="rect" id="node26" href="$vendor__interface_8hpp.html" title="vendor_interface.hpp" alt="" coords="2334,155,2474,181"/>
+<area shape="rect" id="node27" href="$virtual__time_8cpp.html" title="This file implements the posix simulation. " alt="" coords="2499,155,2611,181"/>
+<area shape="rect" id="node28" href="$backbone_8cpp.html" title="backbone.cpp" alt="" coords="2015,80,2118,107"/>
+<area shape="rect" id="node29" href="$daemon_8hpp.html" title="daemon.hpp" alt="" coords="413,80,507,107"/>
+<area shape="rect" id="node30" href="$firewall_8hpp.html" title="firewall.hpp" alt="" coords="142,80,229,107"/>
+<area shape="rect" id="node32" href="$posix_2platform_2infra__if_8hpp.html" title="infra_if.hpp" alt="" coords="305,80,389,107"/>
+<area shape="rect" id="node33" href="$multicast__routing_8hpp.html" title="multicast_routing.hpp" alt="" coords="2143,80,2289,107"/>
+<area shape="rect" id="node35" href="$vendor__interface__example_8cpp.html" title="vendor_interface_example.cpp" alt="" coords="2314,80,2510,107"/>
+<area shape="rect" id="node8" href="$daemon_8cpp.html" title="daemon.cpp" alt="" coords="255,155,348,181"/>
+<area shape="rect" id="node11" href="$hdlc__interface_8cpp.html" title="hdlc_interface.cpp" alt="" coords="938,229,1065,256"/>
+<area shape="rect" id="node12" href="$posix_2platform_2radio_8cpp.html" title="radio.cpp" alt="" coords="1103,229,1177,256"/>
+<area shape="rect" id="node13" href="$posix_2platform_2infra__if_8cpp.html" title="infra_if.cpp" alt="" coords="1185,155,1269,181"/>
+<area shape="rect" id="node19" href="$radio__url_8cpp.html" title="radio_url.cpp" alt="" coords="1293,155,1389,181"/>
+<area shape="rect" id="node22" href="$spi__interface_8cpp.html" title="spi_interface.cpp" alt="" coords="1415,229,1535,256"/>
+<area shape="rect" id="node31" href="$firewall_8cpp.html" title="This file includes the implementation of OTBR firewall. " alt="" coords="29,155,115,181"/>
+<area shape="rect" id="node34" href="$multicast__routing_8cpp.html" title="multicast_routing.cpp" alt="" coords="2635,155,2781,181"/>
+</map>

@@ -1,0 +1,33 @@
+
+.. _sec-tirtos7-config:
+
+Kernel Configuration
+--------------------
+
+A |TIRTOS| application can configure the |TIRTOS| kernel using the  `SysConfig`_
+Tool. The configuration is accomplished by selecting the available parameters
+using the SysConfig GUI. Once configured, SysConfig will automatically generate
+the ``ti_sysbios_config.c`` and ``ti_sysbios_config.h`` files as explained in
+the |TI-RTOS_UG|.
+
+Some of the options that can be configured are:
+
+- Boot options
+
+- Number of Hwi, Swi, and Task priorities
+
+- Exception and Error handling
+
+- The duration of a System tick (the most fundamental *unit* of time in the
+  |TIRTOS| kernel).
+
+- Defining the application's entry point and interrupt vector
+
+- |TIRTOS| heaps and stacks
+
+- Including pre-compiled kernel and |TIRTOS| driver libraries
+
+- System providers (for ``System_printf()``)
+
+For additional documentation in regards to the list described above, see the
+|TI-RTOS_UG|.

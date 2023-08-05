@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TI-OpenThread 1.08.03 to 1.08.04 &mdash; 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User&#39;s Guide
+ 1.10.00.00 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="TI-OpenThread 1.08.01 to 1.08.02" href="tiop-1-08-01-to-1-08-02.html" />
+    <link rel="prev" title="Migration Guide" href="../thread-guide/migration-index.html" />
+    <script language="JavaScript">
+        var tiPageName;
+        tiPageName = "sug thread-migration tiop-1-08-03-to-1-08-04";
+
+        if (location.protocol == "file:"){
+            var ci_analytics_poc_load = true;
+        }
+    </script>
+
+    <script src="http://www.ti.com/assets/js/headerfooter/analytics.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"> 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+
+          </a>
+              <div class="version">
+                1.10.00.00
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide/quickstart-intro-cc13xx_cc26xx.html">Introduction to the SimpleLink CC13xx/CC26xx SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/ti-openthread-intro.html">TI-OpenThread Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/index-platform.html">SimpleLink Wireless MCU CC13xx and CC26xx Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/tirtos-index.html">TI-RTOS7 (RTOS Kernel) Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/software-development-index.html">Developing Thread Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/thread-protocol.html">Thread Networking Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/custom-hardware-cc13xx_cc26xx.html">Custom Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/packet-sniffer-index.html">Packet Sniffer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/border-router-index.html">Linux Border Router Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/oad-index.html">Over-the-Air Download (OAD)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/sysconfig-index.html">System Configuration (SysConfig)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/debugging-index.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/memory-index.html">Memory overview</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../thread-guide/migration-index.html">Migration Guide</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../thread-guide/migration-index.html#porting-guides">Porting Guides</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">TI-OpenThread 1.08.03 to 1.08.04</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tiop-1-08-01-to-1-08-02.html">TI-OpenThread 1.08.01 to 1.08.02</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tiop-1-07-00-to-1-08-00.html">TI-OpenThread 1.07.00 to 1.08.00</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tiop-0-95-00-to-1-00-00.html">TI-OpenThread 0.95.00 to 1.00.00</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../thread-guide/migration-index.html#migration-guides">Migration Guides</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../energy-trace/energy-trace.html">EnergyTrace User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/glossary.html">Terms and Definitions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../thread-guide/index-cc13xx_cc26xx.html">
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../thread-guide/migration-index.html">Migration Guide</a> &raquo;</li>
+      <li>TI-OpenThread 1.08.03 to 1.08.04</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="ti-openthread-1-08-03-to-1-08-04">
+<span id="tiop-1-08-03-to-1-08-04"></span><h1>TI-OpenThread 1.08.03 to 1.08.04<a class="headerlink" href="#ti-openthread-1-08-03-to-1-08-04" title="Permalink to this headline">¶</a></h1>
+<p>For the 5.20 SDK, the openthread libraries (e.g. libopenthread*) have been
+unified across the CC13xx/CC26xx platform. Recall that in previous SDKs, the
+libraries had different configurations for a specific board
+(e.g. libopenthread_mtd_CC1352P_2, libopenthread_mtd_CC26X2R1).</p>
+<div class="figure align-center" id="id2">
+<img alt="../_images/fig-430-separate-libs.PNG" src="../_images/fig-430-separate-libs.PNG" />
+<p class="caption"><span class="caption-number">Figure 116. </span><span class="caption-text">Separate Libs Per Board</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>The examples would use the lib* projects corresponding to the matching board.
+Now, Thread examples will use the same libraries. One benefit of this is that,
+if you have two instances of the same Thread example (e.g. doorlock) in a
+workspace, and each instance was using a different board (e.g. CC26x2R1 and
+CC1352R1), then there will now be one, shared MTD library,
+libopenthread_mtd_cc13x2_cc26x2 vs two, libopenthread_mtd_CC26X2R1 and
+libopenthread_mtd_CC1352R1. More generally, Thread examples in a workspace will
+now share libraries across different Thread-enabled SimpleLink devices when
+possible.</p>
+<div class="figure align-center" id="id3">
+<img alt="../_images/fig-440-unified-libs.PNG" src="../_images/fig-440-unified-libs.PNG" />
+<p class="caption"><span class="caption-number">Figure 117. </span><span class="caption-text">Unified Libs For All Boards</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>For migrating your Thread project to use the unified libraries:</p>
+<ol class="arabic">
+<li><p>Import the respective libraries necessary for your project.
+These can be found in <code class="code docutils literal notranslate"><span class="pre">C:\ti\&lt;5.20</span> <span class="pre">SDK&gt;\source\ti\thread\cc13x2_26x2</span></code>.
+As an example, the following libraries were imported for <code class="code docutils literal notranslate"><span class="pre">cli_ftd</span></code>:</p>
+<blockquote>
+<div><div class="figure align-center" id="id4">
+<img alt="../_images/fig-unified-libs.PNG" src="../_images/fig-unified-libs.PNG" />
+<p class="caption"><span class="caption-number">Figure 118. </span><span class="caption-text">Unified Libs</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Update the library paths that your project points to.
+Right-click the project → Properties → Build → Dependencies.</p>
+<p>Remove the previous libraries:</p>
+<div class="figure align-center" id="id5">
+<img alt="../_images/fig-remove-prev.PNG" src="../_images/fig-remove-prev.PNG" />
+<p class="caption"><span class="caption-number">Figure 119. </span><span class="caption-text">Old Libraries</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<p>Add the unified libraries:</p>
+<div class="figure align-center" id="id6">
+<img alt="../_images/fig-add-new.PNG" src="../_images/fig-add-new.PNG" />
+<p class="caption"><span class="caption-number">Figure 120. </span><span class="caption-text">New Libraries</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<p>Make sure that the order is the same as before. This is to account for
+include paths to the referenced projects.</p>
+<div class="figure align-center" id="id7">
+<img alt="../_images/fig-order-libs.PNG" src="../_images/fig-order-libs.PNG" />
+<p class="caption"><span class="caption-number">Figure 121. </span><span class="caption-text">Order the Reference Projects</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+<li><p>Change the name of config files, since these now match the unified naming
+convention.
+If you made any configuration changes to these files, you should now apply
+those changes to the new config files.</p>
+<div class="figure align-center" id="id8">
+<img alt="../_images/fig-new-config-file-names.PNG" src="../_images/fig-new-config-file-names.PNG" />
+<p class="caption"><span class="caption-number">Figure 122. </span><span class="caption-text">New Config File Names</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+<li><p>Re-build your Thread project. This will prompt CCS to build the new
+libraries.</p></li>
+</ol>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../thread-guide/migration-index.html" class="btn btn-neutral float-left" title="Migration Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="tiop-1-08-01-to-1-08-02.html" class="btn btn-neutral float-right" title="TI-OpenThread 1.08.01 to 1.08.02" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2016-2022, Texas Instruments.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

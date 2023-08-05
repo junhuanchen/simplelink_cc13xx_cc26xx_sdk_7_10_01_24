@@ -1,0 +1,4 @@
+<map id="LED_Object" name="LED_Object">
+<area shape="rect" id="node2" href="$struct_p_w_m___config__.html" title="PWM Global configuration. " alt="" coords="111,5,222,32"/>
+<area shape="rect" id="node3" href="$struct_p_w_m___fxn_table.html" title="The definition of a PWM function table that contains the required set of functions to control a speci..." alt="" coords="189,227,309,253"/>
+</map>

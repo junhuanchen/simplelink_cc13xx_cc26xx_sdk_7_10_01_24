@@ -1,0 +1,25 @@
+<map id="platform&#45;posix.h" name="platform&#45;posix.h">
+<area shape="rect" id="node2" href="$cli__stdio_8cpp.html" title="cli_stdio.cpp" alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node3" href="$client_8cpp.html" title="client.cpp" alt="" coords="124,80,203,107"/>
+<area shape="rect" id="node4" href="$alarm_8cpp.html" title="alarm.cpp" alt="" coords="227,80,305,107"/>
+<area shape="rect" id="node5" href="$daemon_8cpp.html" title="daemon.cpp" alt="" coords="330,80,423,107"/>
+<area shape="rect" id="node6" href="$entropy_8cpp.html" title="entropy.cpp" alt="" coords="447,80,538,107"/>
+<area shape="rect" id="node7" href="$hdlc__interface_8hpp.html" title="hdlc_interface.hpp" alt="" coords="613,80,740,107"/>
+<area shape="rect" id="node8" href="$hdlc__interface_8cpp.html" title="hdlc_interface.cpp" alt="" coords="531,155,657,181"/>
+<area shape="rect" id="node9" href="$posix_2platform_2radio_8cpp.html" title="radio.cpp" alt="" coords="721,155,795,181"/>
+<area shape="rect" id="node10" href="$posix_2platform_2infra__if_8cpp.html" title="infra_if.cpp" alt="" coords="816,80,900,107"/>
+<area shape="rect" id="node11" href="$ip6__utils_8hpp.html" title="ip6_utils.hpp" alt="" coords="924,80,1019,107"/>
+<area shape="rect" id="node12" href="$logging_8cpp.html" title="logging.cpp" alt="" coords="1043,80,1131,107"/>
+<area shape="rect" id="node13" href="$memory_8cpp.html" title="memory.cpp" alt="" coords="1156,80,1251,107"/>
+<area shape="rect" id="node14" href="$misc_8cpp.html" title="misc.cpp" alt="" coords="1275,80,1350,107"/>
+<area shape="rect" id="node15" href="$posix_2platform_2netif_8cpp.html" title="netif.cpp" alt="" coords="1375,80,1445,107"/>
+<area shape="rect" id="node16" href="$radio__url_8cpp.html" title="radio_url.cpp" alt="" coords="1470,80,1566,107"/>
+<area shape="rect" id="node17" href="$posix_2platform_2settings_8cpp.html" title="settings.cpp" alt="" coords="1590,80,1683,107"/>
+<area shape="rect" id="node18" href="$spi__interface_8hpp.html" title="spi_interface.hpp" alt="" coords="1707,80,1827,107"/>
+<area shape="rect" id="node19" href="$spi__interface_8cpp.html" title="spi_interface.cpp" alt="" coords="1755,155,1875,181"/>
+<area shape="rect" id="node20" href="$system_8cpp.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="1902,80,1993,107"/>
+<area shape="rect" id="node21" href="$trel_8cpp.html" title="trel.cpp" alt="" coords="2017,80,2083,107"/>
+<area shape="rect" id="node22" href="$udp_8cpp.html" title="This file includes the platform UDP driver. " alt="" coords="2107,80,2175,107"/>
+<area shape="rect" id="node23" href="$vendor__interface_8hpp.html" title="vendor_interface.hpp" alt="" coords="2199,80,2339,107"/>
+<area shape="rect" id="node24" href="$virtual__time_8cpp.html" title="This file implements the posix simulation. " alt="" coords="2363,80,2475,107"/>
+</map>

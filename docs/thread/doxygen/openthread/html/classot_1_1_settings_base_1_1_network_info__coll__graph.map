@@ -1,0 +1,14 @@
+<map id="SettingsBase::NetworkInfo" name="SettingsBase::NetworkInfo">
+<area shape="rect" id="node2" href="$classot_1_1_clearable.html" title="Clearable\&lt; NetworkInfo \&gt;" alt="" coords="569,37,736,64"/>
+<area shape="rect" id="node3" href="$classot_1_1_ip6_1_1_interface_identifier.html" title="InterfaceIdentifier" alt="" coords="593,88,712,115"/>
+<area shape="rect" id="node4" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="346,7,493,33"/>
+<area shape="rect" id="node5" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="21,7,205,33"/>
+<area shape="rect" id="node6" href="$classot_1_1_equatable.html" title="Equatable\&lt; InterfaceIdentifier \&gt;" alt="" coords="319,57,520,84"/>
+<area shape="rect" id="node7" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; InterfaceIdentifier \&gt;" alt="" coords="5,57,220,84"/>
+<area shape="rect" id="node8" href="$classot_1_1_clearable.html" title="Clearable\&lt; InterfaceIdentifier \&gt;" alt="" coords="321,108,518,135"/>
+<area shape="rect" id="node9" href="$classot_1_1_mac_1_1_ext_address.html" title="ExtAddress" alt="" coords="607,184,698,211"/>
+<area shape="rect" id="node10" href="$structot_ext_address.html" title="otExtAddress" alt="" coords="369,159,470,185"/>
+<area shape="rect" id="node11" href="$classot_1_1_equatable.html" title="Equatable\&lt; ExtAddress \&gt;" alt="" coords="333,209,505,236"/>
+<area shape="rect" id="node12" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; ExtAddress \&gt;" alt="" coords="19,209,206,236"/>
+<area shape="rect" id="node13" href="$classot_1_1_clearable.html" title="Clearable\&lt; ExtAddress \&gt;" alt="" coords="335,260,503,287"/>
+</map>

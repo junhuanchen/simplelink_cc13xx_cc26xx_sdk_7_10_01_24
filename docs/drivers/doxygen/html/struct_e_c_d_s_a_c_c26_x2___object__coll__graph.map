@@ -1,0 +1,12 @@
+<map id="ECDSACC26X2_Object" name="ECDSACC26X2_Object">
+<area shape="rect" id="node2" href="$struct_t_r_n_g___config.html" title="TRNG Global configuration. " alt="" coords="5,273,112,300"/>
+<area shape="rect" id="node3" href="$struct_e_c_d_s_a___config.html" title="ECDSA Global configuration. " alt="" coords="136,273,251,300"/>
+<area shape="rect" id="node4" href="$struct_t_r_n_g_c_c26_x_x___h_w_attrs.html" title="TRNGCC26XX Hardware Attributes. " alt="" coords="275,273,445,300"/>
+<area shape="rect" id="node5" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="482,95,571,121"/>
+<area shape="rect" id="node9" href="$struct_e_c_d_s_a___operation_verify.html" title="Struct containing the parameters required for verifying a message. " alt="" coords="521,184,695,211"/>
+<area shape="rect" id="node11" href="$struct_e_c_d_s_a___operation_sign.html" title="Struct containing the parameters required for signing a message. " alt="" coords="719,184,886,211"/>
+<area shape="rect" id="node6" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="360,5,515,32"/>
+<area shape="rect" id="node7" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="539,5,693,32"/>
+<area shape="rect" id="node8" href="$union_e_c_d_s_a___operation.html" title="Union containing pointers to all supported operation structs. " alt="" coords="539,273,677,300"/>
+<area shape="rect" id="node10" href="$struct_e_c_c_params___curve_params.html" title="A structure containing the parameters of an elliptic curve. " alt="" coords="723,95,912,121"/>
+</map>

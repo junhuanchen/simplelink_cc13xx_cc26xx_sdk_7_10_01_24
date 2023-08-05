@@ -1,0 +1,8 @@
+<map id="ECDH_Operation" name="ECDH_Operation">
+<area shape="rect" id="node2" href="$struct_e_c_d_h___operation_generate_public_key.html" title="Struct containing the parameters required to generate a public key. " alt="" coords="5,221,259,247"/>
+<area shape="rect" id="node3" href="$struct_e_c_c_params___curve_params.html" title="A structure containing the parameters of an elliptic curve. " alt="" coords="72,95,261,121"/>
+<area shape="rect" id="node7" href="$struct_e_c_d_h___operation_compute_shared_secret.html" title="Struct containing the parameters required to compute the shared secret. " alt="" coords="283,213,517,255"/>
+<area shape="rect" id="node4" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="321,95,410,121"/>
+<area shape="rect" id="node5" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="199,5,353,32"/>
+<area shape="rect" id="node6" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="377,5,532,32"/>
+</map>

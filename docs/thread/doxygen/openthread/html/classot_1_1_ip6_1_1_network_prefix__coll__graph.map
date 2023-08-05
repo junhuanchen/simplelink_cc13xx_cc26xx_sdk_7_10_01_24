@@ -1,0 +1,6 @@
+<map id="NetworkPrefix" name="NetworkPrefix">
+<area shape="rect" id="node2" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="$classot_1_1_equatable.html" title="Equatable\&lt; NetworkPrefix \&gt;" alt="" coords="160,80,344,107"/>
+<area shape="rect" id="node4" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; NetworkPrefix \&gt;" alt="" coords="153,5,351,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_clearable.html" title="Clearable\&lt; NetworkPrefix \&gt;" alt="" coords="369,80,549,107"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="RouterAdvertMessage" name="RouterAdvertMessage">
+<area shape="rect" id="node2" href="$classot_1_1_ip6_1_1_nd_1_1_router_advert_message_1_1_header.html" title="Header" alt="" coords="576,56,639,83"/>
+<area shape="rect" id="node3" href="$classot_1_1_equatable.html" title="Equatable\&lt; Header \&gt;" alt="" coords="241,5,386,32"/>
+<area shape="rect" id="node4" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Header \&gt;" alt="" coords="5,5,164,32"/>
+<area shape="rect" id="node5" href="$classot_1_1_clearable.html" title="Clearable\&lt; Header \&gt;" alt="" coords="243,56,384,83"/>
+<area shape="rect" id="node6" href="$classot_1_1_data.html" title="Data\&lt; kWithUint16Length \&gt;" alt="" coords="516,180,699,207"/>
+<area shape="rect" id="node7" href="$classot_1_1_clearable.html" title="Clearable\&lt; Data\&lt; kDataLength\lType \&gt; \&gt;" alt="" coords="213,107,413,149"/>
+<area shape="rect" id="node8" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Data\&lt;\l kDataLengthType \&gt; \&gt;" alt="" coords="238,173,389,214"/>
+<area shape="rect" id="node9" href="$classot_1_1_data_utils.html" title="DataUtils" alt="" coords="276,239,351,265"/>
+<area shape="rect" id="node10" href="$structot_1_1_type_traits_1_1_conditional.html" title="Conditional\&lt; kDataLength\lType==kWithUint8Length,\l uint8_t, uint16_t \&gt;" alt="" coords="227,289,400,345"/>
+</map>

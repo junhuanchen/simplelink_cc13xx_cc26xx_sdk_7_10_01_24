@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_key_store__pre_provisioned_key_storage_format" kind="struct" language="C++" prot="public">
+    <compoundname>KeyStore_preProvisionedKeyStorageFormat</compoundname>
+    <includes refid="_crypto_key_key_store___p_s_a_8h" local="no">CryptoKeyKeyStore_PSA.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_key_store__pre_provisioned_key_storage_format_1a4e15ea147f2b5a3937f8b73520f8493c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_key_store___pre_provisioned_key_meta_data" kindref="compound">KeyStore_PreProvisionedKeyMetaData</ref></type>
+        <definition>KeyStore_PreProvisionedKeyMetaData KeyStore_preProvisionedKeyStorageFormat::meta</definition>
+        <argsstring></argsstring>
+        <name>meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="1017" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="1017" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_key_store__pre_provisioned_key_storage_format_1ab429e9761c8188a48b36c136088a6341" prot="public" static="no" mutable="no">
+        <type>uint8_t *</type>
+        <definition>uint8_t* KeyStore_preProvisionedKeyStorageFormat::keyMaterial</definition>
+        <argsstring></argsstring>
+        <name>keyMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="1018" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="1018" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_key_store__pre_provisioned_key_storage_format_1aeb05929a178f826ea902dac2996661b1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t KeyStore_preProvisionedKeyStorageFormat::fletcher</definition>
+        <argsstring></argsstring>
+        <name>fletcher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="1019" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="1019" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure for storing pre-provisioned keys and its meta data. </para>    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>meta : Structure to meta data associated with each pre-provisioned key</para></listitem><listitem><para>KeyMaterial : A pointer to the plaintext key material</para></listitem><listitem><para>fletcher : 32-bit Fletcher checksum over the pre-provisioned key and its meta data </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1051">
+        <label>KeyStore_preProvisionedKeyStorageFormat</label>
+        <link refid="struct_key_store__pre_provisioned_key_storage_format"/>
+        <childnode refid="1052" relation="usage">
+          <edgelabel>meta</edgelabel>
+        </childnode>
+      </node>
+      <node id="1052">
+        <label>KeyStore_PreProvisionedKeyMetaData</label>
+        <link refid="struct_key_store___pre_provisioned_key_meta_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" line="1016" column="1" bodyfile="source/ti/drivers/cryptoutils/cryptokey/CryptoKeyKeyStore_PSA.h" bodystart="1015" bodyend="1020"/>
+    <listofallmembers>
+      <member refid="struct_key_store__pre_provisioned_key_storage_format_1aeb05929a178f826ea902dac2996661b1" prot="public" virt="non-virtual"><scope>KeyStore_preProvisionedKeyStorageFormat</scope><name>fletcher</name></member>
+      <member refid="struct_key_store__pre_provisioned_key_storage_format_1ab429e9761c8188a48b36c136088a6341" prot="public" virt="non-virtual"><scope>KeyStore_preProvisionedKeyStorageFormat</scope><name>keyMaterial</name></member>
+      <member refid="struct_key_store__pre_provisioned_key_storage_format_1a4e15ea147f2b5a3937f8b73520f8493c" prot="public" virt="non-virtual"><scope>KeyStore_preProvisionedKeyStorageFormat</scope><name>meta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

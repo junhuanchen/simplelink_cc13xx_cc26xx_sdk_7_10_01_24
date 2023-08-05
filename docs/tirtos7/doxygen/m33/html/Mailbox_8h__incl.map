@@ -1,0 +1,11 @@
+<map id="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/knl/Mailbox.h" name="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/knl/Mailbox.h">
+<area shape="rect" id="node2" href="$Event_8h.html" title="Event Manager. " alt="" coords="401,199,562,225"/>
+<area shape="rect" id="node6" href="$Queue_8h.html" title="Queue Manager. " alt="" coords="966,519,1133,546"/>
+<area shape="rect" id="node7" href="$Error_8h.html" title="Runtime error manager. " alt="" coords="555,601,693,643"/>
+<area shape="rect" id="node13" href="$Semaphore_8h.html" title="Semaphore Manager. " alt="" coords="551,124,750,151"/>
+<area shape="rect" id="node8" href="$Task_8h.html" title="Task Manager. " alt="" coords="459,273,613,300"/>
+<area shape="rect" id="node9" href="$Clock_8h.html" title="System Clock Manager. " alt="" coords="691,348,851,375"/>
+<area shape="rect" id="node11" href="$IHeap_8h.html" title="Interface to heap functions. " alt="" coords="296,423,435,464"/>
+<area shape="rect" id="node10" href="$Swi_8h.html" title="Software Interrupt Manager. " alt="" coords="712,430,859,457"/>
+<area shape="rect" id="node12" href="$Memory_8h.html" title="Static and run&#45;time memory manager. " alt="" coords="296,512,435,553"/>
+</map>

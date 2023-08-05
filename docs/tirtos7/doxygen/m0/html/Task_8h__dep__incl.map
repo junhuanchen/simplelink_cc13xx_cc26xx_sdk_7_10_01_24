@@ -1,0 +1,10 @@
+<map id="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/knl/Task.h" name="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/knl/Task.h">
+<area shape="rect" id="node2" href="$GateMutex_8h.html" title="Mutex Gate. " alt="" coords="5,361,459,432"/>
+<area shape="rect" id="node3" href="$GateMutexPri_8h.html" title="Mutex Gate with priority inheritance. " alt="" coords="960,361,1413,432"/>
+<area shape="rect" id="node4" href="$GateTask_8h.html" title="Software Interrupt Gate. " alt="" coords="1183,124,1636,195"/>
+<area shape="rect" id="node5" href="$HeapTrack_8h.html" title="Heap manager that enables tracking of all allocated blocks. " alt="" coords="1660,124,2113,195"/>
+<area shape="rect" id="node6" href="$Event_8h.html" title="Event Manager. " alt="" coords="655,124,1108,195"/>
+<area shape="rect" id="node8" href="$Semaphore_8h.html" title="Semaphore Manager. " alt="" coords="391,243,844,313"/>
+<area shape="rect" id="node9" href="$Load_8h.html" title="The Load module reports execution times and load information for threads in a system. " alt="" coords="2137,124,2591,195"/>
+<area shape="rect" id="node7" href="$Mailbox_8h.html" title="Mailbox Manager. " alt="" coords="483,361,936,432"/>
+</map>

@@ -1,0 +1,42 @@
+<map id="Dtls" name="Dtls">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="1220,429,1335,456"/>
+<area shape="rect" id="node23" href="$classot_1_1_message_pool.html" title="MessagePool" alt="" coords="1545,739,1647,765"/>
+<area shape="rect" id="node32" href="$classot_1_1_ip6_1_1_udp_1_1_socket.html" title="Socket" alt="" coords="2539,387,2602,413"/>
+<area shape="rect" id="node40" href="$classot_1_1_timer.html" title="Timer" alt="" coords="1935,532,1989,559"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="887,429,1092,456"/>
+<area shape="rect" id="node4" href="$classot_1_1_ip6_1_1_message_info.html" title="MessageInfo" alt="" coords="1915,145,2009,172"/>
+<area shape="rect" id="node5" href="$structot_message_info.html" title="otMessageInfo" alt="" coords="1543,25,1649,52"/>
+<area shape="rect" id="node6" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1228,28,1327,55"/>
+<area shape="rect" id="node35" href="$structot_sock_addr.html" title="otSockAddr" alt="" coords="1551,223,1641,249"/>
+<area shape="rect" id="node7" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="897,28,1081,55"/>
+<area shape="rect" id="node8" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,28,749,55"/>
+<area shape="rect" id="node9" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,5,427,32"/>
+<area shape="rect" id="node10" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,56,435,83"/>
+<area shape="rect" id="node11" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,56,189,83"/>
+<area shape="rect" id="node12" href="$classot_1_1_clearable.html" title="Clearable\&lt; MessageInfo \&gt;" alt="" coords="1509,161,1683,188"/>
+<area shape="rect" id="node13" href="$classot_1_1_message.html" title="Message" alt="" coords="2533,488,2608,515"/>
+<area shape="rect" id="node18" href="$structot_1_1_buffer_1_1_metadata.html" title="Metadata" alt="" coords="1924,640,2000,667"/>
+<area shape="rect" id="node14" href="$structot_message.html" title="otMessage" alt="" coords="1553,437,1639,464"/>
+<area shape="rect" id="node34" href="$structot_udp_socket.html" title="otUdpSocket" alt="" coords="1913,235,2011,261"/>
+<area shape="rect" id="node15" href="$classot_1_1_buffer.html" title="Buffer" alt="" coords="2244,849,2299,876"/>
+<area shape="rect" id="node25" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Buffer, kNumBuffers \&gt;" alt="" coords="2817,865,3024,892"/>
+<area shape="rect" id="node26" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Buffer \&gt;" alt="" coords="2492,837,2649,864"/>
+<area shape="rect" id="node16" href="$structot_message_buffer.html" title="otMessageBuffer" alt="" coords="1903,859,2021,885"/>
+<area shape="rect" id="node17" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Buffer \&gt;" alt="" coords="1877,909,2047,936"/>
+<area shape="rect" id="node19" href="$classot_1_1_rss_averager.html" title="RssAverager" alt="" coords="1549,804,1643,831"/>
+<area shape="rect" id="node20" href="$classot_1_1_clearable.html" title="Clearable\&lt; RssAverager \&gt;" alt="" coords="1191,804,1364,831"/>
+<area shape="rect" id="node21" href="$classot_1_1_time.html" title="Time" alt="" coords="1571,657,1621,684"/>
+<area shape="rect" id="node22" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="1204,657,1351,684"/>
+<area shape="rect" id="node24" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="1228,908,1327,935"/>
+<area shape="rect" id="node27" href="$classot_1_1_bit_vector.html" title="BitVector\&lt; OPENTHREAD\l_CONFIG_MLE_MAX_CHILDREN \&gt;" alt="" coords="1481,591,1711,633"/>
+<area shape="rect" id="node28" href="$classot_1_1_equatable.html" title="Equatable\&lt; BitVector\l\&lt; N \&gt; \&gt;" alt="" coords="1204,591,1351,633"/>
+<area shape="rect" id="node29" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; BitVector\l\&lt; N \&gt; \&gt;" alt="" coords="909,591,1069,633"/>
+<area shape="rect" id="node30" href="$classot_1_1_clearable.html" title="Clearable\&lt; BitVector\l\&lt; N \&gt; \&gt;" alt="" coords="1206,525,1349,566"/>
+<area shape="rect" id="node31" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; Message \&gt;" alt="" coords="2188,488,2355,515"/>
+<area shape="rect" id="node33" href="$classot_1_1_ip6_1_1_udp_1_1_socket_handle.html" title="SocketHandle" alt="" coords="2220,311,2323,337"/>
+<area shape="rect" id="node36" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; SocketHandle \&gt;" alt="" coords="1853,285,2071,312"/>
+<area shape="rect" id="node37" href="$classot_1_1_clearable.html" title="Clearable\&lt; SocketHandle \&gt;" alt="" coords="1871,336,2053,363"/>
+<area shape="rect" id="node38" href="$classot_1_1_timer_milli_context.html" title="TimerMilliContext" alt="" coords="2509,588,2632,615"/>
+<area shape="rect" id="node39" href="$classot_1_1_timer_milli.html" title="TimerMilli" alt="" coords="2233,539,2310,565"/>
+<area shape="rect" id="node41" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Timer \&gt;" alt="" coords="1512,539,1680,565"/>
+</map>

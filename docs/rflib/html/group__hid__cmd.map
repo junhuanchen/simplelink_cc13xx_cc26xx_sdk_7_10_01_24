@@ -1,0 +1,8 @@
+<map id="Hid_cmd" name="Hid_cmd">
+<area shape="rect" id="node1" href="$group__hid_rx_tx_output.html" title="HidRxTxOutput" alt="" coords="223,5,344,32"/>
+<area shape="rect" id="node2" href="$group___c_m_d___h_i_d___t_x.html" title="CMD_HID_TX" alt="" coords="229,56,337,83"/>
+<area shape="rect" id="node3" href="$group___c_m_d___h_i_d___r_x.html" title="CMD_HID_RX" alt="" coords="229,107,338,133"/>
+<area shape="rect" id="node4" href="$group__rfc.html" title="Rfc" alt="" coords="5,107,48,133"/>
+<area shape="rect" id="node6" href="$group__hid_addr_entry.html" title="HidAddrEntry" alt="" coords="229,157,337,184"/>
+<area shape="rect" id="node7" href="$group__hid_rx_status.html" title="HidRxStatus" alt="" coords="232,208,335,235"/>
+</map>

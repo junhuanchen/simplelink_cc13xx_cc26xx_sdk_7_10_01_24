@@ -1,0 +1,20 @@
+<map id="CoapBase" name="CoapBase">
+<area shape="rect" id="node2" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="287,203,401,229"/>
+<area shape="rect" id="node9" href="$classot_1_1_timer.html" title="Timer" alt="" coords="557,135,612,161"/>
+<area shape="rect" id="node3" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="5,203,211,229"/>
+<area shape="rect" id="node4" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="1326,263,1425,289"/>
+<area shape="rect" id="node5" href="$classot_1_1_coap_1_1_responses_queue.html" title="ResponsesQueue" alt="" coords="1313,99,1438,125"/>
+<area shape="rect" id="node6" href="$classot_1_1_coap_1_1_message_queue.html" title="MessageQueue" alt="" coords="981,44,1094,71"/>
+<area shape="rect" id="node7" href="$classot_1_1_timer_milli_context.html" title="TimerMilliContext" alt="" coords="976,135,1099,161"/>
+<area shape="rect" id="node8" href="$classot_1_1_timer_milli.html" title="TimerMilli" alt="" coords="793,135,870,161"/>
+<area shape="rect" id="node10" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Timer \&gt;" alt="" coords="260,92,428,119"/>
+<area shape="rect" id="node11" href="$classot_1_1_time.html" title="Time" alt="" coords="319,143,369,169"/>
+<area shape="rect" id="node12" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="35,143,181,169"/>
+<area shape="rect" id="node13" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Coap\l::Resource \&gt;" alt="" coords="1304,314,1447,355"/>
+<area shape="rect" id="node14" href="$classot_1_1_coap_1_1_resource.html" title="Resource" alt="" coords="999,321,1076,348"/>
+<area shape="rect" id="node15" href="$structot_coap_resource.html" title="otCoapResource" alt="" coords="772,307,891,333"/>
+<area shape="rect" id="node16" href="$structot_message.html" title="otMessage" alt="" coords="541,307,628,333"/>
+<area shape="rect" id="node17" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Resource \&gt;" alt="" coords="736,357,927,384"/>
+<area shape="rect" id="node18" href="$classot_1_1_coap_1_1_message.html" title="Message" alt="" coords="1338,404,1413,431"/>
+<area shape="rect" id="node19" href="$structot_1_1_coap_1_1_message_1_1_header.html" title="Header" alt="" coords="1006,404,1069,431"/>
+</map>

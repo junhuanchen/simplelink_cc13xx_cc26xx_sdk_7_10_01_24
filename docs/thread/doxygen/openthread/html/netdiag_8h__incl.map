@@ -1,0 +1,15 @@
+<map id="netdiag.h" name="netdiag.h">
+<area shape="rect" id="node2" href="$include_2openthread_2ip6_8h.html" title="This file defines the OpenThread IPv6 API. " alt="" coords="303,379,422,405"/>
+<area shape="rect" id="node14" href="$thread_8h.html" title="This file defines the OpenThread Thread API (for both FTD and MTD). " alt="" coords="278,80,415,107"/>
+<area shape="rect" id="node3" href="$message_8h.html" title="This file defines the top&#45;level OpenThread APIs related to message buffer and queues. " alt="" coords="100,461,255,487"/>
+<area shape="rect" id="node12" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="497,453,633,495"/>
+<area shape="rect" id="node4" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="217,550,367,577"/>
+<area shape="rect" id="node7" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="464,721,600,763"/>
+<area shape="rect" id="node6" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="457,639,583,666"/>
+<area shape="rect" id="node9" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="5,632,141,673"/>
+<area shape="rect" id="node13" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="392,543,528,584"/>
+<area shape="rect" id="node15" href="$dataset_8h.html" title="This file defines the OpenThread Operational Dataset API (for both FTD and MTD). " alt="" coords="291,304,435,331"/>
+<area shape="rect" id="node16" href="$link_8h.html" title="This file defines the OpenThread IEEE 802.15.4 Link Layer API. " alt="" coords="381,155,502,181"/>
+<area shape="rect" id="node17" href="$include_2openthread_2commissioner_8h.html" title="This file includes functions for the Thread Commissioner role. " alt="" coords="391,229,574,256"/>
+<area shape="rect" id="node18" href="$include_2openthread_2joiner_8h.html" title="This file includes functions for the Thread Joiner role. " alt="" coords="650,379,782,405"/>
+</map>

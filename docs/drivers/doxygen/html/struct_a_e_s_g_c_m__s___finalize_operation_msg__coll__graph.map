@@ -1,0 +1,4 @@
+<map id="AESGCM_s_FinalizeOperationMsg" name="AESGCM_s_FinalizeOperationMsg">
+<area shape="rect" id="node2" href="$struct_a_e_s_common___config.html" title="AES Global configuration. " alt="" coords="5,13,160,39"/>
+<area shape="rect" id="node3" href="$struct_a_e_s_g_c_m___segmented_finalize_operation.html" title="Struct containing the parameters required for finalizing an encryption/decryption and authentication/..." alt="" coords="185,5,394,47"/>
+</map>

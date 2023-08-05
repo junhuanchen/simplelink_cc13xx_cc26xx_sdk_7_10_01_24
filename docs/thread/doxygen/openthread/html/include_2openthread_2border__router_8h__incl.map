@@ -1,0 +1,12 @@
+<map id="border_router.h" name="border_router.h">
+<area shape="rect" id="node2" href="$include_2openthread_2border__routing_8h.html" title="This file defines the OpenThread Border Routing Manager API. " alt="" coords="5,80,188,107"/>
+<area shape="rect" id="node6" href="$include_2openthread_2ip6_8h.html" title="This file defines the OpenThread IPv6 API. " alt="" coords="147,229,265,256"/>
+<area shape="rect" id="node15" href="$netdata_8h.html" title="This file defines the OpenThread Network Data API. " alt="" coords="134,155,278,181"/>
+<area shape="rect" id="node3" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="135,490,261,517"/>
+<area shape="rect" id="node4" href="$toolchain_8h.html" title="openthread/platform\l/toolchain.h" alt="" coords="130,572,266,613"/>
+<area shape="rect" id="node7" href="$message_8h.html" title="This file defines the top&#45;level OpenThread APIs related to message buffer and queues. " alt="" coords="99,311,254,338"/>
+<area shape="rect" id="node13" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="278,304,414,345"/>
+<area shape="rect" id="node8" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="256,401,407,427"/>
+<area shape="rect" id="node10" href="$include_2openthread_2platform_2logging_8h.html" title="This file includes the platform abstraction for the debug log service. " alt="" coords="337,483,473,524"/>
+<area shape="rect" id="node14" href="$include_2openthread_2platform_2crypto_8h.html" title="This file includes the platform abstraction for Crypto operations. " alt="" coords="446,393,582,435"/>
+</map>

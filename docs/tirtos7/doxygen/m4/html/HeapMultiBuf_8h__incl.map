@@ -1,0 +1,7 @@
+<map id="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/heaps/HeapMultiBuf.h" name="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/heaps/HeapMultiBuf.h">
+<area shape="rect" id="node5" href="$HeapBuf_8h.html" title="Fixed size buffer heap manager. " alt="" coords="181,124,379,151"/>
+<area shape="rect" id="node7" href="$Error_8h.html" title="Runtime error manager. " alt="" coords="347,377,485,419"/>
+<area shape="rect" id="node8" href="$IHeap_8h.html" title="Interface to heap functions. " alt="" coords="504,199,643,240"/>
+<area shape="rect" id="node9" href="$Memory_8h.html" title="Static and run&#45;time memory manager. " alt="" coords="504,288,643,329"/>
+<area shape="rect" id="node6" href="$Queue_8h.html" title="Queue Manager. " alt="" coords="195,295,362,322"/>
+</map>

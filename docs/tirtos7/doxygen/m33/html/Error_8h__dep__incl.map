@@ -1,0 +1,25 @@
+<map id="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/runtime/Error.h" name="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/runtime/Error.h">
+<area shape="rect" id="node2" href="$family_2arm_2v8m_2Hwi_8h.html" title="Cortex V8M Hardware Interrupt Manager. " alt="" coords="5,124,459,195"/>
+<area shape="rect" id="node3" href="$GateHwi_8h.html" title="Hardware Interrupt Gate. " alt="" coords="483,124,936,195"/>
+<area shape="rect" id="node4" href="$GateMutex_8h.html" title="Mutex Gate. " alt="" coords="2005,836,2459,907"/>
+<area shape="rect" id="node5" href="$GateMutexPri_8h.html" title="Mutex Gate with priority inheritance. " alt="" coords="1528,836,1981,907"/>
+<area shape="rect" id="node6" href="$GateSwi_8h.html" title="Software Interrupt Gate. " alt="" coords="1315,361,1768,432"/>
+<area shape="rect" id="node7" href="$GateTask_8h.html" title="Software Interrupt Gate. " alt="" coords="1163,599,1616,669"/>
+<area shape="rect" id="node8" href="$HeapBuf_8h.html" title="Fixed size buffer heap manager. " alt="" coords="2725,361,3179,432"/>
+<area shape="rect" id="node9" href="$HeapMultiBuf_8h.html" title="Multiple fixed size buffer heap manager. " alt="" coords="4096,480,4549,551"/>
+<area shape="rect" id="node10" href="$HeapCallback_8h.html" title="A heap that calls user supplied callback functions. " alt="" coords="3832,361,4285,432"/>
+<area shape="rect" id="node11" href="$HeapMem_8h.html" title="Variable size buffer heap manager. " alt="" coords="3203,361,3656,432"/>
+<area shape="rect" id="node12" href="$HeapMin_8h.html" title="Growth&#45;only based heap implementation. " alt="" coords="4309,361,4763,432"/>
+<area shape="rect" id="node13" href="$HeapTrack_8h.html" title="Heap manager that enables tracking of all allocated blocks. " alt="" coords="3000,599,3453,669"/>
+<area shape="rect" id="node14" href="$Clock_8h.html" title="System Clock Manager. " alt="" coords="1792,361,2245,432"/>
+<area shape="rect" id="node15" href="$Semaphore_8h.html" title="Semaphore Manager. " alt="" coords="2005,717,2459,788"/>
+<area shape="rect" id="node16" href="$Mailbox_8h.html" title="Mailbox Manager. " alt="" coords="2657,836,3111,907"/>
+<area shape="rect" id="node17" href="$Task_8h.html" title="Task Manager. " alt="" coords="1893,480,2347,551"/>
+<area shape="rect" id="node18" href="$Event_8h.html" title="Event Manager. " alt="" coords="2472,599,2925,669"/>
+<area shape="rect" id="node19" href="$Load_8h.html" title="The Load module reports execution times and load information for threads in a system. " alt="" coords="1640,599,2093,669"/>
+<area shape="rect" id="node20" href="$Queue_8h.html" title="Queue Manager. " alt="" coords="2219,124,2672,195"/>
+<area shape="rect" id="node21" href="$Swi_8h.html" title="Software Interrupt Manager. " alt="" coords="1691,243,2144,313"/>
+<area shape="rect" id="node22" href="$Assert_8h.html" title="Runtime assertion manager. " alt="" coords="4888,124,5341,195"/>
+<area shape="rect" id="node23" href="$Memory_8h.html" title="Static and run&#45;time memory manager. " alt="" coords="3505,124,3959,195"/>
+<area shape="rect" id="node24" href="$IHeap_8h.html" title="Interface to heap functions. " alt="" coords="3505,243,3959,313"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="UdpExample" name="UdpExample">
+<area shape="rect" id="node2" href="$classot_1_1_cli_1_1_output_wrapper.html" title="OutputWrapper" alt="" coords="53,556,163,583"/>
+<area shape="rect" id="node3" href="$classot_1_1_cli_1_1_output_base.html" title="OutputBase" alt="" coords="5,363,96,389"/>
+<area shape="rect" id="node4" href="$classot_1_1_cli_1_1_output.html" title="Output" alt="" coords="88,452,149,479"/>
+<area shape="rect" id="node5" href="$structot_instance.html" title="otInstance" alt="" coords="120,363,203,389"/>
+<area shape="rect" id="node6" href="$structot_udp_socket.html" title="otUdpSocket" alt="" coords="187,556,285,583"/>
+<area shape="rect" id="node7" href="$structot_message.html" title="otMessage" alt="" coords="189,452,275,479"/>
+<area shape="rect" id="node8" href="$structot_sock_addr.html" title="otSockAddr" alt="" coords="300,452,391,479"/>
+<area shape="rect" id="node9" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="296,363,395,389"/>
+<area shape="rect" id="node10" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="253,273,437,300"/>
+<area shape="rect" id="node11" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="260,184,431,211"/>
+<area shape="rect" id="node12" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="208,95,339,121"/>
+<area shape="rect" id="node13" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="363,95,509,121"/>
+<area shape="rect" id="node14" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="344,5,528,32"/>
+</map>

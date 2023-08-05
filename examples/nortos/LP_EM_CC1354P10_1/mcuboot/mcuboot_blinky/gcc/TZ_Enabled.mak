@@ -1,0 +1,2 @@
+CFLAGS += -DDUAL_SLOT
+LFLAGS += --defsym DUAL_SLOT=1

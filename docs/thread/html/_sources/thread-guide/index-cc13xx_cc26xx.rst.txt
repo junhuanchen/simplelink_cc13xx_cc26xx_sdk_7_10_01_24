@@ -1,0 +1,29 @@
+
+.. _sdg-overview:
+
+##########################
+TI-OpenThread User's Guide
+##########################
+
+.. rubric:: Table of contents
+
+.. toctree::
+    :maxdepth: 2
+
+    /quickstart-guide/quickstart-intro-cc13xx_cc26xx.rst
+    /thread/ti-openthread-intro
+    /cc13xx_cc26xx/index-platform
+    /thread-guide/tirtos-index
+    /thread-guide/software-development-index
+    /thread/thread-protocol
+    /cc13xx_cc26xx/custom-hardware-cc13xx_cc26xx.rst
+    /thread-guide/packet-sniffer-index
+    /thread-guide/border-router-index
+    /thread-guide/oad-index
+    /thread-guide/sysconfig-index
+    /thread-guide/debugging-index
+    /thread-guide/memory-index
+    /thread-guide/migration-index
+    /energy-trace/energy-trace
+    /thread/references
+    /thread/glossary

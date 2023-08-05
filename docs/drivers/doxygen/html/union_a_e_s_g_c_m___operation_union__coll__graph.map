@@ -1,0 +1,9 @@
+<map id="AESGCM_OperationUnion" name="AESGCM_OperationUnion">
+<area shape="rect" id="node2" href="$struct_a_e_s_g_c_m___segmented_a_a_d_operation.html" title="Struct containing the parameters required for authenticating/verifying additional data in a segmented..." alt="" coords="438,5,689,32"/>
+<area shape="rect" id="node3" href="$struct_a_e_s_g_c_m___segmented_finalize_operation.html" title="Struct containing the parameters required for finalizing an encryption/decryption and authentication/..." alt="" coords="459,57,668,98"/>
+<area shape="rect" id="node4" href="$struct_a_e_s_g_c_m___one_step_operation.html" title="Struct containing the parameters required for encrypting/decrypting and authenticating/verifying a me..." alt="" coords="461,123,665,149"/>
+<area shape="rect" id="node5" href="$struct_crypto_key.html" title="CryptoKey datastructure. " alt="" coords="271,123,360,149"/>
+<area shape="rect" id="node6" href="$struct_crypto_key___plaintext.html" title="Plaintext CryptoKey datastructure. " alt="" coords="5,97,160,124"/>
+<area shape="rect" id="node7" href="$struct_crypto_key___key_store.html" title="Key store CryptoKey datastructure. " alt="" coords="5,148,160,175"/>
+<area shape="rect" id="node8" href="$struct_a_e_s_g_c_m___segmented_data_operation.html" title="Struct containing the parameters required for encrypting/decrypting a message in a segmented operatio..." alt="" coords="436,173,691,200"/>
+</map>

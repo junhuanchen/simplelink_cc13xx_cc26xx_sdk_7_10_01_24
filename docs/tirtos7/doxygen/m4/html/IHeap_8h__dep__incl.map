@@ -1,0 +1,17 @@
+<map id="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/runtime/IHeap.h" name="/home/developer/.conan/data/tirtos/7.03.00.10/library&#45;sb/ga/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/kernel/tirtos7/packages/ti/sysbios/runtime/IHeap.h">
+<area shape="rect" id="node2" href="$HeapBuf_8h.html" title="Fixed size buffer heap manager. " alt="" coords="32,243,485,313"/>
+<area shape="rect" id="node3" href="$HeapMultiBuf_8h.html" title="Multiple fixed size buffer heap manager. " alt="" coords="32,361,485,432"/>
+<area shape="rect" id="node4" href="$HeapCallback_8h.html" title="A heap that calls user supplied callback functions. " alt="" coords="509,243,962,313"/>
+<area shape="rect" id="node5" href="$HeapMem_8h.html" title="Variable size buffer heap manager. " alt="" coords="1037,243,1490,313"/>
+<area shape="rect" id="node6" href="$HeapMin_8h.html" title="Growth&#45;only based heap implementation. " alt="" coords="1514,243,1968,313"/>
+<area shape="rect" id="node7" href="$HeapTrack_8h.html" title="Heap manager that enables tracking of all allocated blocks. " alt="" coords="1992,243,2445,313"/>
+<area shape="rect" id="node8" href="$Task_8h.html" title="Task Manager. " alt="" coords="3185,124,3638,195"/>
+<area shape="rect" id="node16" href="$Memory_8h.html" title="Static and run&#45;time memory manager. " alt="" coords="773,124,1226,195"/>
+<area shape="rect" id="node9" href="$GateMutex_8h.html" title="Mutex Gate. " alt="" coords="3789,480,4242,551"/>
+<area shape="rect" id="node10" href="$GateMutexPri_8h.html" title="Mutex Gate with priority inheritance. " alt="" coords="3312,480,3765,551"/>
+<area shape="rect" id="node11" href="$GateTask_8h.html" title="Software Interrupt Gate. " alt="" coords="2946,243,3400,313"/>
+<area shape="rect" id="node12" href="$Event_8h.html" title="Event Manager. " alt="" coords="2469,243,2922,313"/>
+<area shape="rect" id="node14" href="$Semaphore_8h.html" title="Semaphore Manager. " alt="" coords="3312,361,3765,432"/>
+<area shape="rect" id="node15" href="$Load_8h.html" title="The Load module reports execution times and load information for threads in a system. " alt="" coords="3424,243,3877,313"/>
+<area shape="rect" id="node13" href="$Mailbox_8h.html" title="Mailbox Manager. " alt="" coords="2744,480,3197,551"/>
+</map>

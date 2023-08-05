@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartRF Protocol Packet Sniffer &mdash; 
+SimpleLink™ CC13XX/CC26XX SDK
+TI 15.4-Stack User&#39;s Guide
+ 6.10.01.00 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Creating Custom Applications" href="creating-custom-applications.html" />
+    <link rel="prev" title="Configuring Stack" href="configuring-stack.html" />
+    <script language="JavaScript">
+        var tiPageName;
+        tiPageName = "sug ti154stack packet-sniffer";
+
+        if (location.protocol == "file:"){
+            var ci_analytics_poc_load = true;
+        }
+    </script>
+
+    <script src="http://www.ti.com/assets/js/headerfooter/analytics.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../ti154stack-guide/index-cc13xx_cc26xx.html" class="icon icon-home"> 
+SimpleLink™ CC13XX/CC26XX SDK
+TI 15.4-Stack User's Guide
+
+          </a>
+              <div class="version">
+                6.10.01.00
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide/quickstart-intro-cc13xx_cc26xx.html">Introduction to the SimpleLink CC13xx/CC26xx SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/index-platform.html">SimpleLink Wireless MCU CC13xx and CC26xx Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ti154stack-guide/tirtos-index-cc13xx_cc26xx.html">TI-RTOS7 (RTOS Kernel) Overview</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../ti154stack-guide/ti154stack-index-cc13xx_cc26xx.html">TI 15.4-Stack</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ti154stack-overview-cc13xx_cc26xx.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ti154stack-overview-cc13xx_cc26xx.html#architecture-choices">Architecture Choices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ti154stack-overview-cc13xx_cc26xx.html#data-rate-and-phy">Data Rate and PHY</a></li>
+<li class="toctree-l2"><a class="reference internal" href="application-overview.html">Application Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="example-applications.html">Example Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common-user-interface.html">Common User Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="secure-commissioning.html">Secure Commissioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="beacon-mode.html">Beacon Enabled Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="non-beacon-mode.html">Non-Beacon Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frequency-hopping-mode.html">Frequency-Hopping Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arib-regulation-type.html">ARIB Regulation Type</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuring-stack.html">Configuring Stack</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">SmartRF Protocol Packet Sniffer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configure-for-arib-mode">Configure for ARIB Mode</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#non-beacon-mode-example-sniffer-output">Non-beacon Mode Example Sniffer Output</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#beacon-mode-example-sniffer-output">Beacon Mode Example Sniffer Output</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="creating-custom-applications.html">Creating Custom Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cc13xx_cc26xx/fcc-certification.html">FCC Certification Considerations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ti154stack-guide/oad-secure-index.html">Over-the-Air Download (OAD)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ti154stack-guide/sysconfig-index.html">System Configuration (SysConfig)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/custom-hardware-cc13xx_cc26xx.html">Custom Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../coexistence/coexistence-ieee.html">Wi-Fi Coexistence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ti154stack-guide/debugging-index.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ti154stack-guide/memory-index.html">Memory overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../energy-trace/energy-trace.html">EnergyTrace User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../security-tfm/index.html">Security Features of CC13x4 and CC26x4 Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ti154stack-guide/migration-guide-cc13xx_cc26xx.html">Migration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-reference.html">API References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ti154stack-guide/references-cc13xx_cc26xx.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ti154stack-guide/references-cc13xx_cc26xx.html#terms-and-acronyms">Terms and Acronyms</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../ti154stack-guide/index-cc13xx_cc26xx.html">
+SimpleLink™ CC13XX/CC26XX SDK
+TI 15.4-Stack User's Guide
+</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../ti154stack-guide/index-cc13xx_cc26xx.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../ti154stack-guide/ti154stack-index-cc13xx_cc26xx.html">TI 15.4-Stack</a> &raquo;</li>
+      <li>SmartRF Protocol Packet Sniffer</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="chap-packet-sniffer">
+<span id="id5"></span><h1>SmartRF Protocol Packet Sniffer<a class="headerlink" href="#chap-packet-sniffer" title="Permalink to this headline">¶</a></h1>
+<p>A CC13xx or CC26xx Launchpad can be used as packet sniffer device for TI 15.4-Stack
+radio packets. This feature enables easier development and debugging for those
+developing products with the TI 15.4-Stack. This section provides details on the
+required software, where to get it, and how to set it up to sniff over-the-air
+(OTA) traffic. Wireshark™ is the recommended packet sniffer.</p>
+<p>SmartRF Packet Sniffer 2 software is available to download here:
+<a class="reference external" href="http://www.ti.com/tool/packet-sniffer">http://www.ti.com/tool/packet-sniffer</a></p>
+<p>For detailed information regarding the installation and setup of hardware and
+software for SmartRF Packet Sniffer 2, visit the User Guide here:
+<a class="reference external" href="http://software-dl.ti.com/lprf/packet_sniffer_2/docs/user_guide/html/index.html">http://software-dl.ti.com/lprf/packet_sniffer_2/docs/user_guide/html/index.html</a></p>
+<div class="section" id="configure-for-arib-mode">
+<h2>Configure for ARIB Mode<a class="headerlink" href="#configure-for-arib-mode" title="Permalink to this headline">¶</a></h2>
+<p>Please use the following configuration when sniffing ARIB mode. (For more
+information on this mode, please see <a class="reference internal" href="arib-regulation-type.html#sec-arib-regulation-type"><span class="std std-ref">ARIB Regulation Type</span></a>.)</p>
+<ol class="arabic simple">
+<li><p>Open the sniffer agent and select Device Configuration as described in the
+Packet Sniffer User’s Guide.</p></li>
+<li><p>Configure Wi-SUN PHY #4a (ID 6)</p></li>
+<li><p>Select base frequency 920.7 MHz.</p></li>
+<li><p>Select your channel. Channel 0 corresponds to 920.7 MHz, i.e. the channel
+called 24,25 in SysConfig. Channel 1 corresponds to 920.9 MHz, i.e. the
+channel called 25,26 in SysConfig. Etc.</p></li>
+</ol>
+<div class="align-center figure" id="id6">
+<a class="reference internal image-reference" href="../_images/sniffer-config-arib.png"><img alt="../_images/sniffer-config-arib.png" src="../_images/sniffer-config-arib.png" style="width: 450px;" /></a>
+<p class="caption"><span class="caption-number">Figure 80. </span><span class="caption-text">Configure Packet Sniffer for ARIB mode.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<div class="section" id="non-beacon-mode-example-sniffer-output">
+<h3>Non-beacon Mode Example Sniffer Output<a class="headerlink" href="#non-beacon-mode-example-sniffer-output" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="#fig-packetsniffer-nonbeacon-overview"><span class="std std-numref">Figure 81.</span></a> shows the SmartRF Packet Sniffer 2 output on Wireshark™ for our default sensor and collector example, which configures a non-beacon network at 50kbps PHY.</p>
+<p>The capture shows a beacon request sent by the sensor to any listening collectors. The collector then responds with a beacon and the sensor follows by sending an association request. When the collector receives the request, the pair exchange metadata and the collector finally sends the association response. <a class="reference internal" href="#fig-packet-sniffer-association-nonbeacon"><span class="std std-numref">Figure 82.</span></a> shows the full association response packet information as displayed on Wireshark™.</p>
+<p>For more information regarding the association sequence, see <a class="reference internal" href="non-beacon-mode.html#sec-non-beacon-mode"><span class="std std-ref">Non-Beacon Mode</span></a>.</p>
+<div class="figure align-center" id="id7">
+<span id="fig-packetsniffer-nonbeacon-overview"></span><img alt="../_images/fig-packetsniffer-nonbeacon-overview.png" src="../_images/fig-packetsniffer-nonbeacon-overview.png" />
+<p class="caption"><span class="caption-number">Figure 81. </span><span class="caption-text">Packet Sniffer 2 capture of sensor association in Non-Beacon mode at 50kbps PHY</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id8">
+<span id="fig-packet-sniffer-association-nonbeacon"></span><img alt="../_images/fig-packet-sniffer-association-nonbeacon.png" src="../_images/fig-packet-sniffer-association-nonbeacon.png" />
+<p class="caption"><span class="caption-number">Figure 82. </span><span class="caption-text">Wireshark™ dissection of association response packet in Non-Beacon mode</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="beacon-mode-example-sniffer-output">
+<h3>Beacon Mode Example Sniffer Output<a class="headerlink" href="#beacon-mode-example-sniffer-output" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="#fig-packet-sniffer-association-beacon"><span class="std std-numref">Figure 83.</span></a> shows the SmartRF Packet Sniffer 2 output on Wireshark™ for a modified sensor and collector example, which configures a beacon enabled network at 50kbps PHY.</p>
+<p>The capture shows a beacon requests sent by the coordinator. The sensor then responds by sending an association request. When the collector receives the request, the pair exchange metadata and the collector finally sends the association response. For more information regarding the association sequence, see <a class="reference internal" href="beacon-mode.html#sec-beacon-mode"><span class="std std-ref">Beacon Enabled Mode</span></a>.</p>
+<div class="figure align-center" id="id9">
+<span id="fig-packet-sniffer-association-beacon"></span><img alt="../_images/fig-packet-sniffer-association-beacon.png" src="../_images/fig-packet-sniffer-association-beacon.png" />
+<p class="caption"><span class="caption-number">Figure 83. </span><span class="caption-text">Wireshark™ capture of sensor association in Beacon mode at 50kbps PHY</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is not possible to sniff multiple channels at one time using a single instance of SmartRF Packet Sniffer 2. For this reason, it is not possible to sniff a Frequency-hopping configured network.</p>
+<p>One can reduce the channels enabled in the channel mask in FH mode to sniff fewer channels. Then, using multiple Packet Sniffer instances, one can see the traffic across multiple channels. Note, this requires a single Launchpad per channel desired to sniff.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="configuring-stack.html" class="btn btn-neutral float-left" title="Configuring Stack" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="creating-custom-applications.html" class="btn btn-neutral float-right" title="Creating Custom Applications" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2016-2022, Texas Instruments.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

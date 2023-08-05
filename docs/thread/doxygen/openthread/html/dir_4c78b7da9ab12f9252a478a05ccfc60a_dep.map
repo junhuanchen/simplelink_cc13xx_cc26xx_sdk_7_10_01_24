@@ -1,0 +1,22 @@
+<map id="spinel" name="spinel">
+<area shape="rect" id="node1" href="dir_4c78b7da9ab12f9252a478a05ccfc60a.html" title="spinel" alt="" coords="129,52,201,100"/>
+<area shape="rect" id="node2" href="dir_9d41f2d9dd9f152ba43e738700883d1e.html" title="platform" alt="" coords="5,148,77,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000026_000021.html" title="1" alt="" coords="87,136,95,151"/>
+<area shape="rect" id="node3" href="dir_d44c64559bbebec7f509842c48db8b23.html" title="include" alt="" coords="228,244,300,292"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000026_000004.html" title="11" alt="" coords="217,218,232,233"/>
+<area shape="rect" id="node4" href="dir_f29484024a66543db72d1fe156649290.html" title="hdlc" alt="" coords="203,148,275,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000026_000023.html" title="1" alt="" coords="212,121,220,136"/>
+<area shape="rect" id="node5" href="dir_4eeddf84fddd42d44de1574042fba5c7.html" title="ncp" alt="" coords="251,52,323,100"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000026_000014.html" title="1" alt="" coords="228,60,236,75"/>
+<area shape="rect" id="node6" href="dir_aebb8dcc11953d78e620bbef0b9e2183.html" title="core" alt="" coords="228,340,300,388"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000026_000001.html" title="15" alt="" coords="231,313,245,328"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000004_000001.html" title="1" alt="" coords="259,314,267,329"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000023_000004.html" title="1" alt="" coords="257,217,265,231"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000023_000001.html" title="5" alt="" coords="235,313,243,327"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000014_000026.html" title="5" alt="" coords="215,77,223,92"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000014_000004.html" title="38" alt="" coords="280,222,295,237"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000014_000023.html" title="1" alt="" coords="262,128,270,143"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000014_000001.html" title="35" alt="" coords="295,323,310,338"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000001_000004.html" title="125" alt="" coords="254,304,275,318"/>
+<area shape="rect" id="clust1" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html" title="lib" alt="" coords="119,16,212,111"/>
+</map>

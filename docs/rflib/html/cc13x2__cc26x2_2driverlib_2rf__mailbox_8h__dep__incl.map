@@ -1,0 +1,14 @@
+<map id="rf_mailbox.h" name="rf_mailbox.h">
+<area shape="rect" id="node2" href="$cc13x2__cc26x2_2driverlib_2rf__hs__cmd_8h.html" title="rf_hs_cmd.h" alt="" coords="5,155,107,181"/>
+<area shape="rect" id="node3" href="$cc13x2__cc26x2_2driverlib_2rf__common__cmd_8h.html" title="rf_common_cmd.h" alt="" coords="222,80,365,107"/>
+<area shape="rect" id="node4" href="$rf__hid__cmd_8h.html" title="RF HID command interface for CC13x2, CC26x2. " alt="" coords="131,155,237,181"/>
+<area shape="rect" id="node5" href="$cc13x2__cc26x2_2driverlib_2rf__prop__cmd_8h.html" title="rf_prop_cmd.h" alt="" coords="312,155,427,181"/>
+<area shape="rect" id="node7" href="$cc13x2__cc26x2_2driverlib_2rf__ble__cmd_8h.html" title="rf_ble_cmd.h" alt="" coords="451,155,557,181"/>
+<area shape="rect" id="node8" href="$cc13x2__cc26x2_2driverlib_2rf__ieee__cmd_8h.html" title="rf_ieee_cmd.h" alt="" coords="581,155,696,181"/>
+<area shape="rect" id="node9" href="$rf__bt5__iq__autocopy_8h.html" title="rf_bt5_iq_autocopy.h" alt="" coords="542,80,698,107"/>
+<area shape="rect" id="node10" href="$rf__bt5__coex_8h.html" title="rf_bt5_coex.h" alt="" coords="722,80,833,107"/>
+<area shape="rect" id="node11" href="$cc13x2__cc26x2_2driverlib_2rf__ieee__mailbox_8h.html" title="rf_ieee_mailbox.h" alt="" coords="857,80,996,107"/>
+<area shape="rect" id="node12" href="$cc13x2__cc26x2_2driverlib_2rf__data__entry_8h.html" title="rf_data_entry.h" alt="" coords="1021,80,1139,107"/>
+<area shape="rect" id="node13" href="$cc13x2__cc26x2_2driverlib_2rf__ieee__coex_8h.html" title="rf_ieee_coex.h" alt="" coords="1163,80,1280,107"/>
+<area shape="rect" id="node6" href="$cc13x2__cc26x2_2driverlib_2rfc_8h.html" title="rfc.h" alt="" coords="344,229,395,256"/>
+</map>

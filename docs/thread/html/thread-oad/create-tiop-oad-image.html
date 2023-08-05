@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create a TI-OpenThread OAD Image &mdash; 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User&#39;s Guide
+ 1.10.00.00 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="System Configuration (SysConfig)" href="../thread-guide/sysconfig-index.html" />
+    <link rel="prev" title="Non-native OAD" href="non-native-oad.html" />
+    <script language="JavaScript">
+        var tiPageName;
+        tiPageName = "sug thread-oad create-tiop-oad-image";
+
+        if (location.protocol == "file:"){
+            var ci_analytics_poc_load = true;
+        }
+    </script>
+
+    <script src="http://www.ti.com/assets/js/headerfooter/analytics.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"> 
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+
+          </a>
+              <div class="version">
+                1.10.00.00
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide/quickstart-intro-cc13xx_cc26xx.html">Introduction to the SimpleLink CC13xx/CC26xx SDK</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/ti-openthread-intro.html">TI-OpenThread Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/index-platform.html">SimpleLink Wireless MCU CC13xx and CC26xx Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/tirtos-index.html">TI-RTOS7 (RTOS Kernel) Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/software-development-index.html">Developing Thread Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/thread-protocol.html">Thread Networking Protocol</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cc13xx_cc26xx/custom-hardware-cc13xx_cc26xx.html">Custom Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/packet-sniffer-index.html">Packet Sniffer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/border-router-index.html">Linux Border Router Quick Start</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../thread-guide/oad-index.html">Over-the-Air Download (OAD)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/intro.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/oad-types.html">OAD Storage &amp; Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/bim.html">Boot Image Manager (BIM)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/bim-off-chip.html">BIM for Off-Chip OAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/image-header.html">OAD Image Header</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/ext-flash-image-header.html">OAD External Flash Image Header</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/flash-layout-off-chip.html">Flash Layout for Off-Chip OAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../oad-secure/tools.html">OAD Image Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="native-oad.html">TI-OpenThread Native OAD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="non-native-oad.html">Non-native OAD</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Create a TI-OpenThread OAD Image</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#oad-enable-a-thread-image">OAD-Enable a Thread Image</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#changes-to-linker-script">Changes to linker script</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#remove-or-change-project-files">Remove or change project files</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#add-the-post-build-steps-to-the-project">Add the post-build steps to the project</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-a-production-image">Creating a Production Image</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#change-to-release-bim">Change to Release BIM</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#loading-a-production-image">Loading a Production Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#creating-a-single-image">Creating a Single Image</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/sysconfig-index.html">System Configuration (SysConfig)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/debugging-index.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/memory-index.html">Memory overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread-guide/migration-index.html">Migration Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../energy-trace/energy-trace.html">EnergyTrace User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../thread/glossary.html">Terms and Definitions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../thread-guide/index-cc13xx_cc26xx.html">
+SimpleLink™ CC13XX/CC26XX SDK
+Thread User's Guide
+</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../thread-guide/index-cc13xx_cc26xx.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../thread-guide/oad-index.html">Over-the-Air Download (OAD)</a> &raquo;</li>
+      <li>Create a TI-OpenThread OAD Image</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="create-a-ti-openthread-oad-image">
+<span id="sec-oad-tiop-create-image"></span><h1>Create a TI-OpenThread OAD Image<a class="headerlink" href="#create-a-ti-openthread-oad-image" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="oad-enable-a-thread-image">
+<span id="sec-oad-tiop-enable-image"></span><h2>OAD-Enable a Thread Image<a class="headerlink" href="#oad-enable-a-thread-image" title="Permalink to this headline">¶</a></h2>
+<p>Section <a class="reference internal" href="native-oad.html#sec-oad-tiop-examples"><span class="std std-ref">TI-OpenThread OAD Examples</span></a> shows an overview of available
+OAD-enabled example applications. The <code class="docutils literal notranslate"><span class="pre">oad_cli</span></code> example will be used for
+this section as a case study for adding OAD support to an existing project.</p>
+<div class="section" id="changes-to-linker-script">
+<h3>Changes to linker script<a class="headerlink" href="#changes-to-linker-script" title="Permalink to this headline">¶</a></h3>
+<p>One of the major changes between the downloadable CLI example application and
+the regular CLI example is the linker script. Changes include: reserving space
+for the metadata headers, reserving the last page of flash, and moving the
+<a class="reference internal" href="../thread/glossary.html#term-CCFG"><span class="xref std std-term">CCFG</span></a>.</p>
+<p>To reserve the necessary memory for the image header, a memory section was
+added to the flash map. See line 4 in <a class="reference internal" href="#lst-oad-tiop-memory-sections"><span class="std std-numref">Listing 20.</span></a>.
+As mentioned in <a class="reference internal" href="../oad-secure/image-header.html#sec-oad-image-header"><span class="std std-ref">OAD Image Header</span></a>, the required size and position is
+fixed at the base of the flash layout and is <code class="docutils literal notranslate"><span class="pre">0x100</span></code> bytes in size.</p>
+<p>Another memory section is reserved for the reset vectors. To ensure that the
+application’s reset vectors are placed at <code class="docutils literal notranslate"><span class="pre">0x100</span></code>, this section is
+explicitly placed. See line 5 in <a class="reference internal" href="#lst-oad-tiop-memory-sections"><span class="std std-numref">Listing 20.</span></a>. The
+length of that section is set at <code class="docutils literal notranslate"><span class="pre">0x100</span></code> to ensure that more than enough
+room is reserved for the reset vectors.</p>
+<p>Finally, as noted in <a class="reference internal" href="../oad-secure/bim.html#sec-oad-bim"><span class="std std-ref">Boot Image Manager (BIM)</span></a>, we need to reserve enough space for
+BIM itself. This is defined as the last page in our flash map. This
+reservation can be seen by noticing that the <code class="docutils literal notranslate"><span class="pre">FLASH_BULK</span></code> section is 3 pages
+smaller than the flash size. See line 6 in
+<a class="reference internal" href="#lst-oad-tiop-memory-sections"><span class="std std-numref">Listing 20.</span></a>. A section is also added for a debug
+BIM and CCFG on line 9. This is used to place a pre-built BIM and CCFG.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This OAD example application reserves two flash pages for the NV storage,
+that is the second and third to last flash page. This is different than
+the regular CLI example, but both approaches are valid.</p>
+</div>
+<div class="literal-block-wrapper docutils container" id="id2">
+<span id="lst-oad-tiop-memory-sections"></span><div class="code-block-caption"><span class="caption-number">Listing 20. </span><span class="caption-text">Memory sections of a TI-OpenThread OAD image with ti-cgt</span><a class="headerlink" href="#id2" title="Permalink to this code">¶</a></div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>MEMORY
+<span class="linenos"> 2</span>{
+<span class="linenos"> 3</span>    /* Application stored in and executes from internal flash */
+<span class="linenos"> 4</span>    FLASH_IMG_HDR       : origin = FLASH_BASE + 0x000   , length = 0x100
+<span class="linenos"> 5</span>    FLASH (RX)          : origin = FLASH_BASE + 0x100   , length = (FLASH_SIZE - 0x100)
+<span class="linenos"> 6</span>    FLASH_BIM_CCFG (RX) : origin = FLASH_BIM_CCFG_BASE  , length = FLASH_BIM_CCFG_SIZE
+<span class="linenos"> 7</span>    /* Application uses internal RAM for data */
+<span class="linenos"> 8</span>    SRAM (RWX)          : origin = RAM_BAS    , length = RAM_SIZE
+<span class="linenos"> 9</span>    GPRAM (RWX)         : origin = GPRAM_BASE , length = GPRAM_SIZE
+<span class="linenos">10</span>}
+</pre></div>
+</div>
+</div>
+<p>Then the two new sections need to be filled with information. Place the OAD
+image header in the flash image header section. And, move the interrupt
+vectors into the new flash entry section. Don’t forget to rename the
+placements for the old flash section.</p>
+<div class="literal-block-wrapper docutils container" id="id3">
+<div class="code-block-caption"><span class="caption-number">Listing 21. </span><span class="caption-text">OAD image header, interrupt vectors and BIM placement with ti-cgt</span><a class="headerlink" href="#id3" title="Permalink to this code">¶</a></div>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span>SECTIONS
+<span class="linenos"> 2</span>{
+<span class="linenos"> 3</span>    .oad_image_header : &gt; FLASH_IMG_HDR
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span>    GROUP &gt; FLASH
+<span class="linenos"> 6</span>    {
+<span class="linenos"> 7</span>        .intvecs
+<span class="linenos"> 8</span>        /* ... application flash sections ... */
+<span class="linenos"> 9</span>        .flash_end_address
+<span class="linenos">10</span>    }
+<span class="linenos">11</span>
+<span class="linenos">12</span>    .bim_oad_debug_image_bin : &gt; FLASH_BIM_CCFG
+<span class="linenos">13</span>
+<span class="linenos">14</span>    /* ... application SRAM sections ... */
+<span class="linenos">15</span>}
+</pre></div>
+</div>
+</div>
+<p>Remove the now unused ccfg placement. For the ti-cgt toolchain examples, this
+usually shows up as <code class="docutils literal notranslate"><span class="pre">.ccfg</span> <span class="pre">:</span> <span class="pre">&gt;</span> <span class="pre">FLASH</span> <span class="pre">(HIGH)</span></code> in the linker script.</p>
+</div>
+<div class="section" id="remove-or-change-project-files">
+<h3>Remove or change project files<a class="headerlink" href="#remove-or-change-project-files" title="Permalink to this headline">¶</a></h3>
+<p>Remove the <code class="docutils literal notranslate"><span class="pre">ccfg.c</span></code> file from the project. This will prevent the
+<a class="reference internal" href="../thread/glossary.html#term-CCFG"><span class="xref std std-term">CCFG</span></a> from being added to the final built image. The CCFG is now owned
+by the BIM project, and the CC13xx or CC26xx will use that CCFG.</p>
+<p>Add the <code class="docutils literal notranslate"><span class="pre">oad_image_header.c</span></code> and <code class="docutils literal notranslate"><span class="pre">oad_image_header.h</span></code> files to your
+project. These can be copied from the <code class="docutils literal notranslate"><span class="pre">oad_cli</span></code> project directly. These
+source files define the OAD image header that is placed at the origin of the
+image.</p>
+<p>Optionally add the <code class="docutils literal notranslate"><span class="pre">bim_oad_debug_image_bin.c</span></code> and
+<code class="docutils literal notranslate"><span class="pre">bim_oad_debug_image_bin.h</span></code> files to your project. These are not required
+for creating a downloadable image. These source files add a C array at the end
+of flash that is a known good BIM image. This only serves to make programming
+and debugging within the CCS environment easy. It may be advisable for you to
+look at the BIM project, or to create your own.</p>
+<p>Consult the <code class="docutils literal notranslate"><span class="pre">main_oad.c</span></code> source file in the <code class="docutils literal notranslate"><span class="pre">oad_cli</span></code> project for a
+mechanism to erase the CRC metadata in the image header. This will allow you
+to invalidate your running image and force BIM to reload the factory image.</p>
+</div>
+<div class="section" id="add-the-post-build-steps-to-the-project">
+<h3>Add the post-build steps to the project<a class="headerlink" href="#add-the-post-build-steps-to-the-project" title="Permalink to this headline">¶</a></h3>
+<p>Finally, we need to define the post-build step that converts the <code class="docutils literal notranslate"><span class="pre">*.out</span></code>
+file to a <code class="docutils literal notranslate"><span class="pre">*.hex</span></code> file, and lastly creates the final downloadable <code class="docutils literal notranslate"><span class="pre">*.bin</span></code>
+file.</p>
+<p>First we need to define the location of the OAD image tool. Open the project
+properties by right clicking on the project in the project explorer and
+selecting <code class="docutils literal notranslate"><span class="pre">Properties</span></code>. Then navigate to the Linked Resources page by
+selecting <code class="docutils literal notranslate"><span class="pre">Resource</span></code> → <code class="docutils literal notranslate"><span class="pre">Linked</span> <span class="pre">Resources</span></code>. From there, add a new path
+variable by clicking <code class="docutils literal notranslate"><span class="pre">New...</span></code> as seen below.</p>
+<div class="figure align-center" id="id4">
+<img alt="../_images/fig-define-image-tool.png" src="../_images/fig-define-image-tool.png" />
+<p class="caption"><span class="caption-number">Figure 73. </span><span class="caption-text">Defining the OAD image tool location</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>CCS may complain that the location does not exist, this is due to the
+<code class="docutils literal notranslate"><span class="pre">${OsType}</span></code> build variable in the path. This variable is only valid at
+build time.</p>
+</div>
+<p>Add the post-build steps to the configuration. In the project’s Properties,
+navigate to the Build page by selecting <code class="docutils literal notranslate"><span class="pre">Build</span></code>. Then select the <code class="docutils literal notranslate"><span class="pre">Steps</span></code>
+tab and add the following lines to the <code class="docutils literal notranslate"><span class="pre">Post-build</span> <span class="pre">steps</span></code> text box.</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="si">${</span><span class="nv">CG_TOOL_HEX</span><span class="si">}</span> -order MS --memwidth<span class="o">=</span><span class="m">8</span> --romwidth<span class="o">=</span><span class="m">8</span> --intel -o <span class="si">${</span><span class="nv">ProjName</span><span class="si">}</span>.hex <span class="si">${</span><span class="nv">ProjName</span><span class="si">}</span>.out
+<span class="si">${</span><span class="nv">OAD_IMAGE_TOOL</span><span class="si">}</span> --verbose ccs <span class="si">${</span><span class="nv">PROJECT_LOC</span><span class="si">}</span>/<span class="si">${</span><span class="nv">ConfigName</span><span class="si">}</span> <span class="m">7</span> -hex1 <span class="si">${</span><span class="nv">ProjName</span><span class="si">}</span>.hex -o <span class="si">${</span><span class="nv">ProjName</span><span class="si">}</span>_oad
+</pre></div>
+</div>
+<p>This will add the necessary steps to flatten the image into a <code class="docutils literal notranslate"><span class="pre">*.hex</span></code>, and
+create the downloadable <code class="docutils literal notranslate"><span class="pre">*.bin</span></code> binary.</p>
+</div>
+</div>
+<div class="section" id="creating-a-production-image">
+<span id="sec-oad-tiop-create-production"></span><h2>Creating a Production Image<a class="headerlink" href="#creating-a-production-image" title="Permalink to this headline">¶</a></h2>
+<p>A production image is an image that is ready for flashing at the factory, and
+to be released in a commercial OAD enabled product.</p>
+<div class="section" id="change-to-release-bim">
+<h3>Change to Release BIM<a class="headerlink" href="#change-to-release-bim" title="Permalink to this headline">¶</a></h3>
+<p>By default, the projects in the <a class="reference external" href="http://www.ti.com/tool/simplelink-cc13xx-cc26xx-sdk">SimpleLink CC13xx/CC26xx SDK</a> will use a debug version of the BIM.
+This is helpful for evaluation of the TI OAD solution, but is not recommended
+for a production OAD build for the following reasons:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The debug configuration of BIM will not check the CRC of the image before
+booting. This removes a layer of redundancy in the system in favor of
+allowing the developer to load an OAD image straight from the IDE.</p></li>
+<li><p>The debug configuration has LED output that may not be desirable in
+production.</p></li>
+</ul>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When switching to a release configuration of BIM, images loaded straight
+from the IDE will not run after a reset. This is expected behavior as the
+OAD image tool is responsible for populating the CRC field in these
+images. See the <a class="reference internal" href="#sec-oad-tiop-loading-production"><span class="std std-ref">Loading a Production Image</span></a> section for more
+information.</p>
+</div>
+<p>Additionally, it may be desirable to remove the secondary device trim in the
+application for production images. See <a class="reference internal" href="../oad-secure/bim.html#sec-oad-bim-trim"><span class="std std-ref">Device trim</span></a> for more
+information.</p>
+</div>
+<div class="section" id="loading-a-production-image">
+<span id="sec-oad-tiop-loading-production"></span><h3>Loading a Production Image<a class="headerlink" href="#loading-a-production-image" title="Permalink to this headline">¶</a></h3>
+<p>Images loaded straight from the IDE will not have a valid CRC or signature.
+However, the OAD image tool will add the CRC and signature automatically at
+the completion of each build. Refer to
+<a class="reference internal" href="../oad-secure/intro.html#fig-oad-downloader-and-target"><span class="std std-numref">Figure 60.</span></a> for a diagram of the build process.</p>
+<p>Before loading the application, be sure to load the release BIM project. This
+can be flashed via the BIM’s hex file in UNIFLASH.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If flashing the BIM image (or a merged image containing BIM) using
+uniflash, be sure that the <code class="docutils literal notranslate"><span class="pre">Keep</span> <span class="pre">CCFG</span> <span class="pre">data</span></code> box is not checked
+(<code class="docutils literal notranslate"><span class="pre">Settings</span> <span class="pre">&amp;</span> <span class="pre">Utilities</span></code> → <code class="docutils literal notranslate"><span class="pre">Download</span></code>). BIM will use a custom
+CCFG, so it is important that any existing image on the device is removed.
+Another safeguard is the mass erase the device before starting with OAD.</p>
+</div>
+<p>In release configurations, it is necessary to load the device using the
+<code class="docutils literal notranslate"><span class="pre">*_oad.bin</span></code> application file that is output by the <code class="docutils literal notranslate"><span class="pre">oad_image_tool</span></code> using
+UNIFLASH.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The binary from the tool will be placed in the build folder alongside the
+default <code class="docutils literal notranslate"><span class="pre">.out</span></code> file.</p></li>
+</ul>
+</div></blockquote>
+<p>The address offset should be 0x0000000 as shown in the screen capture below</p>
+<div class="figure align-center" id="fig-uniflash-load-production-image">
+<img alt="../_images/fig-uniflash-load-production-image.png" src="../_images/fig-uniflash-load-production-image.png" />
+</div>
+<p>Note the following error is benign and can be ignored for OAD images. Verify
+the device has booted correctly by verifying the terminal output.</p>
+<div class="figure align-center" id="fig-uniflash-benign-error-oad">
+<img alt="../_images/fig-uniflash-benign-error-oad.png" src="../_images/fig-uniflash-benign-error-oad.png" />
+</div>
+</div>
+<div class="section" id="creating-a-single-image">
+<h3>Creating a Single Image<a class="headerlink" href="#creating-a-single-image" title="Permalink to this headline">¶</a></h3>
+<p>It is possible to combine the BIM and application into a single image. This can
+be useful in cases, for example, where the
+<a class="reference external" href="https://www.ti.com/lit/pdf/swra466">ROM Serial Bootloader</a> is the primary
+means of loading an image.</p>
+<p>To combine the images, we will use the SRecord tool. The below steps show an
+example of combining the BIM image with the oad_cli sample application. The
+steps can be easily modified or adapted to cover other configurations or sample
+applications. The CCS workspace location will be referred to as
+&lt;CCS_WORKSPACE_LOC&gt;.</p>
+<ol class="arabic">
+<li><p>Download <a class="reference external" href="http://srecord.sourceforge.net/download.html">SRecord</a>.</p></li>
+<li><p>Unzip the SRecord package into a location that will be referred to as
+&lt;SREC_LOC&gt;.</p></li>
+<li><p>Make sure your application and BIM have been built.</p></li>
+<li><p>Run the following command. You will need to replace &lt;SREC_LOC&gt; and
+&lt;CCS_WORKSPACE_LOC&gt; to match your environment. This will generate a
+production image titled oad_cli_CC26X2R1_production.hex in &lt;SREC_LOC&gt;:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">SREC_LOC</span><span class="o">&gt;/</span><span class="n">srec_cat</span><span class="p">.</span><span class="n">exe</span><span class="w"> </span><span class="o">&lt;</span><span class="n">CCS_WORKSPACE_LOC</span><span class="o">&gt;/</span><span class="n">bim_offchip_CC26X2R1_LAUNCHXL_nortos_ccs</span><span class="o">/</span><span class="n">Debug</span><span class="o">/</span><span class="n">bim_offchip_CC26X2R1_LAUNCHXL_nortos_ticlang</span><span class="p">.</span><span class="n">hex</span><span class="w"> </span><span class="o">-</span><span class="n">intel</span><span class="w"> </span><span class="o">&lt;</span><span class="n">CCS_WORKSPACE_LOC</span><span class="o">&gt;/</span><span class="n">oad_cli_CC26X2R1_LAUNCHXL_tirtos7_ticlang</span><span class="o">/</span><span class="n">Debug</span><span class="o">/</span><span class="n">oad_cli_CC26X2R1_LAUNCHXL_tirtos7_ticlang</span><span class="p">.</span><span class="n">bin</span><span class="w"> </span><span class="o">-</span><span class="n">bin</span><span class="w"> </span><span class="o">-</span><span class="n">o</span><span class="w"> </span><span class="n">oad_cli_CC26X2R1_production</span><span class="p">.</span><span class="n">hex</span><span class="w"> </span><span class="o">-</span><span class="n">intel</span><span class="w"></span>
+</pre></div>
+</div>
+</li>
+<li><p>Flash the oad_cli_CC26X2R1_production.hex on the device, verify that the
+device is working and runs through a reset.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For more information and SRecord usage samples please see
+<a class="reference external" href="http://srecord.sourceforge.net/man/man1/srec_examples.html">SRecord Examples</a>.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="non-native-oad.html" class="btn btn-neutral float-left" title="Non-native OAD" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../thread-guide/sysconfig-index.html" class="btn btn-neutral float-right" title="System Configuration (SysConfig)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2016-2022, Texas Instruments.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+        $(".toggle > *").hide();
+        $(".toggle .header").show();
+        $(".toggle .header").click(function() {
+            $(this).parent().children().not(".header").toggle(400);
+            $(this).parent().children(".header").toggleClass("open");
+        })
+    });
+</script>
+
+
+</body>
+</html>

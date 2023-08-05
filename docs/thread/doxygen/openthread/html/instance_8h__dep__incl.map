@@ -1,0 +1,51 @@
+<map id="instance.h" name="instance.h">
+<area shape="rect" id="node2" href="$cli_8hpp.html" title="cli.hpp" alt="" coords="1745,229,1805,256"/>
+<area shape="rect" id="node10" href="$instance__api_8cpp.html" title="instance_api.cpp" alt="" coords="3491,155,3611,181"/>
+<area shape="rect" id="node11" href="$notifier_8hpp.html" title="notifier.hpp" alt="" coords="172,80,257,107"/>
+<area shape="rect" id="node15" href="$crypto__platform_8cpp.html" title="crypto_platform.cpp" alt="" coords="499,80,635,107"/>
+<area shape="rect" id="node16" href="$mbedtls_8hpp.html" title="mbedtls.hpp" alt="" coords="659,80,752,107"/>
+<area shape="rect" id="node17" href="$meshcop_8hpp.html" title="meshcop.hpp" alt="" coords="313,80,413,107"/>
+<area shape="rect" id="node18" href="$radio__platform_8cpp.html" title="radio_platform.cpp" alt="" coords="827,80,955,107"/>
+<area shape="rect" id="node19" href="$platform-posix_8h.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="2828,229,2943,256"/>
+<area shape="rect" id="node20" href="$posix_2platform_2netif_8cpp.html" title="netif.cpp" alt="" coords="2802,304,2873,331"/>
+<area shape="rect" id="node21" href="$openthread-system_8h.html" title="This file defines the platform&#45;specific functions needed by OpenThread&#39;s example applications. " alt="" coords="2956,155,3100,181"/>
+<area shape="rect" id="node22" href="$secure__settings_8h.html" title="This file includes platform abstraction for secure non&#45;volatile storage of settings. " alt="" coords="1160,80,1285,107"/>
+<area shape="rect" id="node23" href="$include_2openthread_2backbone__router_8h.html" title="This file defines the OpenThread Backbone Router API (Thread 1.2) " alt="" coords="869,229,998,256"/>
+<area shape="rect" id="node24" href="$include_2openthread_2border__agent_8h.html" title="This file includes functions for the Thread Border Agent role. " alt="" coords="1361,80,1469,107"/>
+<area shape="rect" id="node25" href="$include_2openthread_2channel__manager_8h.html" title="This file includes the OpenThread API for Channel Manager module. " alt="" coords="1493,80,1627,107"/>
+<area shape="rect" id="node26" href="$include_2openthread_2channel__monitor_8h.html" title="This file includes the OpenThread API for channel monitoring feature. " alt="" coords="1652,80,1780,107"/>
+<area shape="rect" id="node27" href="$include_2openthread_2child__supervision_8h.html" title="This file includes the OpenThread API for child supervision feature. " alt="" coords="1804,80,1935,107"/>
+<area shape="rect" id="node28" href="$cli_8h.html" title="This file defines the top&#45;level functions for the OpenThread CLI server. " alt="" coords="945,155,991,181"/>
+<area shape="rect" id="node29" href="$dataset_8h.html" title="This file defines the OpenThread Operational Dataset API (for both FTD and MTD). " alt="" coords="2061,155,2137,181"/>
+<area shape="rect" id="node30" href="$include_2openthread_2dataset__updater_8h.html" title="This file includes the OpenThread API for Dataset Updater module. " alt="" coords="2095,229,2222,256"/>
+<area shape="rect" id="node31" href="$include_2openthread_2diag_8h.html" title="This file includes the OpenThread API for Factory Diagnostics. " alt="" coords="610,229,667,256"/>
+<area shape="rect" id="node32" href="$dns_8h.html" title="This file defines the top&#45;level DNS functions for the OpenThread library. " alt="" coords="1081,80,1135,107"/>
+<area shape="rect" id="node33" href="$include_2openthread_2dns__client_8h.html" title="This file defines the top&#45;level DNS functions for the OpenThread library. " alt="" coords="1729,155,1821,181"/>
+<area shape="rect" id="node34" href="$include_2openthread_2srp__server_8h.html" title="This file defines the API for server of the Service Registration Protocol (SRP). " alt="" coords="1223,155,1315,181"/>
+<area shape="rect" id="node35" href="$heap_8h.html" title="This file defines the API for setting external heap in OpenThread. " alt="" coords="2409,80,2471,107"/>
+<area shape="rect" id="node36" href="$include_2openthread_2history__tracker_8h.html" title="history_tracker.h" alt="" coords="2495,80,2614,107"/>
+<area shape="rect" id="node37" href="$jam__detection_8h.html" title="This file includes the OpenThread API for jam detection feature. " alt="" coords="2639,80,2753,107"/>
+<area shape="rect" id="node38" href="$message_8h.html" title="This file defines the top&#45;level OpenThread APIs related to message buffer and queues. " alt="" coords="2247,80,2334,107"/>
+<area shape="rect" id="node39" href="$dso__transport_8h.html" title="This file includes the platform abstraction for DNS Stateful Operations (DSO) transport. " alt="" coords="2348,155,2460,181"/>
+<area shape="rect" id="node40" href="$network__time_8h.html" title="This file defines the OpenThread Network Time Synchronization Service API. " alt="" coords="2879,80,2990,107"/>
+<area shape="rect" id="node41" href="$include_2openthread_2ping__sender_8h.html" title="This file includes the OpenThread API for ping sender module. " alt="" coords="1015,155,1118,181"/>
+<area shape="rect" id="node42" href="$alarm-micro_8h.html" title="This file includes the platform abstraction for the microsecond alarm service. " alt="" coords="3065,80,3167,107"/>
+<area shape="rect" id="node43" href="$alarm-milli_8h.html" title="This file includes the platform abstraction for the millisecond alarm service. " alt="" coords="3191,80,3283,107"/>
+<area shape="rect" id="node44" href="$flash_8h.html" title="flash.h" alt="" coords="3307,80,3367,107"/>
+<area shape="rect" id="node45" href="$infra__if_8h.html" title="This file includes the platform abstraction for the infrastructure network interface. " alt="" coords="3391,80,3462,107"/>
+<area shape="rect" id="node46" href="$include_2openthread_2platform_2misc_8h.html" title="This file includes platform abstractions for miscellaneous behaviors. " alt="" coords="3487,80,3548,107"/>
+<area shape="rect" id="node47" href="$radio_8h.html" title="This file defines the radio interface for OpenThread. " alt="" coords="2060,80,2121,107"/>
+<area shape="rect" id="node48" href="$settings_8h.html" title="This file includes platform abstraction for non&#45;volatile storage of settings. " alt="" coords="3623,80,3702,107"/>
+<area shape="rect" id="node49" href="$platform_2trel_8h.html" title="This file includes the platform abstraction for Thread Radio Encapsulation Link (TREL) using DNS&#45;SD a..." alt="" coords="3727,80,3777,107"/>
+<area shape="rect" id="node50" href="$tasklet_8h.html" title="This file defines the OpenThread API for Tasklets. " alt="" coords="3801,80,3873,107"/>
+<area shape="rect" id="node3" href="$cli_8cpp.html" title="cli.cpp" alt="" coords="1014,304,1074,331"/>
+<area shape="rect" id="node4" href="$cli__commissioner_8cpp.html" title="cli_commissioner.cpp" alt="" coords="1407,304,1555,331"/>
+<area shape="rect" id="node5" href="$cli__dataset_8cpp.html" title="cli_dataset.cpp" alt="" coords="2022,304,2133,331"/>
+<area shape="rect" id="node6" href="$cli__joiner_8cpp.html" title="cli_joiner.cpp" alt="" coords="1580,304,1679,331"/>
+<area shape="rect" id="node7" href="$cli__network__data_8cpp.html" title="cli_network_data.cpp" alt="" coords="1703,304,1847,331"/>
+<area shape="rect" id="node8" href="$cli__srp__server_8cpp.html" title="cli_srp_server.cpp" alt="" coords="1871,304,1998,331"/>
+<area shape="rect" id="node9" href="$cli__udp_8cpp.html" title="cli_udp.cpp" alt="" coords="2177,304,2265,331"/>
+<area shape="rect" id="node12" href="$notifier_8cpp.html" title="notifier.cpp" alt="" coords="5,155,91,181"/>
+<area shape="rect" id="node13" href="$dataset__manager_8cpp.html" title="dataset_manager.cpp" alt="" coords="277,155,424,181"/>
+<area shape="rect" id="node14" href="$extended__panid_8cpp.html" title="extended_panid.cpp" alt="" coords="115,155,253,181"/>
+</map>

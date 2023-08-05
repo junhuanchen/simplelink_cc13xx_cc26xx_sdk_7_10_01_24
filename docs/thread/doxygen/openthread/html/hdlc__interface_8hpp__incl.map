@@ -1,0 +1,43 @@
+<map id="hdlc_interface.hpp" name="hdlc_interface.hpp">
+<area shape="rect" id="node2" href="$openthread-posix-config_8h.html" title="This file includes the POSIX platform&#45;specific configurations. " alt="" coords="1712,251,1882,278"/>
+<area shape="rect" id="node26" href="$platform-posix_8h.html" title="This file includes the platform&#45;specific initializers. " alt="" coords="3226,169,3341,196"/>
+<area shape="rect" id="node44" href="$hdlc_8hpp.html" title="lib/hdlc/hdlc.hpp" alt="" coords="2271,169,2387,196"/>
+<area shape="rect" id="node49" href="$openthread-spinel-config_8h.html" title="lib/spinel/openthread\l&#45;spinel&#45;config.h" alt="" coords="2484,80,2625,121"/>
+<area shape="rect" id="node50" href="$spinel__interface_8hpp.html" title="lib/spinel/spinel_interface.hpp" alt="" coords="2166,87,2358,114"/>
+<area shape="rect" id="node3" href="$openthread-core-config_8h.html" title="openthread&#45;core&#45;config.h" alt="" coords="1718,333,1882,360"/>
+<area shape="rect" id="node4" href="$config_8h.html" title="This file includes required defines config header. " alt="" coords="2498,408,2632,435"/>
+<area shape="rect" id="node5" href="$announce__sender_8h.html" title="config/announce_sender.h" alt="" coords="2657,408,2830,435"/>
+<area shape="rect" id="node6" href="$src_2core_2config_2backbone__router_8h.html" title="config/backbone_router.h" alt="" coords="2855,408,3022,435"/>
+<area shape="rect" id="node7" href="$src_2core_2config_2border__agent_8h.html" title="config/border_agent.h" alt="" coords="3012,483,3158,509"/>
+<area shape="rect" id="node8" href="$src_2core_2config_2border__router_8h.html" title="config/border_router.h" alt="" coords="24,408,170,435"/>
+<area shape="rect" id="node9" href="$src_2core_2config_2border__routing_8h.html" title="config/border_routing.h" alt="" coords="195,408,348,435"/>
+<area shape="rect" id="node10" href="$src_2core_2config_2channel__manager_8h.html" title="config/channel_manager.h" alt="" coords="373,408,546,435"/>
+<area shape="rect" id="node11" href="$src_2core_2config_2channel__monitor_8h.html" title="config/channel_monitor.h" alt="" coords="571,408,738,435"/>
+<area shape="rect" id="node12" href="$src_2core_2config_2child__supervision_8h.html" title="config/child_supervision.h" alt="" coords="762,408,931,435"/>
+<area shape="rect" id="node13" href="$src_2core_2config_2coap_8h.html" title="config/coap.h" alt="" coords="3182,483,3281,509"/>
+<area shape="rect" id="node14" href="$src_2core_2config_2commissioner_8h.html" title="config/commissioner.h" alt="" coords="1376,483,1528,509"/>
+<area shape="rect" id="node15" href="$src_2core_2config_2crypto_8h.html" title="config/crypto.h" alt="" coords="956,408,1062,435"/>
+<area shape="rect" id="node16" href="$src_2core_2config_2dataset__updater_8h.html" title="config/dataset_updater.h" alt="" coords="1087,408,1251,435"/>
+<area shape="rect" id="node17" href="$dhcp6__client_8h.html" title="config/dhcp6_client.h" alt="" coords="1276,408,1420,435"/>
+<area shape="rect" id="node18" href="$dhcp6__server_8h.html" title="config/dhcp6_server.h" alt="" coords="1444,408,1590,435"/>
+<area shape="rect" id="node19" href="$src_2core_2config_2diag_8h.html" title="config/diag.h" alt="" coords="1615,408,1710,435"/>
+<area shape="rect" id="node20" href="$src_2core_2config_2dns__client_8h.html" title="config/dns_client.h" alt="" coords="1734,408,1865,435"/>
+<area shape="rect" id="node21" href="$dns__dso_8h.html" title="config/dns_dso.h" alt="" coords="1889,408,2009,435"/>
+<area shape="rect" id="node22" href="$src_2core_2config_2dnssd__server_8h.html" title="config/dnssd_server.h" alt="" coords="2033,408,2180,435"/>
+<area shape="rect" id="node23" href="$dtls_8h.html" title="config/dtls.h" alt="" coords="3046,408,3138,435"/>
+<area shape="rect" id="node24" href="$src_2core_2config_2history__tracker_8h.html" title="config/history_tracker.h" alt="" coords="2204,408,2361,435"/>
+<area shape="rect" id="node25" href="$src_2core_2config_2ip6_8h.html" title="config/ip6.h" alt="" coords="2385,408,2473,435"/>
+<area shape="rect" id="node34" href="$error_8h.html" title="This file defines the errors used in the OpenThread. " alt="" coords="3608,408,3735,435"/>
+<area shape="rect" id="node35" href="$instance_8h.html" title="This file defines the OpenThread Instance API. " alt="" coords="3483,333,3634,360"/>
+<area shape="rect" id="node37" href="$include_2openthread_2ip6_8h.html" title="This file defines the OpenThread IPv6 API. " alt="" coords="3219,333,3338,360"/>
+<area shape="rect" id="node38" href="$include_2openthread_2logging_8h.html" title="This file includes OpenThread logging related definitions. " alt="" coords="3878,333,4020,360"/>
+<area shape="rect" id="node39" href="$nat64_8h.html" title="This file defines the OpenThread API for NAT64 on a border router. " alt="" coords="3389,251,3522,278"/>
+<area shape="rect" id="node40" href="$openthread-system_8h.html" title="This file defines the platform&#45;specific functions needed by OpenThread&#39;s example applications. " alt="" coords="3597,244,3752,285"/>
+<area shape="rect" id="node41" href="$time_8h.html" title="This file includes the platform abstraction for the time service. " alt="" coords="2602,244,2738,285"/>
+<area shape="rect" id="node42" href="$exit__code_8h.html" title="lib/platform/exit_code.h" alt="" coords="2763,251,2919,278"/>
+<area shape="rect" id="node43" href="$url_8hpp.html" title="lib/url/url.hpp" alt="" coords="4045,333,4141,360"/>
+<area shape="rect" id="node45" href="$array_8hpp.html" title="common/array.hpp" alt="" coords="1957,251,2088,278"/>
+<area shape="rect" id="node46" href="$code__utils_8hpp.html" title="common/code_utils.hpp" alt="" coords="2224,333,2384,360"/>
+<area shape="rect" id="node47" href="$debug_8hpp.html" title="common/debug.hpp" alt="" coords="2392,251,2528,278"/>
+<area shape="rect" id="node48" href="$encoding_8hpp.html" title="common/encoding.hpp" alt="" coords="2112,251,2266,278"/>
+</map>

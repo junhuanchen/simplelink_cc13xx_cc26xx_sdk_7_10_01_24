@@ -1,0 +1,24 @@
+<map id="Appender" name="Appender">
+<area shape="rect" id="node2" href="$classot_1_1_message.html" title="Message" alt="" coords="515,292,589,319"/>
+<area shape="rect" id="node7" href="$structot_1_1_buffer_1_1_metadata.html" title="Metadata" alt="" coords="855,101,931,128"/>
+<area shape="rect" id="node3" href="$structot_message.html" title="otMessage" alt="" coords="258,251,345,277"/>
+<area shape="rect" id="node4" href="$classot_1_1_buffer.html" title="Buffer" alt="" coords="1095,232,1149,259"/>
+<area shape="rect" id="node16" href="$classot_1_1_pool.html" title="Pool\&lt; ot::Buffer, kNumBuffers \&gt;" alt="" coords="1559,211,1765,237"/>
+<area shape="rect" id="node17" href="$classot_1_1_linked_list.html" title="LinkedList\&lt; ot::Buffer \&gt;" alt="" coords="1267,217,1424,244"/>
+<area shape="rect" id="node5" href="$structot_message_buffer.html" title="otMessageBuffer" alt="" coords="833,191,952,217"/>
+<area shape="rect" id="node6" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Buffer \&gt;" alt="" coords="808,241,977,268"/>
+<area shape="rect" id="node8" href="$classot_1_1_rss_averager.html" title="RssAverager" alt="" coords="505,173,599,200"/>
+<area shape="rect" id="node9" href="$classot_1_1_clearable.html" title="Clearable\&lt; RssAverager \&gt;" alt="" coords="215,188,388,215"/>
+<area shape="rect" id="node10" href="$classot_1_1_time.html" title="Time" alt="" coords="527,17,577,44"/>
+<area shape="rect" id="node11" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; Time \&gt;" alt="" coords="228,5,375,32"/>
+<area shape="rect" id="node12" href="$classot_1_1_message_pool.html" title="MessagePool" alt="" coords="1888,127,1989,153"/>
+<area shape="rect" id="node13" href="$classot_1_1_instance_locator.html" title="InstanceLocator" alt="" coords="1605,51,1719,77"/>
+<area shape="rect" id="node14" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; InstanceLocator \&gt;" alt="" coords="1243,49,1448,76"/>
+<area shape="rect" id="node15" href="$classot_1_1_non_copyable.html" title="NonCopyable" alt="" coords="1296,164,1395,191"/>
+<area shape="rect" id="node18" href="$classot_1_1_bit_vector.html" title="BitVector\&lt; OPENTHREAD\l_CONFIG_MLE_MAX_CHILDREN \&gt;" alt="" coords="437,94,667,135"/>
+<area shape="rect" id="node19" href="$classot_1_1_equatable.html" title="Equatable\&lt; BitVector\l\&lt; N \&gt; \&gt;" alt="" coords="228,57,375,98"/>
+<area shape="rect" id="node20" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; BitVector\l\&lt; N \&gt; \&gt;" alt="" coords="5,57,165,98"/>
+<area shape="rect" id="node21" href="$classot_1_1_clearable.html" title="Clearable\&lt; BitVector\l\&lt; N \&gt; \&gt;" alt="" coords="230,122,373,163"/>
+<area shape="rect" id="node22" href="$classot_1_1_get_provider.html" title="GetProvider\&lt; Message \&gt;" alt="" coords="218,301,385,328"/>
+<area shape="rect" id="node24" href="$classot_1_1_frame_builder.html" title="FrameBuilder" alt="" coords="503,423,601,449"/>
+</map>

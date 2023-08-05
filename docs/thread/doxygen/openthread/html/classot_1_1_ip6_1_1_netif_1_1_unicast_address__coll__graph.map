@@ -1,0 +1,11 @@
+<map id="Netif::UnicastAddress" name="Netif::UnicastAddress">
+<area shape="rect" id="node2" href="$structot_netif_address.html" title="otNetifAddress" alt="" coords="80,459,187,486"/>
+<area shape="rect" id="node3" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="84,363,183,389"/>
+<area shape="rect" id="node4" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="41,273,225,300"/>
+<area shape="rect" id="node5" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="48,184,219,211"/>
+<area shape="rect" id="node6" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="5,95,136,121"/>
+<area shape="rect" id="node7" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="160,95,307,121"/>
+<area shape="rect" id="node8" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="141,5,325,32"/>
+<area shape="rect" id="node9" href="$classot_1_1_linked_list_entry.html" title="LinkedListEntry\&lt; Unicast\lAddress \&gt;" alt="" coords="277,452,445,493"/>
+<area shape="rect" id="node10" href="$classot_1_1_clearable.html" title="Clearable\&lt; UnicastAddress \&gt;" alt="" coords="469,459,661,486"/>
+</map>

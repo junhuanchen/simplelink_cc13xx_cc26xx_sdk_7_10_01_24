@@ -1,0 +1,13 @@
+<map id="OnMeshPrefixConfig" name="OnMeshPrefixConfig">
+<area shape="rect" id="node2" href="$structot_border_router_config.html" title="otBorderRouterConfig" alt="" coords="1689,28,1835,55"/>
+<area shape="rect" id="node3" href="$structot_ip6_prefix.html" title="otIp6Prefix" alt="" coords="1418,28,1501,55"/>
+<area shape="rect" id="node4" href="$structot_ip6_address.html" title="otIp6Address" alt="" coords="1169,28,1268,55"/>
+<area shape="rect" id="node5" href="$unionot_ip6_address_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="887,28,1071,55"/>
+<area shape="rect" id="node6" href="$structot_ip6_address_components.html" title="otIp6AddressComponents" alt="" coords="579,28,749,55"/>
+<area shape="rect" id="node7" href="$structot_ip6_network_prefix.html" title="otIp6NetworkPrefix" alt="" coords="296,5,427,32"/>
+<area shape="rect" id="node8" href="$structot_ip6_interface_identifier.html" title="otIp6InterfaceIdentifier" alt="" coords="288,56,435,83"/>
+<area shape="rect" id="node9" href="$unionot_ip6_interface_identifier_1_1_o_t___t_o_o_l___p_a_c_k_e_d___f_i_e_l_d.html" title="OT_TOOL_PACKED_FIELD" alt="" coords="5,56,189,83"/>
+<area shape="rect" id="node10" href="$classot_1_1_clearable.html" title="Clearable\&lt; OnMeshPrefixConfig \&gt;" alt="" coords="1653,79,1871,105"/>
+<area shape="rect" id="node11" href="$classot_1_1_equatable.html" title="Equatable\&lt; OnMeshPrefixConfig \&gt;" alt="" coords="1651,129,1873,156"/>
+<area shape="rect" id="node12" href="$classot_1_1_unequatable.html" title="Unequatable\&lt; OnMeshPrefix\lConfig \&gt;" alt="" coords="1365,122,1553,163"/>
+</map>
