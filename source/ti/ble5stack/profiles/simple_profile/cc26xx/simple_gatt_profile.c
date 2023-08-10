@@ -119,6 +119,12 @@ CONST uint8 simpleProfilechar5UUID[ATT_BT_UUID_SIZE] =
   LO_UINT16(SIMPLEPROFILE_CHAR5_UUID), HI_UINT16(SIMPLEPROFILE_CHAR5_UUID)
 };
 
+// Characteristic 6 UUID: 0xFFF6
+CONST uint8 simpleProfilechar6UUID[ATT_BT_UUID_SIZE] =
+{
+  LO_UINT16(SIMPLEPROFILE_CHAR6_UUID), HI_UINT16(SIMPLEPROFILE_CHAR6_UUID)
+};
+
 /*********************************************************************
  * EXTERNAL VARIABLES
  */
@@ -188,7 +194,7 @@ static uint8 simpleProfileChar4UserDesp[17] = "Characteristic 4";
 
 
 // Simple Profile Characteristic 5 Properties
-static uint8 simpleProfileChar5Props = GATT_PROP_READ;
+static uint8 simpleProfileChar5Props = GATT_PROP_READ | GATT_PROP_WRITE;
 
 // Characteristic 5 Value
 static uint8 simpleProfileChar5[SIMPLEPROFILE_CHAR5_LEN] = { 0, 0, 0, 0, 0 };
@@ -196,11 +202,20 @@ static uint8 simpleProfileChar5[SIMPLEPROFILE_CHAR5_LEN] = { 0, 0, 0, 0, 0 };
 // Simple Profile Characteristic 5 User Description
 static uint8 simpleProfileChar5UserDesp[17] = "Characteristic 5";
 
+// Simple Profile Characteristic 6 Properties
+static uint8 simpleProfileChar6Props = GATT_PROP_READ | GATT_PROP_WRITE;
+
+// Characteristic 6 Value
+static uint8 simpleProfileChar6[SIMPLEPROFILE_CHAR6_LEN] = { 0 };
+
+// Simple Profile Characteristic 6 User Description
+static uint8 simpleProfileChar6UserDesp[17] = "Characteristic 6";
+
 /*********************************************************************
  * Profile Attributes - Table
  */
 
-static gattAttribute_t simpleProfileAttrTbl[SERVAPP_NUM_ATTR_SUPPORTED] =
+static gattAttribute_t simpleProfileAttrTbl[] =
 {
   // Simple Profile Service
   {
@@ -325,7 +340,7 @@ static gattAttribute_t simpleProfileAttrTbl[SERVAPP_NUM_ATTR_SUPPORTED] =
       // Characteristic Value 5
       {
         { ATT_BT_UUID_SIZE, simpleProfilechar5UUID },
-        GATT_PERMIT_AUTHEN_READ,
+        GATT_PERMIT_READ | GATT_PERMIT_WRITE,
         0,
         simpleProfileChar5
       },
@@ -337,6 +352,31 @@ static gattAttribute_t simpleProfileAttrTbl[SERVAPP_NUM_ATTR_SUPPORTED] =
         0,
         simpleProfileChar5UserDesp
       },
+      
+    // Characteristic 6 Declaration
+    {
+      { ATT_BT_UUID_SIZE, characterUUID },
+      GATT_PERMIT_READ,
+      0,
+      &simpleProfileChar6Props
+    },
+
+      // Characteristic Value 6
+      {
+        { ATT_BT_UUID_SIZE, simpleProfilechar6UUID },
+        GATT_PERMIT_READ | GATT_PERMIT_WRITE,
+        0,
+        simpleProfileChar6
+      },
+
+      // Characteristic 6 User Description
+      {
+        { ATT_BT_UUID_SIZE, charUserDescUUID },
+        GATT_PERMIT_READ,
+        0,
+        simpleProfileChar6UserDesp
+      },
+      
 };
 #endif // USE_GATT_BUILDER
 /*********************************************************************
@@ -510,9 +550,20 @@ bStatus_t SimpleProfile_SetParameter( uint8 param, uint8 len, void *value )
       break;
 
     case SIMPLEPROFILE_CHAR5:
-      if ( len == SIMPLEPROFILE_CHAR5_LEN )
+      if ( len <= SIMPLEPROFILE_CHAR5_LEN )
       {
-        VOID memcpy( simpleProfileChar5, value, SIMPLEPROFILE_CHAR5_LEN );
+        memcpy( simpleProfileChar5, value, len );
+      }
+      else
+      {
+        ret = bleInvalidRange;
+      }
+      break;
+
+    case SIMPLEPROFILE_CHAR6:
+      if ( len <= SIMPLEPROFILE_CHAR6_LEN )
+      {
+        memcpy( simpleProfileChar6, value, len );
       }
       else
       {
@@ -563,7 +614,11 @@ bStatus_t SimpleProfile_GetParameter( uint8 param, void *value )
       break;
 
     case SIMPLEPROFILE_CHAR5:
-      VOID memcpy( value, simpleProfileChar5, SIMPLEPROFILE_CHAR5_LEN );
+      memcpy( value, simpleProfileChar5, SIMPLEPROFILE_CHAR5_LEN );
+      break;
+
+    case SIMPLEPROFILE_CHAR6:
+      memcpy( value, simpleProfileChar6, SIMPLEPROFILE_CHAR6_LEN );
       break;
 
     default:
@@ -626,7 +681,12 @@ bStatus_t simpleProfile_ReadAttrCB(uint16_t connHandle,
 
       case SIMPLEPROFILE_CHAR5_UUID:
         *pLen = SIMPLEPROFILE_CHAR5_LEN;
-        VOID memcpy( pValue, pAttr->pValue, SIMPLEPROFILE_CHAR5_LEN );
+        memcpy( pValue, pAttr->pValue, SIMPLEPROFILE_CHAR5_LEN );
+        break;
+
+      case SIMPLEPROFILE_CHAR6_UUID:
+        *pLen = SIMPLEPROFILE_CHAR6_LEN;
+        memcpy( pValue, pAttr->pValue, SIMPLEPROFILE_CHAR6_LEN );
         break;
 
       default:
@@ -707,6 +767,32 @@ bStatus_t simpleProfile_WriteAttrCB(uint16_t connHandle,
           }
         }
 
+        break;
+      case SIMPLEPROFILE_CHAR5_UUID:
+        {
+          uint8 *pCurValue = (uint8 *)pAttr->pValue;
+          if ( offset + len > SIMPLEPROFILE_CHAR5_LEN )
+          {
+            status = ATT_ERR_INVALID_VALUE_SIZE;
+          }
+          else
+          {
+            memcpy( pCurValue + offset, pValue, len );
+          }
+        }
+        break;
+      case SIMPLEPROFILE_CHAR6_UUID:
+        {
+          uint8 *pCurValue = (uint8 *)pAttr->pValue;
+          if ( offset + len > SIMPLEPROFILE_CHAR6_LEN )
+          {
+            status = ATT_ERR_INVALID_VALUE_SIZE;
+          }
+          else
+          {
+            memcpy( pCurValue + offset, pValue, len );
+          }
+        }
         break;
 
       case GATT_CLIENT_CHAR_CFG_UUID:
